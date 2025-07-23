@@ -1021,26 +1021,23 @@ var DoughnutChart = (function() {
 			type: 'doughnut',
 			data: {
 				labels: [
-					'Danger',
-					'Warning',
-					'Success',
-					'Primary',
-					'Info'
+					'Bawahan',
+					'Diri',
+					'Rekan kerja',
+					'Atasan',
 				],
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						25/100 * 20,
+						15/100 * 20,
+						25/100 * 20,
+						35/100 * 20,
 					],
 					backgroundColor: [
 						Charts.colors.theme['danger'],
 						Charts.colors.theme['warning'],
 						Charts.colors.theme['success'],
 						Charts.colors.theme['primary'],
-						Charts.colors.theme['info'],
 					],
 					label: 'Dataset 1'
 				}],
@@ -1092,34 +1089,28 @@ var PieChart = (function() {
 	// Methods
 
 	function init($this) {
-		var randomScalingFactor = function() {
-			return Math.round(Math.random() * 100);
-		};
 
 		var pieChart = new Chart($this, {
 			type: 'pie',
 			data: {
 				labels: [
-					'Danger',
-					'Warning',
-					'Success',
-					'Primary',
-					'Info'
+					'Bawahan',
+					'Diri',
+					'Rekan kerja',
+					'Atasan',
 				],
 				datasets: [{
 					data: [
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
-						randomScalingFactor(),
+						25,
+						15,
+						25,
+						35,
 					],
 					backgroundColor: [
 						Charts.colors.theme['danger'],
 						Charts.colors.theme['warning'],
 						Charts.colors.theme['success'],
 						Charts.colors.theme['primary'],
-						Charts.colors.theme['info'],
 					],
 					label: 'Dataset 1'
 				}],

@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\AssesmentController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,32 +14,16 @@ use App\Http\Controllers\DashboardController;
 |
 */
 
-
-Route::get('/admin', function () {
+Route::get('/', function () {
     $breadcrumb1 = 'Dashboard';
     $breadcrumb2 = null;
     $button = false;
     return view('dashboard.index', compact('breadcrumb1', 'breadcrumb2', 'button'));
-
 });
 
-Route::get('/people-form', function () {
-  return view('test.index');
-
+Route::group(['prefix' => 'astra'], function () {
+  Route::get('/peserta', [AssesmentController::class, 'listPeserta']);
+  Route::get('/peserta/{id}',[AssesmentController::class, 'detailPeserta']);
 });
 
-Route::group([
-    'prefix' => '/assesment',
-    'as' => 'Quiz',
-  ], function () {
-    Route::get('/create', [DashboardController::class, 'quisLayout']);
-    Route::get('/detail/{id}', [DashboardController::class, 'editQuisLayout']);
-    Route::get('/detail/{id}/package', [DashboardController::class, 'editPackageLayout']);
-    Route::post('/create/project', [AssesmentController::class, 'projectLCreate']);
-    Route::post('/create/package', [AssesmentController::class, 'packageCreate']);
-
-    Route::post('/create/soal', [AssesmentController::class, 'soalCreate']);
-  });
-
-  Route::get('/', [AssesmentController::class, 'c']);
-
+Route::get('/download-report',[AssesmentController::class, 'downloadReport']);

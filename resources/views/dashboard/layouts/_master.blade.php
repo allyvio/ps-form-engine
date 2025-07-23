@@ -4,10 +4,8 @@
 @include('dashboard.layouts._header')
 
 <body>
-  <!-- Sidenav -->
-  @include('dashboard.layouts._sidebar')
-  <!-- Main content -->
-  <div class="main-content" id="panel">
+  <!-- Main content without sidebar -->
+  <div class="main-content">
     <!-- Button trigger modal -->
 
     <!-- Modal -->

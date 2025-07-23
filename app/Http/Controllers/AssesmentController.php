@@ -2,55 +2,124 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Package;
-use App\Models\Project;
-use App\Models\Question;
-use Illuminate\Http\Request;
+use App\Models\Peserta;
+use App\Models\FormOtherAstra;
+use Illuminate\Support\Facades\DB;
+use PhpOffice\PhpWord\TemplateProcessor;
 
 class AssesmentController extends Controller
 {
-    public function questionLayout(Request $request) {
-        $project = Project::select('projects.name as project_name','packages.*')->join('packages', 'packages.project_id', '=','projects.id')->where('projects.uuid', $request->get('keypro'))->where('packages.uuid', $request->get('keypack'))->first();
-        $question = Question::where('package_id',$project->id)->get();
-        return view('index', compact('project', 'question'));
+    public function listPeserta()
+    {
+        $breadcrumb1 = 'List Peserta';
+        $breadcrumb2 = null;
+        $button = false;
+        $data = Peserta::all();
+        return view('astra.page.peserta.list', compact('breadcrumb1', 'breadcrumb2', 'button', 'data'));
     }
-    public function projectLCreate(Request $request) {
-        $startDate = $request->get('startDate'). " ". $request->get('startTime') . ":00";
-        $endDate = $request->get('endDate'). " ". $request->get('endTime') . ":00";
-        $data = [
-            'name' => $request->get('name'),
-            'start_time' => $startDate,
-            'end_time'=> $endDate
-        ];
-        Project::create($data);
-        return back();
+
+    public function detailPeserta($id)
+    {
+        $breadcrumb1 = 'List Peserta';
+        $breadcrumb2 = 'Detail Peserta';
+        $button = false;
+        $detailPeserta = Peserta::find($id);
+        $dataTable = FormOtherAstra::where('rater_for_id', $id)->get();
+        $countPenilai = FormOtherAstra::where('rater_for_id', $id)->count();
+        $calculateAtasan = $this->calculateFormOthers($dataTable, "Atasan");
+        $calculateRekanKerja = $this->calculateFormOthers($dataTable, "Rekan Kerja");
+        $calculateSelf = $this->calculateFormOthers($dataTable, "Self");
+        $calculateActualLevel= $this->calculateActualLevel($calculateAtasan, $calculateRekanKerja, $calculateSelf);
+        $calculateGap = $this->calculateGap($calculateActualLevel,'Strategic Business Intelligence');
+        return view('astra.page.upload.detailPeserta', compact('breadcrumb1', 'breadcrumb2', 'button', 'dataTable', 'detailPeserta', 'countPenilai', 'calculateAtasan', 'calculateSelf','calculateRekanKerja', 'calculateActualLevel','calculateGap'));
     }
-    public function packageCreate(Request $request) {
-        $startDate = $request->get('startDate'). " ". $request->get('startTime') . ":00";
-        $endDate = $request->get('endDate'). " ". $request->get('endTime') . ":00";
-        $data = [
-            'project_id' => $request->get('project_id'),
-            'name' => $request->get('name'),
-            'start_time' => $startDate,
-            'end_time'=> $endDate
-        ];
-        Package::create($data);
-        return back();
+
+    public function downloadReport(){
+        $templatePath = storage_path('app/template/template_3.docx');
+        if (!file_exists($templatePath)) {
+            abort(404, "Template tidak ditemukan");
+        }
+    
+        // Buat instance TemplateProcessor
+        $templateProcessor = new TemplateProcessor($templatePath);
+    
+        // Set variabel dalam dokumen
+        $templateProcessor->setValue('nama_karyawan', "Sri Mandala Pranata");
+        $templateProcessor->setValue('departemen', 'BIZTEL');
+        $templateProcessor->setValue('fungsi', 'ASA ACADEMY');
+    
+        // Simpan dokumen hasil pengisian variabel
+        $outputFile = storage_path('app/laporan_asesmen_' . 'sri_mandala_pranata' . '.docx');
+        $templateProcessor->saveAs($outputFile);
+    
+        // Beri respons file untuk diunduh
+        return response()->download($outputFile)->deleteFileAfterSend(true);
     }
-    public function soalCreate(Request $request) {
-        $value = $request->get('value_'.$request->get('value_multiple'));
-        $payload = [
-            'question' => $request->get('question'),
-            'value_a' => $request->get('value_a'),
-            'value_b' => $request->get('value_b'),
-            'value_c' => $request->get('value_c'),
-            'value_d' => $request->get('value_d'),
-            'value_e' => $request->get('value_e'),
-            'value_multiple' => $request->get('value_multiple'),
-            'value' => $value,
-            'package_id' => $request->get('package_id')
+
+    private function calculateFormOthers($data, $role)
+    {
+        $filteredData = $data->where('rater_from_role', $role);
+        
+        if ($filteredData->isEmpty()) {
+            return array_fill_keys([
+                'risk_management', 'business_continuity', 'personnel_management', 
+                'global_technological_awareness', 'physical_security', 'practical_security',
+                'cyber_security', 'investigation_case_management', 'business_intelligence',
+                'basic_intelligence', 'mass_conflict_management', 'legal_compliance',
+                'disaster_management', 'search_and_rescue', 'assessor'
+            ], 0);
+        }
+
+        $averages = [];
+        $fields = [
+            'risk_management', 'business_continuity', 'personnel_management',
+            'global_technological_awareness', 'physical_security', 'practical_security',
+            'cyber_security', 'investigation_case_management', 'business_intelligence',
+            'basic_intelligence', 'mass_conflict_management', 'legal_compliance',
+            'disaster_management', 'search_and_rescue', 'assessor'
         ];
-        Question::create($payload);
-        return back();
+
+        foreach ($fields as $field) {
+            $averages[$field] = $filteredData->avg($field);
+        }
+
+        return $averages;
+    }
+
+    private function calculateActualLevel($atasan, $rekanKerja, $self)
+    {
+        $actualLevel = [];
+        $fields = [
+            'risk_management', 'business_continuity', 'personnel_management',
+            'global_technological_awareness', 'physical_security', 'practical_security',
+            'cyber_security', 'investigation_case_management', 'business_intelligence',
+            'basic_intelligence', 'mass_conflict_management', 'legal_compliance',
+            'disaster_management', 'search_and_rescue', 'assessor'
+        ];
+
+        foreach ($fields as $field) {
+            $actualLevel[$field] = ($atasan[$field] * 0.6) + ($rekanKerja[$field] * 0.2) + ($self[$field] * 0.2);
+        }
+
+        return $actualLevel;
+    }
+
+    private function calculateGap($actualLevel, $position)
+    {
+        $matrixPath = storage_path('app/competencies/matrix.json');
+        $matrixData = json_decode(file_get_contents($matrixPath), true);
+        
+        $positionData = collect($matrixData)->firstWhere('position', $position);
+        if (!$positionData) {
+            return array_fill_keys(array_keys($actualLevel), 0);
+        }
+
+        $gap = [];
+        foreach ($actualLevel as $competency => $actual) {
+            $required = $positionData['competencies'][$competency] ?? 0;
+            $gap[$competency] = $required - $actual;
+        }
+
+        return $gap;
     }
 }
