@@ -114,6 +114,42 @@ class AssesmentController extends Controller
             }
         }
         
+        // If gap analysis is still null after generation attempt, handle gracefully
+        if (!$gapAnalysis) {
+            // Return view with basic data and no gap analysis
+            return view('astra.page.upload.detailPeserta', [
+                'breadcrumb1' => $breadcrumb1,
+                'breadcrumb2' => $breadcrumb2,
+                'button' => $button,
+                'dataTable' => $dataTable,
+                'detailPeserta' => $detailPeserta,
+                'countPenilai' => $countPenilai,
+                'gapAnalysis' => null,
+                'competencies' => [],
+                'overallActualLevel' => 'N/A',
+                'roleBreakdown' => ['atasan' => ['count' => 0], 'self' => ['count' => 0], 'rekan_kerja' => ['count' => 0]],
+                'individualRoleBreakdown' => [],
+                'mergedRoleBreakdown' => [
+                    'atasan' => ['actual_weight' => 0, 'assessments' => collect()],
+                    'diri' => ['actual_weight' => 0, 'assessments' => collect()],
+                    'rekan_kerja' => ['actual_weight' => 0, 'assessments' => collect()],
+                    'bawahan' => ['actual_weight' => 0, 'assessments' => collect()]
+                ],
+                'competencyMapping' => [],
+                'recommendation' => [
+                    'percentage' => 0, 
+                    'category' => 'Data tidak tersedia', 
+                    'description' => 'Tidak ada data assessment untuk peserta ini',
+                    'competencies_met' => 0,
+                    'total_required' => 0,
+                    'competencies_need_development' => 0
+                ],
+                'competencyBreakdown' => [],
+                'recommendationColor' => 'secondary',
+                'competencyRankings' => ['top3' => [], 'bottom3' => []]
+            ]);
+        }
+        
         // Competency field mapping
         $competencyMapping = [
             'Risk Management' => 'risk_management',

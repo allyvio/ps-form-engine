@@ -121,24 +121,45 @@
                 </div>
                 <div class="card-body">
                     <div class="list-group list-group-flush">
-                        <a href="{{ url('/download-gap-report/' . $detailPeserta->id) }}" class="list-group-item list-group-item-action border-0 px-0">
-                            <div class="row align-items-center">
-                                <div class="col-auto">
-                                    <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow">
-                                        <i class="ni ni-chart-bar-32"></i>
+                        @if(isset($gapAnalysis) && $gapAnalysis)
+                            <a href="{{ url('/download-gap-report/' . $detailPeserta->id) }}" class="list-group-item list-group-item-action border-0 px-0">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow">
+                                            <i class="ni ni-chart-bar-32"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col ml--2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h6 class="text-sm mb-0">Gap Analysis Report</h6>
+                                                <p class="text-sm text-muted mb-0">Download laporan lengkap</p>
+                                            </div>
+                                            <i class="fas fa-download text-muted"></i>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col ml--2">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <h6 class="text-sm mb-0">Gap Analysis Report</h6>
-                                            <p class="text-sm text-muted mb-0">Download laporan lengkap</p>
+                            </a>
+                        @else
+                            <div class="list-group-item border-0 px-0">
+                                <div class="row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="icon icon-shape bg-gradient-secondary text-white rounded-circle shadow">
+                                            <i class="ni ni-fat-remove"></i>
                                         </div>
-                                        <i class="fas fa-download text-muted"></i>
+                                    </div>
+                                    <div class="col ml--2">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div>
+                                                <h6 class="text-sm mb-0 text-muted">Gap Analysis Report</h6>
+                                                <p class="text-sm text-muted mb-0">Tidak tersedia - Belum ada data assessment</p>
+                                            </div>
+                                            <i class="fas fa-exclamation-triangle text-warning"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </a>
+                        @endif
                     </div>
                 </div>
             </div>
