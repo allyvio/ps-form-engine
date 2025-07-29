@@ -89,7 +89,7 @@
   },
   {
     "id": 10,
-    "name": "Basic Intelligent",
+    "name": "Basic Intelligence",
     "development_methods": {
       "training": "Pelatihan Open Source Intelligence (OSINT): Tools: Maltego, Shodan, TheHarvester, Teknik pengumpulan data dari sumber terbuka",
       "coaching_mentoring": "Dimentori oleh Analis Intelijen atau Tim Threat Intelligence",
@@ -133,7 +133,7 @@
   },
   {
     "id": 14,
-    "name": "Search and Rescue (SAR)",
+    "name": "SAR",
     "development_methods": {
       "training": "Pelatihan teknik dasar SAR, PPGD, penggunaan alat penyelamatan, pengembangan rencana dan strategi SAR, serta mengikuti sertifikasi SAR.",
       "coaching_mentoring": "Bimbingan dari anggota SAR senior, sesi coaching penggunaan alat dan teknik PPGD, dan diskusi studi kasus skenario SAR.",
