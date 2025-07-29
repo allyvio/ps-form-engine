@@ -1,0 +1,639 @@
+[
+    {
+        "No": "1",
+        "Nama Lengkap": "Abdul Hadi",
+        "Email": "abdul.hadi1@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "2",
+        "Nama Lengkap": "Achmad Syaifulloh",
+        "Email": "achmad.syaifulloh@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "3",
+        "Nama Lengkap": "Ade Ruswandi",
+        "Email": "ade.ruswandi@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "4",
+        "Nama Lengkap": "Agus Riyanto",
+        "Email": "agus.riyanto@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "5",
+        "Nama Lengkap": "Agustinus Dwi Cahyanto",
+        "Email": "agustinus.dwi@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "6",
+        "Nama Lengkap": "Ahmad Isa",
+        "Email": "ahmad.isa@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "7",
+        "Nama Lengkap": "Amran",
+        "Email": "amran@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "8",
+        "Nama Lengkap": "Andra Busra",
+        "Email": "andra.busra@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "RND"
+    },
+    {
+        "No": "9",
+        "Nama Lengkap": "Ari Hidayat",
+        "Email": "ari.hidayat@ai.astra.co.id",
+        "Jabatan": "ANGGOTA PROTOKOL",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "10",
+        "Nama Lengkap": "Arif Triady",
+        "Email": "arif.triady@ai.astra.co.id",
+        "Jabatan": "ANGGOTA PROTOKOL",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "11",
+        "Nama Lengkap": "Azmal Arif",
+        "Email": "azmal.arip@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "12",
+        "Nama Lengkap": "Bambang Suharyanto",
+        "Email": "bambang.suharyanto@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "13",
+        "Nama Lengkap": "Dadah Suratno Gatot",
+        "Email": "dadah.suratno@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "14",
+        "Nama Lengkap": "Dahlan Yusuf",
+        "Email": "dahlan.yusuf@ai.astra.co.id",
+        "Jabatan": "DANRU SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "15",
+        "Nama Lengkap": "Darwanto",
+        "Email": "darwanto@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "16",
+        "Nama Lengkap": "Dede Sunandar",
+        "Email": "dede.sunandar@ai.astra.co.id",
+        "Jabatan": "ANGGOTA PROTOKOL",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "17",
+        "Nama Lengkap": "Denis Sukmana",
+        "Email": "denis.sukmana@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "18",
+        "Nama Lengkap": "Dewi Humaira",
+        "Email": "dewi.humaira@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "RND"
+    },
+    {
+        "No": "19",
+        "Nama Lengkap": "Edwin Kastono",
+        "Email": "edwin.kastono@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "20",
+        "Nama Lengkap": "Eko Heru Sarwono",
+        "Email": "eko.heru@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "RND"
+    },
+    {
+        "No": "21",
+        "Nama Lengkap": "Elzi Sirkan Muhammad",
+        "Email": "elzi.sirkanmuhammad@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "22",
+        "Nama Lengkap": "Evan Ihsan Fauzi",
+        "Email": "evan.ihsanfauzi@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "23",
+        "Nama Lengkap": "Rizaldi Anhar",
+        "Email": "rizaldi.anhar@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "24",
+        "Nama Lengkap": "Gunawan",
+        "Email": "gunawan@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "25",
+        "Nama Lengkap": "Hendra Wijaya",
+        "Email": "hendra.wijaya@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "26",
+        "Nama Lengkap": "Herdiawan Sutikno",
+        "Email": "herdiawan.sutikno@ai.astra.co.id",
+        "Jabatan": "DEPT. HEAD",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "27",
+        "Nama Lengkap": "Herlangga Bagus Pribadi (OS)",
+        "Email": "herlangga.bagus@ai.astra.co.id",
+        "Jabatan": "OUTSOURCE",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "28",
+        "Nama Lengkap": "Heru Prakoso",
+        "Email": "heru.prakoso@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "29",
+        "Nama Lengkap": "Heru Siswanto",
+        "Email": "heru.siswanto@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "30",
+        "Nama Lengkap": "Idris",
+        "Email": "idris@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "31",
+        "Nama Lengkap": "Irfandila Alfian Pujo Hastarto",
+        "Email": "irfandila.alfian@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "32",
+        "Nama Lengkap": "Jaka Fernando",
+        "Email": "jaka.fernando@ai.astra.co.id",
+        "Jabatan": "DEPT. HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "33",
+        "Nama Lengkap": "Joko Supriyatno",
+        "Email": "joko.supriyatno@ai.astra.co.id",
+        "Jabatan": "DANRU SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "34",
+        "Nama Lengkap": "Leonard Abdul Aziz",
+        "Email": "leonard.abdul@ai.astra.co.id",
+        "Jabatan": "DEPT. HEAD / ASSIGNMENT",
+        "Departemen": "RND"
+    },
+    {
+        "No": "35",
+        "Nama Lengkap": "Levya Annisa Chaniago",
+        "Email": "levya.annisa@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "36",
+        "Nama Lengkap": "M Yen Andika",
+        "Email": "mohamad.yen@ai.astra.co.id",
+        "Jabatan": "ANGGOTA SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "37",
+        "Nama Lengkap": "Mufqi Ryan Rasyidi",
+        "Email": "mufqi.ryanrasyidi@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "38",
+        "Nama Lengkap": "Muhammad Muhadi",
+        "Email": "muhammad.muhadi@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "39",
+        "Nama Lengkap": "Muhammad Rafi",
+        "Email": "muhammad.rafi@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "RND"
+    },
+    {
+        "No": "40",
+        "Nama Lengkap": "Murdiyanto",
+        "Email": "murdiyanto@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "41",
+        "Nama Lengkap": "Nur Hidayat",
+        "Email": "nur.hidajat@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "42",
+        "Nama Lengkap": "Sulardi",
+        "Email": "sulardi@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "43",
+        "Nama Lengkap": "Nurrano",
+        "Email": "nurrano@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "44",
+        "Nama Lengkap": "Pardi",
+        "Email": "pardi@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "45",
+        "Nama Lengkap": "Tatang Hidayat",
+        "Email": "tatang.hidayat@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "46",
+        "Nama Lengkap": "Rachmat Cahyono",
+        "Email": "rachmat.cahyono@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "47",
+        "Nama Lengkap": "Rahmat",
+        "Email": "rahmat@ai.astra.co.id",
+        "Jabatan": "DANRU SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "48",
+        "Nama Lengkap": "Usep Gusmawan",
+        "Email": "usep.gusmawan@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "49",
+        "Nama Lengkap": "Roymansyah",
+        "Email": "roy.mansyah@ai.astra.co.id",
+        "Jabatan": "ADMIN / ASSIGNMENT",
+        "Departemen": "RND"
+    },
+    {
+        "No": "50",
+        "Nama Lengkap": "Rusmanto",
+        "Email": "rusmanto@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "51",
+        "Nama Lengkap": "Samuel Niko Yonas",
+        "Email": "samuel.nikoyonas@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "52",
+        "Nama Lengkap": "Ghozi Azmy Rakhman",
+        "Email": "ghozi.azmy@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "53",
+        "Nama Lengkap": "Sarah Amelia",
+        "Email": "sarah.amelia@ai.astra.co.id",
+        "Jabatan": "ADMIN / SEKRETARIS",
+        "Departemen": "RND"
+    },
+    {
+        "No": "54",
+        "Nama Lengkap": "Selly Irfandy",
+        "Email": "selly.irfandy@ai.astra.co.id",
+        "Jabatan": "DIV. HEAD",
+        "Departemen": "CORP SECURITY"
+    },
+    {
+        "No": "55",
+        "Nama Lengkap": "Slamet Chotim",
+        "Email": "slamet.chotim@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "56",
+        "Nama Lengkap": "Sri Subekti",
+        "Email": "sri.subekti@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "57",
+        "Nama Lengkap": "Sriyanto",
+        "Email": "sriyanto@ai.astra.co.id",
+        "Jabatan": "ADMIN / ASSIGNMENT",
+        "Departemen": "RND"
+    },
+    {
+        "No": "58",
+        "Nama Lengkap": "Suanata Gema",
+        "Email": "suanata.gema@ai.astra.co.id",
+        "Jabatan": "DEPT. HEAD",
+        "Departemen": "RND"
+    },
+    {
+        "No": "59",
+        "Nama Lengkap": "Nurlaela Rosdiyana",
+        "Email": "nurlaela.rosdiyana@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "60",
+        "Nama Lengkap": "Sularno",
+        "Email": "sularno@ai.astra.co.id",
+        "Jabatan": "DANRU SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "61",
+        "Nama Lengkap": "Sumardi",
+        "Email": "sumardi@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "62",
+        "Nama Lengkap": "Sumarno",
+        "Email": "sumarno@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "63",
+        "Nama Lengkap": "Sunar",
+        "Email": "sunar@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "64",
+        "Nama Lengkap": "Sunarko",
+        "Email": "sunarko@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "65",
+        "Nama Lengkap": "Sunaryo",
+        "Email": "sunaryo@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "66",
+        "Nama Lengkap": "Suparto",
+        "Email": "suparto@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "67",
+        "Nama Lengkap": "Suryanto Suripto",
+        "Email": "suryanto.suripto@ai.astra.co.id",
+        "Jabatan": "ANGGOTA PROTOKOL",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "68",
+        "Nama Lengkap": "Sutarmi",
+        "Email": "sutarmi@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "RND"
+    },
+    {
+        "No": "69",
+        "Nama Lengkap": "Syamsul Bahri",
+        "Email": "syamsul.bahri@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "70",
+        "Nama Lengkap": "Taryamah",
+        "Email": "taryamah@ai.astra.co.id",
+        "Jabatan": "ANGGOTA PROTOKOL",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "71",
+        "Nama Lengkap": "Paulus Sarli Anthoni",
+        "Email": "paulus.anthoni@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "72",
+        "Nama Lengkap": "Tomi Sugiarto",
+        "Email": "tomi.sugiarto@ai.astra.co.id",
+        "Jabatan": "ANGGOTA SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "73",
+        "Nama Lengkap": "Tri Handono",
+        "Email": "tri.handono@ai.astra.co.id",
+        "Jabatan": "ANGGOTA SAR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "74",
+        "Nama Lengkap": "Triyanto",
+        "Email": "triyanto1@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "RND"
+    },
+    {
+        "No": "75",
+        "Nama Lengkap": "Tutut Subagyo",
+        "Email": "tutut.subagyo@ai.astra.co.id",
+        "Jabatan": "KOORDINATOR",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "76",
+        "Nama Lengkap": "Santy Marianty",
+        "Email": "santy.marianty@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "77",
+        "Nama Lengkap": "Wage Hartono",
+        "Email": "wage.hartono@ai.astra.co.id",
+        "Jabatan": "SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "78",
+        "Nama Lengkap": "Wahyu Laksono",
+        "Email": "wahyu.laksono@ai.astra.co.id",
+        "Jabatan": "DEPT. HEAD",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "79",
+        "Nama Lengkap": "Wikanta",
+        "Email": "wikanta@ai.astra.co.id",
+        "Jabatan": "ADMIN",
+        "Departemen": "RND"
+    },
+    {
+        "No": "80",
+        "Nama Lengkap": "Wisnu Sanjaya",
+        "Email": "wisnu.sanjaya@ai.astra.co.id",
+        "Jabatan": "KETUA REGIONAL SECTOR HEAD",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "81",
+        "Nama Lengkap": "Yogi Lasril",
+        "Email": "yogi.lasril@ai.astra.co.id",
+        "Jabatan": "ANALIS",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "82",
+        "Nama Lengkap": "Yupono",
+        "Email": "yupono@ai.astra.co.id",
+        "Jabatan": "GUGUS",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "83",
+        "Nama Lengkap": "Atharenjani Eskavara",
+        "Email": "atharenjani.eskavara@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "RND"
+    },
+    {
+        "No": "84",
+        "Nama Lengkap": "Diana Tanoto",
+        "Email": "diana.tanoto@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "85",
+        "Nama Lengkap": "Hadad Audi",
+        "Email": "hadad.audi@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "OPS"
+    },
+    {
+        "No": "86",
+        "Nama Lengkap": "Kevin Ryadi Saragih",
+        "Email": "kevin.ryadisaragih@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "87",
+        "Nama Lengkap": "Reyner Alexander Lyman",
+        "Email": "reyner.alexanderlyman@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "RND"
+    },
+    {
+        "No": "88",
+        "Nama Lengkap": "Ryan Prasetyo",
+        "Email": "ryan.prasetyo@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "RND"
+    },
+    {
+        "No": "89",
+        "Nama Lengkap": "Yasmin Hanani Reza",
+        "Email": "yasmin.hananireza@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "SGB"
+    },
+    {
+        "No": "90",
+        "Nama Lengkap": "Fathur Ariansha",
+        "Email": "fathur.ariansha@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "BIZTEL"
+    },
+    {
+        "No": "91",
+        "Nama Lengkap": "Sri Mandala Pranata",
+        "Email": "sri.mandalapranata@ai.astra.co.id",
+        "Jabatan": "ASA ACADEMY",
+        "Departemen": "BIZTEL"
+    }
+]

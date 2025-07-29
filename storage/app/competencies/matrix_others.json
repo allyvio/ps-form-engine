@@ -1,0 +1,347 @@
+[
+  {
+    "id": 1,
+    "name": "Risk Management",
+    "definition": "Kemampuan untuk mengidentifikasi, menilai, memprioritaskan, memitigasi, dan memantau ancaman/ risiko di seluruh organisasi",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip dasar manajemen risiko"
+      },
+      {
+        "level": 2,
+        "description": "Mengidentifikasi risiko organisasi baik eksternal dan internal"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis risiko dan menyusun langkah pencegahan untuk meningkatkan pemahaman risiko"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi sistem untuk penanganan resiko pencegahan sesuai regulasi"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Business Continuity",
+    "definition": "Kemampuan untuk merencanakan, merespons, dan memulihkan selama dan setelah suatu kejadian luar biasa yang dapat mengancam kelangsungan organisasi termasuk properti, aset, sistem, keberlanjutan dan orang-orang didalamnya.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip-prinsip krisis manajemen dan respon insiden"
+      },
+      {
+        "level": 2,
+        "description": "Merespon suatu insiden sesuai dengan prosedur yang telah ditetapkan"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis informasi yang berkaitan dengan kelangsungan bisnis dan ancamannya"
+      },
+      {
+        "level": 4,
+        "description": "Menetapkan program latihan, pengujian, pemeliharaan, dan audit untuk Rencana Kesinambungan Bisnis (BCP)"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Personnel Management",
+    "definition": "Kemampuan untuk memimpin, memotivasi, dan mengembangkan SDM secara efektif untuk mencapai tujuan organisasi yang mencakup perekrutan, pelatihan, motivasi, dan retensi SDM",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip-prinsip dasar manajemen personel"
+      },
+      {
+        "level": 2,
+        "description": "Memberikan bimbingan kepada anggota tim junior"
+      },
+      {
+        "level": 3,
+        "description": "Mengembangkan karyawan melalui keterlibatan pada perekrutan dan melaksanakan program pelatihan"
+      },
+      {
+        "level": 4,
+        "description": "Menerapkan strategi untuk pengembangan bakat, perencanaan suksesi, dan keterlibatan karyawan"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Global & Technological Awareness",
+    "definition": "Kemampuan yang berhubungan dengan keterampilan dan pengetahuan tentang teknologi keamanan dan perkembangannya dengan mengintegrasikan dinamika global terhadap sistem pengamanan sebagai wujud antisipasi terhadap potensi risiko yang mungkin ditimbulkan terkait dengan teknologi",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami konsep dasar teknologi secara global dan perkembangannya, serta dampaknya terhadap masalah keamanan"
+      },
+      {
+        "level": 2,
+        "description": "Mendemonstrasikan kemahiran dalam menggunakan berbagai alat keamanan"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisa teknologi baru, potensi ancaman dan risiko kerentanan keamanan"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi seluruh proses analisa teknologi baru dan potensi dari tren keamanan global"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Physical Security",
+    "definition": "Kemampuan merancang dan menerapkan sistem keamanan yang komprehensif untuk mencegah akses tidak sah ke fasilitas, peralatan, dan sumber daya kantor, serta melindungi karyawan dan properti dari kerusakan atau kerugian",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip-prinsip keamanan, standart keamanan fisik dan alur koordinasi terkait dengan aset dan sumber daya"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan asesmen keamanan rutin terhadap fasilitas fisik dengan memperhatikan aspek keselamatan, manajemen bangunan & limbah"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisa efektifivitas program keamanan fisik"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi efektivitas sistem dan prosedur keamanan fisik dan melakukan perbaikan yang komprehensif"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Practical Security",
+    "definition": "Kemampuan sekuriti praktis berupa tindakan yang dirancang untuk menolak akses tidak sah terhadap aset dan sumber daya, serta untuk melindungi dari kerusakan atau bahaya, yang melibatkan penggunaan berbagai lapisan sistem dan teknik yang saling bergantung sama lain.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip keamanan dasar, dasar penjagaan VVIP, dan bela diri dasar astra untuk close protection"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan penjagaan VVIP dengan menerapkan rencana dan prosedur keamanan pada area tertentu"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis risiko keamanan dan menerapkan rencana serta prosedur keamanan yang disesuaikan dengan kebutuhan spesifik"
+      },
+      {
+        "level": 4,
+        "description": "Menetapkan dan mengembangakan sistem keamanan perusahaan secara komprehensif"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Cyber Security",
+    "definition": "Kemampuan untuk menjaga dan melindungi informasi fisik dan eletronik terhadap ancaman akses-akses yang tidak terotorisasi, penyalahgunaan, gangguan, modifikasi ilegal, perekaman dan penghancuran",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Melakukan patroli rutin dalam pengelolaan aset dan sumber daya"
+      },
+      {
+        "level": 2,
+        "description": "Mengidentifikasi ancaman-ancaman cyber"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis kerentanan cyber agar tidak terjadi kebocoran informasi"
+      },
+      {
+        "level": 4,
+        "description": "Memastikan sistem keamanan fisik terlindungi secara memadai dari ancaman cyber yang terus berkembang"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Investigation & Case Management",
+    "definition": "Kemampuan untuk mengidentifikasi, menyelidiki, dan secara efektif mengelola insiden keamanan dan aktivitas mencurigakan, serta memastikan pemahaman komprehensif, resolusi, dan pencegahan kejadian di masa depan",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami alur, format laporan, dan proses penanganan kasus sesuai kode etik"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan penelitian, pemeriksaan bukti, dan menyusun laporan investigasi"
+      },
+      {
+        "level": 3,
+        "description": "Melakukan analisis, penilaian, dan validasi informasi hasil investigasi"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi program investigasi keamanan serta menegakkan kebijakan dan prosedur terkait"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Business Intelligence",
+    "definition": "Kemampuan untuk mengumpulkan, menganalisis, dan menafsirkan data dari berbagai sumber untuk mendukung pengambilan keputusan dalam berbagai situasi dan kondisi yang menunjang bisnis perusahaan.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip, alat analisis data dasar, dan dasar-dasar intelijen bisnis"
+      },
+      {
+        "level": 2,
+        "description": "Mengidentifikasi tren dan ancaman keamanan berdasarkan analisis data"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis data untuk mendukung keputusan strategis serta mitigasi risiko keamanan"
+      },
+      {
+        "level": 4,
+        "description": "Memberikan panduan strategis penggunaan intelijen bisnis untuk keamanan"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Basic Intelligence",
+    "definition": "Kemampuan untuk mengumpulkan, menganalisa, dan menyebarkan informasi yang relevan dengan postur keamanan organisasi. Hal ini mencakup pemahaman potensi ancaman, risiko, dan kerentanan terhadap aset, personel, dan operasi perusahaan.",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip dasar pengumpulan dan analisis intelijen"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan pencarian informasi yang relevan dan mengolah data untuk mendapatkan informasi yang akurat"
+      },
+      {
+        "level": 3,
+        "description": "Mengintepretasikan hasil pengolahan intelijen dan menyusun rancangan solusi"
+      },
+      {
+        "level": 4,
+        "description": "Mengarahkan inisiatif intelijen, termasuk strategi pengumpulan, analisis, dan penyebaran data keamanan"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Mass & Conflict Management",
+    "definition": "Kemampuan untuk mengantisipasi, mempersiapkan, dan merespons secara efektif pertemuan berskala besar dan situasi yang berpotensi bergejolak di dalam fasilitas perusahaan atau area tanggung jawab yang ditentukan",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip dasar pengendalian massa dan teknik rekayasa sosial"
+      },
+      {
+        "level": 2,
+        "description": "Mengenali potensi bahaya dan ancaman dalam situasi kerumunan atau konflik serta mengambil langkah-langkah pencegahan yang tepat"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis data insiden dan keluhan untuk merumuskan solusi efektif"
+      },
+      {
+        "level": 4,
+        "description": "Menegakkan dan mengevaluasi secara berkala kebijakan dan prosedur untuk pengendalian massa, respons krisis, dan resolusi konflik"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Legal & Compliance",
+    "definition": "Pemahaman mendalam dan penerapan undang-undang, peraturan, dan kebijakan perusahaan yang relevan untuk memastikan kepatuhan praktik keamanan organisasi, memitigasi risiko hukum, dan mengatasi potensi masalah litigasi",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memiliki pemahaman dasar tentang hukum dan kepatuhan yang relevan"
+      },
+      {
+        "level": 2,
+        "description": "Mengaplikasikan pengetahuan hukum dan kepatuhan yang relevan dalam mengatasi pelanggaran di area kerja"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis penerapan praktik hukum dan program kepatuhan"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi strategi hukum perusahaan"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Disaster Management",
+    "definition": "Kemampuan mengidentifikasi, merencanakan, mengatur, mengevaluasi, alur, prosedur, strategi, serta tim dan yang berkaitan dalam ketanggap bencanaan",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami konsep dasar mitigasi bencana, prinsip manajemen bencana, dan perencanaan penyelamatan"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan perencanaan terkait penanganan bencana"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis efektivitas proses penanganan bencana dan paska bencana, serta memberikan rekomendasi perbaikannya"
+      },
+      {
+        "level": 4,
+        "description": "Melakukan supervisi terhadap seluruh tahapan program manajemen kebencanaan, dari mitigasi hingga pemulihan"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "SAR",
+    "definition": "Kemampuan perencanaan, pengembangan, koordinasi, penggunaan, dan pengendalian terhadap unsur/sarana SAR agar tercapai kemampuan dan kesiapan operasional dalam penyelamatan",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami teknik dasar operasi SAR, prosedur pertolongan pertama gawat darurat (PPGD) dan alat-alat penyelamatan"
+      },
+      {
+        "level": 2,
+        "description": "Menggunakan alat-alat penyelamatan (APAR, dsb) dan melakukan teknik penyelamatan PPGD yang sesuai standar"
+      },
+      {
+        "level": 3,
+        "description": "Menganalisis dan mengembangkan rencana dan strategi SAR untuk skenario tertentu"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi seluruh program kesiapsiagaan dan tanggap darurat organisasi, termasuk kinerja SAR"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Assessor",
+    "definition": "Kemampuan yang meliputi keterampilan dan pengetahuan untuk melakukan asesmen di bidang keamanan secara objektif, akurat, dan adil",
+    "levels": [
+      {
+        "level": 1,
+        "description": "Memahami prinsip, metodologi, dan prosedur dasar asesmen"
+      },
+      {
+        "level": 2,
+        "description": "Melakukan asesmen melalui wawancara maupun tinjauan dokumen"
+      },
+      {
+        "level": 3,
+        "description": "Memverifikasi dan memvalidasi data berdasarkan temuan lapangan yang diintegrasikan dalam laporan asesmen"
+      },
+      {
+        "level": 4,
+        "description": "Mengevaluasi keseluruhan program dan mengembangkan strategi asesemen SDM keamanan perusahaan"
+      }
+    ]
+  }
+]

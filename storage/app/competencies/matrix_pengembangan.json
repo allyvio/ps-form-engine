@@ -1,0 +1,156 @@
+[
+  {
+    "id": 2,
+    "name": "Business Continuity",
+    "development_methods": {
+      "training": "Pelatihan Dasar Business Continuity Management (BCM)",
+      "coaching_mentoring": "Diskusi rutin tentang studi kasus insiden nyata, peninjauan rencana BCM yang sudah ada, dan pemberian saran tentang cara mengintegrasikan BCM dengan strategi organisasi.",
+      "special_assignment": "Memimpin atau menjadi bagian dari tim untuk meninjau, merevisi, dan mengembangkan komponen BCP (misalnya, prosedur evakuasi, rencana komunikasi darurat, prosedur pemulihan).",
+      "feedback": "Menerima debriefing dari fasilitator atau atasan mengenai performa selama latihan/simulasi BCM, area kekuatan, dan poin-poin yang perlu ditingkatkan dalam respons dan koordinasi.",
+      "self_development": "Membaca buku tentang crisis management, artikel dari Business Continuity Institute (BCI), atau laporan terkait resilience organisasi."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Personnel Management",
+    "development_methods": {
+      "training": "Pelatihan Dasar Manajemen SDM/Kepemimpinan",
+      "coaching_mentoring": "Diskusi rutin engan HR & atasan tentang strategi rekrutmen untuk personel keamanan, cara memotivasi tim yang bekerja dalam kondisi tekanan, atau pengelolaan kinerja yang sulit.",
+      "special_assignment": "Memimpin proses rekrutmen untuk posisi keamanan spesifik",
+      "feedback": "Diskusi rutin dengan atasan mengenai pencapaian dalam manajemen personel, area yang perlu ditingkatkan (misalnya, manajemen konflik, delegasi), dan penetapan tujuan pengembangan.",
+      "self_development": "Membaca karya-karya tentang leadership, emotional intelligence, talent management, atau organizational behavior.\"Effective Delegation,\"\"Building High-Performing Teams,\"atau\"Conflict Resolution Skills.\"- Melakukan refleksi diri dan menulis jurnal kepemimpinan"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Global & Technological Awareness",
+    "development_methods": {
+      "training": "Pelatihan Teknologi Keamanan Terkini: Pengantar machine learning untuk deteksi anomali, keamanan siber untuk sistem keamanan, privasi data dan regulasi global, serta digital forensics.",
+      "coaching_mentoring": "Membantu dalam menafsirkan laporan intelijen ancaman atau mengevaluasi vendor security solution yang inovatif dengan dimentoring oleh pakar keamanan siber",
+      "special_assignment": "Bertanggung jawab untuk melakukan penilaian risiko pada implementasi teknologi AI, IoT, atau cloud baru",
+      "feedback": "Menerima umpan balik dari anggota tim lain setelah proyek atau presentasi yang melibatkan analisis teknologi atau global.",
+      "self_development": "Berlangganan newsletter dari media teknologi terkemuka (misalnya, Wired, TechCrunch), blog keamanan (misalnya, KrebsOnSecurity, Dark Reading), atau analisis geopolitik (misalnya, Stratfor, CSIS)."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Physical Security",
+    "development_methods": {
+      "training": "Pelatihan Dasar Desain dan Implementasi Keamanan Fisik",
+      "coaching_mentoring": "Diskusi rutin tentang studi kasus perancangan keamanan fasilitas baru, strategi penempatan sensor yang optimal, atau cara mengatasi tantangan implementasi.",
+      "special_assignment": "Bertanggung jawab penuh atau memimpin tim kecil untuk merancang solusi keamanan (termasuk pemilihan teknologi, penempatan perangkat, dan prosedur operasional) untuk area baru di kantor",
+      "feedback": "Menerima umpan balik konstruktif dari tim setelah penyelesaian proyek atau saat peninjauan desain.",
+      "self_development": "Membaca publikasi dari ASIS International, Security Magazine, atau jurnal yang berfokus pada desain keamanan."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Practical Security",
+    "development_methods": {
+      "training": "Pelatihan Keamanan Jaringan Dasar hingga Lanjut (misal: Cisco Network Security, CompTIA Security+)",
+      "coaching_mentoring": "Pendampingan oleh Senior Security Engineer atau CISO dalam proyek audit keamanan",
+      "special_assignment": "Ditugaskan sebagai Security Champion dalam tim pengembang",
+      "feedback": "Melakukan simulasi serangan (Red Team Exercise) dan mendapatkan evaluasi dari tim",
+      "self_development": "Mengikuti CTF (Capture The Flag) atau simulasi keamanan online (TryHackMe, Hack The Box)"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Cyber Security",
+    "development_methods": {
+      "training": "Sertifikasi Profesional Cyber Security: CompTIA Security+ (dasar), CEH (Certified Ethical Hacker), CISSP (Certified Information Systems Security Professional)",
+      "coaching_mentoring": "Bimbingan oleh Cybersecurity Analyst atau CISO dalam penanganan insiden nyata",
+      "special_assignment": "Menjadi anggota tim respons insiden siber (CSIRT)",
+      "feedback": "Melakukan audit keamanan sistem dan menerima laporan serta rekomendasi dari pihak ketiga",
+      "self_development": "Mengikuti platform pembelajaran seperti TryHackMe, Hack The Box, atau BlueTeam Labs"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Investigation & Case Management",
+    "development_methods": {
+      "training": "Pelatihan Digital Forensics & Incident Response (DFIR)",
+      "coaching_mentoring": "Dimentori oleh investigator senior atau analis insiden untuk membedah kasus nyata atau simulasi investigasi",
+      "special_assignment": "Bertanggung jawab atas dokumentasi dan penyelidikan satu insiden keamanan lengkap",
+      "feedback": "Melakukan post-incident review (PIR) dan mendapatkan evaluasi dari stakeholder",
+      "self_development": "Mengikuti simulasi investigasi dan lab forensik online (Contoh: CyberDefenders, DFIRNet, Magnet Virtual CTF)"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Business Intelligence",
+    "development_methods": {
+      "training": "Pelatihan Software BI: Microsoft Power BI, Tableau, QlikView / Qlik Sense",
+      "coaching_mentoring": "Dimentori oleh Senior Data Analyst atau BI Specialist",
+      "special_assignment": "Ditugaskan membuat dashboard BI untuk satu unit bisnis (misal: penjualan, SDM, keuangan)",
+      "feedback": "Review dashboard dan laporan analitik oleh pengguna akhir atau stakeholder",
+      "self_development": "Mengikuti project BI mini secara mandiri (misalnya dengan dataset publik: Kaggle, data.go.id)"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Basic Intelligent",
+    "development_methods": {
+      "training": "Pelatihan Open Source Intelligence (OSINT): Tools: Maltego, Shodan, TheHarvester, Teknik pengumpulan data dari sumber terbuka",
+      "coaching_mentoring": "Dimentori oleh Analis Intelijen atau Tim Threat Intelligence",
+      "special_assignment": "Ditugaskan membuat ringkasan ancaman mingguan untuk internal organisasi",
+      "feedback": "Evaluasi akurasi dan relevansi laporan intelijen oleh supervisor atau stakeholder keamanan",
+      "self_development": "Membaca intelijen siber terkini dari lembaga seperti Mandiant, CISA, atau SANS"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Mass & Conflict Management",
+    "development_methods": {
+      "training": "Pelatihan pengendalian dan pembubaran massa, teknis de-eskalasi konflik, crowd management training, pengelolaan emosi dalam tekanan tinggi, dan Tactical Floor Game (TFG).",
+      "coaching_mentoring": "Bimbingan oleh security leader berpengalaman melalui dan diskusi studi kasus insiden.",
+      "special_assignment": "Penugasan sebagai PIC pengamanan kegiatan massal perusahaan.",
+      "feedback": "After Action Review (AAR) setelah penanganan insiden.",
+      "self_development": "Mempelajari psikologi massa dan konflik, membaca laporan insiden, mengikuti perkembangan teknik pengendalian, serta kursus online terkait crowd management, negosiasi, dan resolusi konflik."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Legal & Compliance",
+    "development_methods": {
+      "training": "Compliance Management Training, Certified Compliance Professional (CCP), Certified Chief Compliance Officer (CCCO), dan Certified Compliance Oversight Professional (CCOP).",
+      "coaching_mentoring": "Bimbingan oleh legal officer/kompliance senior dan diskusi studi kasus pelanggaran hukum.",
+      "special_assignment": "Observasi proses penanganan pelanggaran, review dokumen legal (kontrak/kebijakan), simulasi negosiasi hukum, dan memimpin proyek mitigasi risiko kepatuhan.",
+      "feedback": "Feedback dari tim legal setelah penanganan kasus.",
+      "self_development": "Membaca update regulasi (UU, ISO 37301), serta mengikuti kursus online tentang corporate compliance dan asosiasi profesi hukum/compliance."
+    }
+  },
+  {
+    "id": 13,
+    "name": "Disaster Management",
+    "development_methods": {
+      "training": "Pelatihan manajemen bencana tingkat dasar maupun lanjut, sertifikasi dari BNPB, dan serta sertifikasi Emergency Response Plan (ERP), Emergency Response Team (ERT), dan Strategi Komunikasi Efektif ERT.",
+      "coaching_mentoring": "Bimbingan dari ahli manajemen bencana dan diskusi studi kasus penanganan bencana.",
+      "special_assignment": "Menyusun rencana penanganan bencana untuk skenario spesifik, simulasi dan latihan kebencanaan, analisis laporan pasca bencana, menjadi anggota tim emergency response.",
+      "feedback": "Evaluasi kinerja saat simulasi/latihan dan umpan balik dari tim dan atasan setelah insiden.",
+      "self_development": "Mempelajari standar dan protokol manajemen bencana, membaca laporan bencana, dan mengikuti perkembangan isu kebencanaan."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Search and Rescue (SAR)",
+    "development_methods": {
+      "training": "Pelatihan teknik dasar SAR, PPGD, penggunaan alat penyelamatan, pengembangan rencana dan strategi SAR, serta mengikuti sertifikasi SAR.",
+      "coaching_mentoring": "Bimbingan dari anggota SAR senior, sesi coaching penggunaan alat dan teknik PPGD, dan diskusi studi kasus skenario SAR.",
+      "special_assignment": "Latihan simulasi SAR, memimpin operasi SAR serta evaluasinya, menyusun rencana SAR untuk skenario spesifik, dan menjadi liaison officer.",
+      "feedback": "Evaluasi kinerja setelah simulasi/operasi, umpan balik dari tim dan atasan, dan debriefing setelah insiden.",
+      "self_development": "Mempelajari protokol dan standar SAR, membaca laporan insiden, mengikuti perkembangan teknologi SAR, serta latihan fisik dan keterampilan penyelamatan mandiri."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Assessor",
+    "development_methods": {
+      "training": "Pelatihan asesmen yang meliputi prinsip asesmen, teknik pengumpulan data dengan survei, wawancara, maupun tinjauan dokumen, dan validasi data, serta sertifikasi asesor.",
+      "coaching_mentoring": "Bimbingan dari assessor senior dan melakukan diskusi studi kasus.",
+      "special_assignment": "Menjadi observer atau co-assessor, melakukan asesmen mini-project secara end-to-end di unit kerja atau proyek kecil, dan memimpin evaluasi efektivitas asesmen.",
+      "feedback": "Sesi review hasil asesmen untuk mengevaluasi kualitas wawancara, akurasi analisis, dan ketajaman laporan, serta refleksi diri.",
+      "self_development": "Membaca literatur asesmen dan mengikuti kursus online tentang assessment methodology, evidence-based interviewing, atau data-driven decision making."
+    }
+  }
+]
