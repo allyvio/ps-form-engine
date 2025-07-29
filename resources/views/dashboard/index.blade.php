@@ -10,12 +10,11 @@
           <div class="row">
             <div class="col-xl-3 col-md-6">
               <div class="card card-stats">
-                <!-- Card body -->
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-muted mb-0">Astra Peserta</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\Peserta::count() }}</span>
+                      <span class="h2 font-weight-bold mb-0">{{ $analyticalData['totalPeserta'] }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
@@ -24,71 +23,144 @@
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-muted">Total karyawan Astra terdaftar</span>
+                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> {{ $analyticalData['gapAnalysisCompletionRate'] }}%</span>
+                    <span class="text-muted">Gap analysis selesai</span>
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-md-6">
               <div class="card card-stats">
-                <!-- Card body -->
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Astra Departments</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::distinct('departemen')->whereNotNull('departemen')->count() }}</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Total Assessment</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $analyticalData['totalAssessments'] }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
-                        <i class="ni ni-circle-08"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-3 mb-0 text-sm">
-                    <span class="text-muted">Jumlah departemen Astra</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6">
-              <div class="card card-stats">
-                <!-- Card body -->
-                <div class="card-body">
-                  <div class="row">
-                    <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Astra Assessment</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::count() }}</span>
-                    </div>
-                    <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
                         <i class="ni ni-paper-diploma"></i>
                       </div>
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-muted">Form assessment Astra terisi</span>
+                    <span class="text-info mr-2"><i class="fa fa-users"></i> {{ $analyticalData['totalReviewers'] }}</span>
+                    <span class="text-muted">Total penilai aktif</span>
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-xl-3 col-md-6">
               <div class="card card-stats">
-                <!-- Card body -->
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Astra Raters</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::distinct('reviewer_id')->count() }}</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Departments</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $analyticalData['totalDepartments'] }}</span>
                     </div>
                     <div class="col-auto">
-                      <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
-                        <i class="ni ni-folder-17"></i>
+                      <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
+                        <i class="ni ni-building"></i>
                       </div>
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-muted">Penilai dalam assessment Astra</span>
+                    <span class="text-warning mr-2"><i class="fa fa-chart-bar"></i> {{ number_format($analyticalData['overallPerformance'], 1) }}</span>
+                    <span class="text-muted">Avg. performance level</span>
                   </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-3 col-md-6">
+              <div class="card card-stats">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h5 class="card-title text-uppercase text-muted mb-0">Recommendation</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $analyticalData['recommendationStats']['memenuhi'] + $analyticalData['recommendationStats']['cukup_memenuhi'] }}</span>
+                    </div>
+                    <div class="col-auto">
+                      <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
+                        <i class="ni ni-check-bold"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="mt-3 mb-0 text-sm">
+                    <span class="text-success mr-2"><i class="fa fa-thumbs-up"></i> {{ round((($analyticalData['recommendationStats']['memenuhi'] + $analyticalData['recommendationStats']['cukup_memenuhi']) / $analyticalData['gapAnalysisCompleted']) * 100, 1) }}%</span>
+                    <span class="text-muted">Meet criteria</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Additional Analytics Row -->
+          <div class="row mt-4">
+            <div class="col-xl-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="mb-0">Assessment by Role Distribution</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    @php 
+                    $roleMapping = [
+                      'Atasan Langsung' => 'Atasan',
+                      'Diri Sendiri' => 'Self',
+                      'Rekan Kerja 1' => 'Rekan Kerja 1',
+                      'Rekan Kerja 2' => 'Rekan Kerja 2',
+                      'Bawahan Langsung 1' => 'Bawahan 1',
+                      'Bawahan Langsung 2' => 'Bawahan 2'
+                    ];
+                    $groupedRoles = [
+                      'Atasan' => ($analyticalData['assessmentsByRole']['Atasan Langsung'] ?? 0),
+                      'Self' => ($analyticalData['assessmentsByRole']['Diri Sendiri'] ?? 0),
+                      'Rekan Kerja' => ($analyticalData['assessmentsByRole']['Rekan Kerja 1'] ?? 0) + ($analyticalData['assessmentsByRole']['Rekan Kerja 2'] ?? 0),
+                      'Bawahan' => ($analyticalData['assessmentsByRole']['Bawahan Langsung 1'] ?? 0) + ($analyticalData['assessmentsByRole']['Bawahan Langsung 2'] ?? 0)
+                    ];
+                    @endphp
+                    @foreach($groupedRoles as $role => $count)
+                    <div class="col-6 mb-3">
+                      <div class="text-center">
+                        <h4 class="text-primary">{{ $count }}</h4>
+                        <p class="text-muted mb-0">{{ $role }}</p>
+                        <div class="progress mt-2">
+                          <div class="progress-bar bg-gradient-primary" style="width: {{ $analyticalData['totalAssessments'] > 0 ? ($count / $analyticalData['totalAssessments']) * 100 : 0 }}%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    @endforeach
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="mb-0">Recommendation Categories</h3>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    @php 
+                    $recommendationCategories = [
+                      'memenuhi' => ['label' => 'Memenuhi Kriteria', 'color' => 'success'],
+                      'cukup_memenuhi' => ['label' => 'Cukup Memenuhi', 'color' => 'info'],
+                      'kurang_memenuhi' => ['label' => 'Kurang Memenuhi', 'color' => 'warning'],
+                      'belum_memenuhi' => ['label' => 'Belum Memenuhi', 'color' => 'danger']
+                    ];
+                    @endphp
+                    @foreach($recommendationCategories as $key => $category)
+                    <div class="col-6 mb-3">
+                      <div class="text-center">
+                        <h4 class="text-{{ $category['color'] }}">{{ $analyticalData['recommendationStats'][$key] }}</h4>
+                        <p class="text-muted mb-0">{{ $category['label'] }}</p>
+                        <div class="progress mt-2">
+                          <div class="progress-bar bg-gradient-{{ $category['color'] }}" style="width: {{ $analyticalData['gapAnalysisCompleted'] > 0 ? ($analyticalData['recommendationStats'][$key] / $analyticalData['gapAnalysisCompleted']) * 100 : 0 }}%"></div>
+                        </div>
+                      </div>
+                    </div>
+                    @endforeach
+                  </div>
                 </div>
               </div>
             </div>
@@ -127,7 +199,7 @@
                         <div class="card-header border-0">
                           <div class="row align-items-center">
                             <div class="col">
-                              <h3 class="mb-0">Karyawan Astra per Departemen</h3>
+                              <h3 class="mb-0">Top Performing Competencies</h3>
                             </div>
                           </div>
                         </div>
@@ -135,33 +207,23 @@
                           <table class="table align-items-center table-flush">
                             <thead class="thead-light">
                               <tr>
-                                <th scope="col">Departemen</th>
-                                <th scope="col">Jumlah Peserta</th>
-                                <th scope="col">Persentase</th>
+                                <th scope="col">Competency</th>
+                                <th scope="col">Avg. Level</th>
+                                <th scope="col">Performance</th>
                               </tr>
                             </thead>
                             <tbody>
-                              @php
-                                // Get department data from form_other_astras since peserta table no longer has departemen column
-                                $departemen = \App\Models\FormOtherAstra::selectRaw('departemen, count(distinct reviewee_id) as total')
-                                    ->whereNotNull('departemen')
-                                    ->where('departemen', '!=', '')
-                                    ->groupBy('departemen')
-                                    ->orderBy('total', 'desc')
-                                    ->get();
-                                $totalPeserta = \App\Models\Peserta::count();
-                              @endphp
-                              @foreach($departemen as $dept)
+                              @foreach(array_slice($analyticalData['competencyPerformance'], 0, 10, true) as $competency => $avgLevel)
                               <tr>
-                                <th scope="row">{{ $dept->departemen }}</th>
-                                <td>{{ $dept->total }}</td>
+                                <th scope="row">{{ $competency }}</th>
+                                <td>{{ $avgLevel }}</td>
                                 <td>
                                   <div class="d-flex align-items-center">
-                                    <span class="mr-2">{{ number_format(($dept->total / $totalPeserta) * 100, 1) }}%</span>
+                                    <span class="mr-2">{{ number_format(($avgLevel / 4) * 100, 1) }}%</span>
                                     <div>
                                       <div class="progress">
-                                        <div class="progress-bar bg-gradient-success" role="progressbar" 
-                                             style="width: {{ ($dept->total / $totalPeserta) * 100 }}%;"></div>
+                                        <div class="progress-bar bg-gradient-{{ $avgLevel >= 3.5 ? 'success' : ($avgLevel >= 2.5 ? 'info' : ($avgLevel >= 1.5 ? 'warning' : 'danger')) }}" role="progressbar" 
+                                             style="width: {{ ($avgLevel / 4) * 100 }}%;"></div>
                                       </div>
                                     </div>
                                   </div>
@@ -176,7 +238,35 @@
                     <div class="col-xl-4">
                       <div class="card">
                         <div class="card-header">
-                          <h5 class="h3 mb-0">Astra Quick Actions</h5>
+                          <h5 class="h3 mb-0">Departemen Overview</h5>
+                        </div>
+                        <div class="card-body">
+                          @php
+                            $departemen = \App\Models\FormOtherAstra::selectRaw('departemen, count(distinct reviewee_id) as total')
+                                ->whereNotNull('departemen')
+                                ->where('departemen', '!=', '')
+                                ->groupBy('departemen')
+                                ->orderBy('total', 'desc')
+                                ->limit(5)
+                                ->get();
+                          @endphp
+                          @foreach($departemen as $dept)
+                          <div class="d-flex justify-content-between align-items-center mb-3">
+                            <div>
+                              <h6 class="mb-0">{{ $dept->departemen }}</h6>
+                              <small class="text-muted">{{ $dept->total }} peserta</small>
+                            </div>
+                            <div class="text-right">
+                              <span class="badge badge-primary">{{ number_format(($dept->total / $analyticalData['totalPeserta']) * 100, 1) }}%</span>
+                            </div>
+                          </div>
+                          @endforeach
+                        </div>
+                      </div>
+                      
+                      <div class="card mt-4">
+                        <div class="card-header">
+                          <h5 class="h3 mb-0">Quick Actions</h5>
                         </div>
                         <div class="card-body">
                           <div class="list-group list-group-flush list my--3">
@@ -189,7 +279,7 @@
                                 </div>
                                 <div class="col ml--2">
                                   <h4 class="mb-0">
-                                    <a href="#" onclick="showTab('tabs-peserta-tab')">Peserta Astra</a>
+                                    <a href="{{ url('/astra/peserta') }}">Peserta Astra</a>
                                   </h4>
                                   <small>Kelola data karyawan Astra</small>
                                 </div>
@@ -219,9 +309,9 @@
                                 </div>
                                 <div class="col ml--2">
                                   <h4 class="mb-0">
-                                    <a href="#" onclick="showTab('tabs-reports-tab')">Laporan Astra</a>
+                                    <a href="{{ url('/astra/assessment-data') }}">Assessment Data</a>
                                   </h4>
-                                  <small>Lihat dan download laporan</small>
+                                  <small>Lihat data assessment</small>
                                 </div>
                               </div>
                             </div>

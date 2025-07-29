@@ -511,6 +511,202 @@
             @endif
         </div>
     </div>
+    <!-- Ringkasan Hasil Asesmen Section -->
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header border-0">
+                    <h3 class="mb-0">Ringkasan Hasil Asesmen</h3>
+                </div>
+                <div class="card-body">
+                    @php
+                        // Load competency matrix and development matrix for descriptions
+                        $matrixJsonPath = storage_path('app/competencies/matrix_others.json');
+                        $competencyMatrix = [];
+                        if (file_exists($matrixJsonPath)) {
+                            $competencyMatrix = json_decode(file_get_contents($matrixJsonPath), true);
+                        }
+                        
+                        $developmentJsonPath = storage_path('app/competencies/matrix_pengembangan.json');
+                        $developmentMatrix = [];
+                        if (file_exists($developmentJsonPath)) {
+                            $developmentMatrix = json_decode(file_get_contents($developmentJsonPath), true);
+                        }
+                        
+                        // Helper function to get competency level description
+                        function getCompetencyDescription($competencyData, $competencyMatrix) {
+                            if (!isset($competencyData['actual']) || !isset($competencyData['name']) || empty($competencyMatrix)) {
+                                return 'N/A';
+                            }
+                            $actualScore = floatval($competencyData['actual']);
+                            $level = round($actualScore);
+                            $level = max(1, min(4, $level));
+                            foreach ($competencyMatrix as $competency) {
+                                if (strtolower(trim($competency['name'])) === strtolower(trim($competencyData['name']))) {
+                                    foreach ($competency['levels'] as $levelData) {
+                                        if ($levelData['level'] == $level) {
+                                            return $levelData['description'];
+                                        }
+                                    }
+                                    break;
+                                }
+                            }
+                            return 'N/A';
+                        }
+                        
+                        // Helper function to get development recommendations
+                        function getDevelopmentRecommendation($competencyData, $developmentMatrix, $method) {
+                            if (!isset($competencyData['name']) || empty($developmentMatrix)) {
+                                return 'N/A';
+                            }
+                            foreach ($developmentMatrix as $competency) {
+                                if (strtolower(trim($competency['name'])) === strtolower(trim($competencyData['name']))) {
+                                    if (isset($competency['development_methods'][$method])) {
+                                        return $competency['development_methods'][$method];
+                                    }
+                                    break;
+                                }
+                            }
+                            return 'N/A';
+                        }
+                    @endphp
+                    
+                    <!-- Employee Summary -->
+                    <div class="row mb-4">
+                        <div class="col-md-4">
+                            <h6 class="text-primary mb-2">Informasi Karyawan</h6>
+                            <p class="mb-1"><strong>{{ $detailPeserta->name }}</strong></p>
+                            <p class="text-muted mb-0">{{ $gapAnalysis ? $gapAnalysis->departemen : 'N/A' }} - {{ $gapAnalysis ? $gapAnalysis->fungsi : 'N/A' }}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-primary mb-2">Tingkat Kesesuaian</h6>
+                            <div class="d-flex align-items-center">
+                                <span class="h4 text-{{ $recommendationColor }} mb-0 mr-2">{{ $recommendation['percentage'] }}%</span>
+                                <span class="text-muted">{{ $recommendation['category'] }}</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="text-primary mb-2">Kompetensi</h6>
+                            <p class="mb-0">{{ $recommendation['competencies_met'] }} Terpenuhi / {{ $recommendation['competencies_need_development'] }} Perlu Pengembangan</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Kekuatan Section -->
+                    @if(isset($competencyRankings) && !empty($competencyRankings['top3']))
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <h5 class="text-success mb-3"><i class="fas fa-trophy mr-2"></i>Kekuatan</h5>
+                            <div class="bg-light p-4 rounded">
+                                <p class="text-justify">
+                                    Berdasarkan hasil asesmen kompetensi, <strong>{{ $detailPeserta->name }}</strong> menunjukkan kekuatan yang signifikan dalam tiga kompetensi utama, yaitu: 
+                                    @foreach($competencyRankings['top3'] as $index => $competency)
+                                        <strong>{{ $competency['name'] }}</strong>{{ $index < 2 ? ', ' : ($index == 1 ? ', dan ' : '. ') }}
+                                    @endforeach
+                                    Kompetensi-kompetensi ini terlihat menonjol dari penilaian 360 derajat yang melibatkan atasan, rekan kerja, dan bawahan, serta didukung oleh hasil uji kompetensi tertulis.
+                                    
+                                    @foreach($competencyRankings['top3'] as $index => $competency)
+                                        {{ $competency['name'] }} menunjukkan kemampuan {{ getCompetencyDescription($competency, $competencyMatrix) }}{{ $index < 2 ? ', ' : '. ' }}
+                                    @endforeach
+                                    
+                                    Kekuatan-kekuatan ini merupakan aset berharga bagi {{ $detailPeserta->name }} dalam menjalankan tugas dan tanggung jawabnya.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
+                    
+                    <!-- Peluang Section -->
+                    @if(isset($competencyRankings) && !empty($competencyRankings['bottom3']))
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <h5 class="text-warning mb-3"><i class="fas fa-chart-line mr-2"></i>Peluang</h5>
+                            <div class="bg-light p-4 rounded">
+                                <p class="text-justify">
+                                    Meskipun memiliki kekuatan yang menonjol, asesmen juga mengidentifikasi beberapa peluang pengembangan untuk <strong>{{ $detailPeserta->name }}</strong>. 
+                                    Tiga kompetensi yang perlu menjadi fokus pengembangan adalah: 
+                                    @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                        <strong>{{ $competency['name'] }}</strong>{{ $index < 2 ? ', ' : ($index == 1 ? ', dan ' : '. ') }}
+                                    @endforeach
+                                    
+                                    @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                        @if($competency['gap'] < 0)
+                                            {{ $competency['name'] }} dinilai masih berada di bawah level kompetensi yang diharapkan untuk jenjang jabatan saat ini, terutama dalam hal {{ getCompetencyDescription($competency, $competencyMatrix) }}.
+                                        @else
+                                            {{ $competency['name'] }} telah mencapai level kompetensi yang diharapkan, namun masih terdapat ruang untuk peningkatan dalam {{ getCompetencyDescription($competency, $competencyMatrix) }}.
+                                        @endif
+                                    @endforeach
+                                    
+                                    Pengembangan kompetensi-kompetensi ini akan membantu {{ $detailPeserta->name }} untuk mencapai kinerja yang lebih optimal dan memenuhi tuntutan jabatan.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
+                    
+                    <!-- Saran Pengembangan Section -->
+                    @if(isset($competencyRankings) && !empty($competencyRankings['bottom3']))
+                    <div class="row">
+                        <div class="col-12">
+                            <h5 class="text-info mb-3"><i class="fas fa-lightbulb mr-2"></i>Saran Pengembangan</h5>
+                            <div class="bg-light p-4 rounded">
+                                <p class="text-justify mb-3">
+                                    Untuk mendukung pengembangan kompetensi <strong>{{ $detailPeserta->name }}</strong>, beberapa saran pengembangan berikut dapat dipertimbangkan:
+                                </p>
+                                
+                                <div class="row">
+                                    <!-- Training -->
+                                    <div class="col-md-6 mb-4">
+                                        <h6 class="text-primary"><i class="fas fa-graduation-cap mr-2"></i>Pelatihan dan Pengembangan</h6>
+                                        <p class="small mb-2">Mengikuti pelatihan atau workshop relevan dengan kompetensi yang perlu dikembangkan:</p>
+                                        <ol class="small">
+                                            @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                                <li>{{ getDevelopmentRecommendation($competency, $developmentMatrix, 'training') }}</li>
+                                            @endforeach
+                                        </ol>
+                                    </div>
+                                    
+                                    <!-- Mentoring -->
+                                    <div class="col-md-6 mb-4">
+                                        <h6 class="text-success"><i class="fas fa-user-tie mr-2"></i>Mentoring dan Coaching</h6>
+                                        <p class="small mb-2">Mendapatkan bimbingan dari mentor atau coach yang berpengalaman:</p>
+                                        <ol class="small">
+                                            @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                                <li>{{ getDevelopmentRecommendation($competency, $developmentMatrix, 'coaching_mentoring') }}</li>
+                                            @endforeach
+                                        </ol>
+                                    </div>
+                                    
+                                    <!-- Special Assignment -->
+                                    <div class="col-md-6 mb-4">
+                                        <h6 class="text-warning"><i class="fas fa-tasks mr-2"></i>Penugasan Khusus</h6>
+                                        <p class="small mb-2">Diberikan penugasan khusus yang menantang:</p>
+                                        <ol class="small">
+                                            @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                                <li>{{ getDevelopmentRecommendation($competency, $developmentMatrix, 'special_assignment') }}</li>
+                                            @endforeach
+                                        </ol>
+                                    </div>
+                                    
+                                    <!-- Self Development -->
+                                    <div class="col-md-6 mb-4">
+                                        <h6 class="text-info"><i class="fas fa-book mr-2"></i>Pengembangan Mandiri</h6>
+                                        <p class="small mb-2">Mendorong pengembangan mandiri melalui pembelajaran:</p>
+                                        <ol class="small">
+                                            @foreach($competencyRankings['bottom3'] as $index => $competency)
+                                                <li>{{ getDevelopmentRecommendation($competency, $developmentMatrix, 'self_development') }}</li>
+                                            @endforeach
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    @endif
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="row">
         <div class="col">
             <div class="card">

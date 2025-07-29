@@ -141,22 +141,6 @@
                       <a href="{{ url('astra/peserta/' . $item->id) }}" class="btn btn-sm btn-primary" title="Lihat Gap Analysis">
                         <i class="fas fa-chart-line"></i> Gap Analysis
                       </a>
-                      <div class="dropdown d-inline-block ml-2">
-                        <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          <i class="fas fa-ellipsis-v"></i>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                          <a class="dropdown-item" href="{{ url('astra/peserta/' . $item->id) }}">
-                            <i class="fas fa-chart-line mr-2"></i>Lihat Gap Analysis
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            <i class="fas fa-eye mr-2"></i>Detail Peserta
-                          </a>
-                          <a class="dropdown-item" href="#">
-                            <i class="fas fa-download mr-2"></i>Download Report
-                          </a>
-                        </div>
-                      </div>
                     </td>
                   </tr>
                 @endforeach
