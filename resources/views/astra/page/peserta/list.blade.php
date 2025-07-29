@@ -14,18 +14,18 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Total traffic</h5>
-                      <span class="h2 font-weight-bold mb-0">350,897</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Total Peserta</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $totalPeserta ?? 0 }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-red text-white rounded-circle shadow">
-                        <i class="ni ni-active-40"></i>
+                        <i class="ni ni-single-02"></i>
                       </div>
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                    <span class="text-nowrap">Since last month</span>
+                    <span class="text-info mr-2"><i class="ni ni-circle-08"></i></span>
+                    <span class="text-nowrap">Jumlah karyawan terdaftar</span>
                   </p>
                 </div>
               </div>
@@ -36,18 +36,18 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">New users</h5>
-                      <span class="h2 font-weight-bold mb-0">2,356</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Total Assessments</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $totalAssessments ?? 0 }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
-                        <i class="ni ni-chart-pie-35"></i>
+                        <i class="ni ni-collection"></i>
                       </div>
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                    <span class="text-nowrap">Since last month</span>
+                    <span class="text-success mr-2"><i class="ni ni-chart-pie-35"></i></span>
+                    <span class="text-nowrap">Penilaian yang telah dilakukan</span>
                   </p>
                 </div>
               </div>
@@ -58,18 +58,18 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Question</h5>
-                      <span class="h2 font-weight-bold mb-0">924</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Total Reviewers</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $totalReviewers ?? 0 }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-green text-white rounded-circle shadow">
-                        <i class="ni ni-money-coins"></i>
+                        <i class="ni ni-support-16"></i>
                       </div>
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                    <span class="text-nowrap">Since last month</span>
+                    <span class="text-warning mr-2"><i class="ni ni-bullet-list-67"></i></span>
+                    <span class="text-nowrap">Penilai yang terlibat</span>
                   </p>
                 </div>
               </div>
@@ -80,8 +80,8 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col">
-                      <h5 class="card-title text-uppercase text-muted mb-0">Performance</h5>
-                      <span class="h2 font-weight-bold mb-0">49,65%</span>
+                      <h5 class="card-title text-uppercase text-muted mb-0">Completed Reports</h5>
+                      <span class="h2 font-weight-bold mb-0">{{ $completedAssessments ?? 0 }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
@@ -90,8 +90,8 @@
                     </div>
                   </div>
                   <p class="mt-3 mb-0 text-sm">
-                    <span class="text-success mr-2"><i class="fa fa-arrow-up"></i> 3.48%</span>
-                    <span class="text-nowrap">Since last month</span>
+                    <span class="text-success mr-2"><i class="ni ni-check-bold"></i></span>
+                    <span class="text-nowrap">Laporan gap analysis selesai</span>
                   </p>
                 </div>
               </div>
@@ -107,7 +107,8 @@
           <div class="card">
             <!-- Card header -->
             <div class="card-header border-0">
-              <h3 class="mb-0">Light table</h3>
+              <h3 class="mb-0">Daftar Peserta Assessment - Gap Analysis</h3>
+              <p class="text-muted mb-0">Klik tombol "Gap Analysis" untuk melihat perhitungan gap competency dari database</p>
             </div>
             <!-- Light table -->
             <div class="table-responsive">
@@ -117,9 +118,8 @@
                     <th scope="col" class="sort" data-sort="name">No.</th>
                     <th scope="col" class="sort" data-sort="budget">Name</th>
                     <th scope="col" class="sort" data-sort="status">Email</th>
-                    <th scope="col">Jabatan</th>
-                    <th scope="col" class="sort" data-sort="completion">Departemen</th>
-                    <th scope="col"></th>
+                    <th scope="col">Status</th>
+                    <th scope="col" class="text-center">Actions</th>
                   </tr>
                 </thead>
                 <tbody class="list">
@@ -135,20 +135,26 @@
                     <span class="text-muted">{{$item->email}}</span>
                     </td>
                     <td>
-                    <span class="text-muted">{{$item->jabatan}}</span>
-                    </td>
-                    <td>
-                    <span class="text-muted">{{$item->departemen}}</span>
+                    <span class="badge badge-success">Active</span>
                     </td>
                     <td class="text-right">
-                      <div class="dropdown">
+                      <a href="{{ url('astra/peserta/' . $item->id) }}" class="btn btn-sm btn-primary" title="Lihat Gap Analysis">
+                        <i class="fas fa-chart-line"></i> Gap Analysis
+                      </a>
+                      <div class="dropdown d-inline-block ml-2">
                         <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <i class="fas fa-ellipsis-v"></i>
                         </a>
                         <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
-                          <a class="dropdown-item" href="#">Action</a>
-                          <a class="dropdown-item" href="#">Another action</a>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                          <a class="dropdown-item" href="{{ url('astra/peserta/' . $item->id) }}">
+                            <i class="fas fa-chart-line mr-2"></i>Lihat Gap Analysis
+                          </a>
+                          <a class="dropdown-item" href="#">
+                            <i class="fas fa-eye mr-2"></i>Detail Peserta
+                          </a>
+                          <a class="dropdown-item" href="#">
+                            <i class="fas fa-download mr-2"></i>Download Report
+                          </a>
                         </div>
                       </div>
                     </td>

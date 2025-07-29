@@ -1,0 +1,4924 @@
+{
+  "participants": [
+    {
+      "id": "1",
+      "nama_lengkap": "Abdul Hadi",
+      "email": "abdul.hadi1@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "2",
+      "nama_lengkap": "Achmad Syaifulloh",
+      "email": "achmad.syaifulloh@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "3",
+      "nama_lengkap": "Ade Ruswandi",
+      "email": "ade.ruswandi@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "4",
+      "nama_lengkap": "Agus Riyanto",
+      "email": "agus.riyanto@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "5",
+      "nama_lengkap": "Agustinus Dwi Cahyanto",
+      "email": "agustinus.dwi@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "6",
+      "nama_lengkap": "Ahmad Isa",
+      "email": "ahmad.isa@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "PROTOKOL KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "7",
+      "nama_lengkap": "Amran",
+      "email": "amran@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "SECURITY KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "8",
+      "nama_lengkap": "Andra Busra",
+      "email": "andra.busra@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "9",
+      "nama_lengkap": "Ari Hidayat",
+      "email": "ari.hidayat@ai.astra.co.id",
+      "jabatan": "ANGGOTA PROTOKOL",
+      "fungsi": "ANGGOTA PROTOKOL",
+      "departemen": "OPS"
+    },
+    {
+      "id": "10",
+      "nama_lengkap": "Arif Triady",
+      "email": "arif.triady@ai.astra.co.id",
+      "jabatan": "ANGGOTA PROTOKOL",
+      "fungsi": "ANGGOTA PROTOKOL",
+      "departemen": "OPS"
+    },
+    {
+      "id": "11",
+      "nama_lengkap": "Azmal Arif",
+      "email": "azmal.arip@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "SECURITY KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "12",
+      "nama_lengkap": "Bambang Suharyanto",
+      "email": "bambang.suharyanto@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "13",
+      "nama_lengkap": "Dadah Suratno Gatot",
+      "email": "dadah.suratno@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "14",
+      "nama_lengkap": "Dahlan Yusuf",
+      "email": "dahlan.yusuf@ai.astra.co.id",
+      "jabatan": "DANRU SAR",
+      "fungsi": "DANRU SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "15",
+      "nama_lengkap": "Darwanto",
+      "email": "darwanto@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "16",
+      "nama_lengkap": "Dede Sunandar",
+      "email": "dede.sunandar@ai.astra.co.id",
+      "jabatan": "ANGGOTA PROTOKOL",
+      "fungsi": "ANGGOTA PROTOKOL",
+      "departemen": "OPS"
+    },
+    {
+      "id": "17",
+      "nama_lengkap": "Denis Sukmana",
+      "email": "denis.sukmana@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "18",
+      "nama_lengkap": "Dewi Humaira",
+      "email": "dewi.humaira@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "19",
+      "nama_lengkap": "Edwin Kastono",
+      "email": "edwin.kastono@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "20",
+      "nama_lengkap": "Eko Heru Sarwono",
+      "email": "eko.heru@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "21",
+      "nama_lengkap": "Elzi Sirkan Muhammad",
+      "email": "elzi.sirkanmuhammad@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "22",
+      "nama_lengkap": "Evan Ihsan Fauzi",
+      "email": "evan.ihsanfauzi@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "23",
+      "nama_lengkap": "Rizaldi Anhar",
+      "email": "rizaldi.anhar@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "24",
+      "nama_lengkap": "Gunawan",
+      "email": "gunawan@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "PROTOKOL KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "25",
+      "nama_lengkap": "Hendra Wijaya",
+      "email": "hendra.wijaya@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "26",
+      "nama_lengkap": "Herdiawan Sutikno",
+      "email": "herdiawan.sutikno@ai.astra.co.id",
+      "jabatan": "DEPT. HEAD",
+      "fungsi": "DEPT. HEAD",
+      "departemen": "OPS"
+    },
+    {
+      "id": "27",
+      "nama_lengkap": "Herlangga Bagus Pribadi (OS)",
+      "email": "herlangga.bagus@ai.astra.co.id",
+      "jabatan": "OUTSOURCE",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "28",
+      "nama_lengkap": "Heru Prakoso",
+      "email": "heru.prakoso@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "29",
+      "nama_lengkap": "Heru Siswanto",
+      "email": "heru.siswanto@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "30",
+      "nama_lengkap": "Idris",
+      "email": "idris@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "31",
+      "nama_lengkap": "Irfandila Alfian Pujo Hastarto",
+      "email": "irfandila.alfian@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "32",
+      "nama_lengkap": "Jaka Fernando",
+      "email": "jaka.fernandoarisandi@ai.astra.co.id",
+      "jabatan": "DEPT. HEAD",
+      "fungsi": "DEPT. HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "33",
+      "nama_lengkap": "Joko Supriyatno",
+      "email": "joko.supriyatno@ai.astra.co.id",
+      "jabatan": "DANRU SAR",
+      "fungsi": "DANRU SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "34",
+      "nama_lengkap": "Leonard Abdul Aziz",
+      "email": "leonard.abdul@ai.astra.co.id",
+      "jabatan": "DEPT. HEAD / ASSIGNMENT",
+      "fungsi": "DEPT. HEAD",
+      "departemen": "RND"
+    },
+    {
+      "id": "35",
+      "nama_lengkap": "Levya Annisa Chaniago",
+      "email": "levya.annisa@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "36",
+      "nama_lengkap": "M Yen Andika",
+      "email": "mohamad.yen@ai.astra.co.id",
+      "jabatan": "ANGGOTA SAR",
+      "fungsi": "ANGGOTA SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "37",
+      "nama_lengkap": "Mufqi Ryan Rasyidi",
+      "email": "mufqi.ryanrasyidi@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "38",
+      "nama_lengkap": "Muhammad Muhadi",
+      "email": "muhammad.muhadi@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "39",
+      "nama_lengkap": "Muhammad Rafi",
+      "email": "muhammad.rafi@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "40",
+      "nama_lengkap": "Murdiyanto",
+      "email": "murdiyanto@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "41",
+      "nama_lengkap": "Nur Hidayat",
+      "email": "nur.hidajat@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "42",
+      "nama_lengkap": "Sulardi",
+      "email": "sulardi@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "43",
+      "nama_lengkap": "Nurrano",
+      "email": "nurrano@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "44",
+      "nama_lengkap": "Pardi",
+      "email": "pardi@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "45",
+      "nama_lengkap": "Tatang Hidayat",
+      "email": "tatang.hidayat@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "46",
+      "nama_lengkap": "Rachmat Cahyono",
+      "email": "rachmat.cahyono@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "47",
+      "nama_lengkap": "Rahmat",
+      "email": "rahmat@ai.astra.co.id",
+      "jabatan": "DANRU SAR",
+      "fungsi": "DANRU SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "48",
+      "nama_lengkap": "Usep Gusmawan",
+      "email": "usep.gusmawan@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "SGB"
+    },
+    {
+      "id": "49",
+      "nama_lengkap": "Roymansyah",
+      "email": "roy.mansyah@ai.astra.co.id",
+      "jabatan": "ADMIN / ASSIGNMENT",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "50",
+      "nama_lengkap": "Rusmanto",
+      "email": "rusmanto@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "51",
+      "nama_lengkap": "Samuel Niko Yonas",
+      "email": "samuel.nikoyonas@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "52",
+      "nama_lengkap": "Ghozi Azmy Rakhman",
+      "email": "ghozi.azmy@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "53",
+      "nama_lengkap": "Sarah Amelia",
+      "email": "sarah.amelia@ai.astra.co.id",
+      "jabatan": "ADMIN / SEKRETARIS",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "54",
+      "nama_lengkap": "Selly Irfandy",
+      "email": "selly.irfandy@ai.astra.co.id",
+      "jabatan": "DIV. HEAD",
+      "fungsi": "DIV. HEAD",
+      "departemen": "CORP SECURITY"
+    },
+    {
+      "id": "55",
+      "nama_lengkap": "Slamet Chotim",
+      "email": "slamet.chotim@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "56",
+      "nama_lengkap": "Sri Subekti",
+      "email": "sri.subekti@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "57",
+      "nama_lengkap": "Sriyanto",
+      "email": "sriyanto@ai.astra.co.id",
+      "jabatan": "ADMIN / ASSIGNMENT",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "58",
+      "nama_lengkap": "Suanata Gema",
+      "email": "suanata.gema@ai.astra.co.id",
+      "jabatan": "DEPT. HEAD",
+      "fungsi": "DEPT. HEAD",
+      "departemen": "RND"
+    },
+    {
+      "id": "59",
+      "nama_lengkap": "Nurlaela Rosdiyana",
+      "email": "nurlaela.rosdiyana@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "60",
+      "nama_lengkap": "Sularno",
+      "email": "sularno@ai.astra.co.id",
+      "jabatan": "DANRU SAR",
+      "fungsi": "DANRU",
+      "departemen": "OPS"
+    },
+    {
+      "id": "61",
+      "nama_lengkap": "Sumardi",
+      "email": "sumardi@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "62",
+      "nama_lengkap": "Sumarno",
+      "email": "sumarno@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "SECURITY KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "63",
+      "nama_lengkap": "Sunar",
+      "email": "sunar@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "64",
+      "nama_lengkap": "Sunarko",
+      "email": "sunarko@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "65",
+      "nama_lengkap": "Sunaryo",
+      "email": "sunaryo@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "66",
+      "nama_lengkap": "Suparto",
+      "email": "suparto@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "67",
+      "nama_lengkap": "Suryanto Suripto",
+      "email": "suryanto.suripto@ai.astra.co.id",
+      "jabatan": "ANGGOTA PROTOKOL",
+      "fungsi": "ANGGOTA PROTOKOL",
+      "departemen": "OPS"
+    },
+    {
+      "id": "68",
+      "nama_lengkap": "Sutarmi",
+      "email": "sutarmi@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "69",
+      "nama_lengkap": "Syamsul Bahri",
+      "email": "syamsul.bahri@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "70",
+      "nama_lengkap": "Taryamah",
+      "email": "taryamah@ai.astra.co.id",
+      "jabatan": "ANGGOTA PROTOKOL",
+      "fungsi": "ANGGOTA PROTOKOL",
+      "departemen": "OPS"
+    },
+    {
+      "id": "71",
+      "nama_lengkap": "Paulus Sarli Anthoni",
+      "email": "paulus.anthoni@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "72",
+      "nama_lengkap": "Tomi Sugiarto",
+      "email": "tomi.sugiarto@ai.astra.co.id",
+      "jabatan": "ANGGOTA SAR",
+      "fungsi": "ANGGOTA SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "73",
+      "nama_lengkap": "Tri Handono",
+      "email": "tri.handono@ai.astra.co.id",
+      "jabatan": "ANGGOTA SAR",
+      "fungsi": "ANGGOTA SAR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "74",
+      "nama_lengkap": "Triyanto",
+      "email": "triyanto1@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "75",
+      "nama_lengkap": "Tutut Subagyo",
+      "email": "tutut.subagyo@ai.astra.co.id",
+      "jabatan": "KOORDINATOR",
+      "fungsi": "RESCUE KOORDINATOR",
+      "departemen": "OPS"
+    },
+    {
+      "id": "76",
+      "nama_lengkap": "Santy Marianty",
+      "email": "santy.marianty@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "77",
+      "nama_lengkap": "Wage Hartono",
+      "email": "wage.hartono@ai.astra.co.id",
+      "jabatan": "SECTOR HEAD",
+      "fungsi": "SECTOR HEAD",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "78",
+      "nama_lengkap": "Wahyu Laksono",
+      "email": "wahyu.laksono@ai.astra.co.id",
+      "jabatan": "DEPT. HEAD",
+      "fungsi": "DEPT. HEAD",
+      "departemen": "SGB"
+    },
+    {
+      "id": "79",
+      "nama_lengkap": "Wikanta",
+      "email": "wikanta@ai.astra.co.id",
+      "jabatan": "ADMIN",
+      "fungsi": "OFFICER",
+      "departemen": "RND"
+    },
+    {
+      "id": "80",
+      "nama_lengkap": "Wisnu Sanjaya",
+      "email": "wisnu.sanjaya@ai.astra.co.id",
+      "jabatan": "KETUA REGIONAL SECTOR HEAD",
+      "fungsi": "OFFICER",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "81",
+      "nama_lengkap": "Yogi Lasril",
+      "email": "yogi.lasril@ai.astra.co.id",
+      "jabatan": "ANALIS",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "82",
+      "nama_lengkap": "Yupono",
+      "email": "yupono@ai.astra.co.id",
+      "jabatan": "GUGUS",
+      "fungsi": "OFFICER",
+      "departemen": "OPS"
+    },
+    {
+      "id": "83",
+      "nama_lengkap": "Atharenjani Eskavara",
+      "email": "atharenjani.eskavara@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "84",
+      "nama_lengkap": "Diana Tanoto",
+      "email": "diana.tanoto@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "85",
+      "nama_lengkap": "Hadad Audi",
+      "email": "hadad.audi@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "OPS"
+    },
+    {
+      "id": "86",
+      "nama_lengkap": "Kevin Ryadi Saragih",
+      "email": "kevin.ryadisaragih@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "87",
+      "nama_lengkap": "Reyner Alexander Lyman",
+      "email": "reyner.alexanderlyman@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "88",
+      "nama_lengkap": "Ryan Prasetyo",
+      "email": "ryan.prasetyo@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "RND"
+    },
+    {
+      "id": "89",
+      "nama_lengkap": "Yasmin Hanani Reza",
+      "email": "yasmin.hananireza@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "SGB"
+    },
+    {
+      "id": "90",
+      "nama_lengkap": "Fathur Ariansha",
+      "email": "fathur.ariansha@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    },
+    {
+      "id": "91",
+      "nama_lengkap": "Sri Mandala Pranata",
+      "email": "sri.mandalapranata@ai.astra.co.id",
+      "jabatan": "ASA ACADEMY",
+      "fungsi": "ANALIS",
+      "departemen": "BIZTEL"
+    }
+  ],
+  "reviewer_relationships": {
+    "Abdul Hadi": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Abdul Hadi"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Agus Riyanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Denis Sukmana"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Achmad Syaifulloh": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Achmad Syaifulloh"
+      ],
+      "Rekan Kerja 1": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 2": [
+        "Agustinus Dwi Cahyanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Rizaldi Anhar"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sulardi"
+      ]
+    },
+    "Ade Ruswandi": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Ade Ruswandi"
+      ],
+      "Rekan Kerja 1": [
+        "Evan Ihsan Fauzi"
+      ],
+      "Rekan Kerja 2": [
+        "Levya Annisa Chaniago"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Bambang Suharyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Dadah Suratno Gatot"
+      ]
+    },
+    "Agus Riyanto": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Agus Riyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Denis Sukmana"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Idris"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Agustinus Dwi Cahyanto": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Agustinus Dwi Cahyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 2": [
+        "Rizaldi Anhar"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sulardi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tatang Hidayat"
+      ]
+    },
+    "Ahmad Isa": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Ahmad Isa"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Amran"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Gunawan"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Dede Sunandar"
+      ]
+    },
+    "Amran": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Amran"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Tutut Subagyo"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Azmal Arif"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Muhammad Muhadi"
+      ]
+    },
+    "Andra Busra": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Andra Busra"
+      ],
+      "Rekan Kerja 1": [
+        "Dewi Humaira"
+      ],
+      "Rekan Kerja 2": [
+        "Eko Heru Sarwono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Wikanta"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Triyanto"
+      ]
+    },
+    "Ari Hidayat": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Ari Hidayat"
+      ],
+      "Rekan Kerja 1": [
+        "Ahmad Isa"
+      ],
+      "Rekan Kerja 2": [
+        "Arif Triady"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dede Sunandar"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Suryanto Suripto"
+      ]
+    },
+    "Arif Triady": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Arif Triady"
+      ],
+      "Rekan Kerja 1": [
+        "Ahmad Isa"
+      ],
+      "Rekan Kerja 2": [
+        "Dede Sunandar"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Suryanto Suripto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Taryamah"
+      ]
+    },
+    "Azmal Arif": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Azmal Arif"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Gunawan"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Amran"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Darwanto"
+      ]
+    },
+    "Bambang Suharyanto": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Bambang Suharyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Irfandila Alfian Pujo Hastarto"
+      ],
+      "Rekan Kerja 2": [
+        "Yogi Lasril"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dadah Suratno Gatot"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ade Ruswandi"
+      ]
+    },
+    "Dadah Suratno Gatot": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Dadah Suratno Gatot"
+      ],
+      "Rekan Kerja 1": [
+        "Levya Annisa Chaniago"
+      ],
+      "Rekan Kerja 2": [
+        "Yogi Lasril"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ade Ruswandi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Bambang Suharyanto"
+      ]
+    },
+    "Dahlan Yusuf": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Dahlan Yusuf"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Joko Supriyatno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Rahmat"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "M Yen Andika"
+      ]
+    },
+    "Darwanto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Darwanto"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Yupono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Heru Siswanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Muhammad Muhadi"
+      ]
+    },
+    "Dede Sunandar": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Dede Sunandar"
+      ],
+      "Rekan Kerja 1": [
+        "Ahmad Isa"
+      ],
+      "Rekan Kerja 2": [
+        "Suryanto Suripto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Taryamah"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ari Hidayat"
+      ]
+    },
+    "Denis Sukmana": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Denis Sukmana"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Idris"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Murdiyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Dewi Humaira": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Dewi Humaira"
+      ],
+      "Rekan Kerja 1": [
+        "Eko Heru Sarwono"
+      ],
+      "Rekan Kerja 2": [
+        "Muhammad Rafi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Triyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sutarmi"
+      ]
+    },
+    "Edwin Kastono": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Rachmat Cahyono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Samuel Niko Yonas"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ahmad Isa"
+      ]
+    },
+    "Eko Heru Sarwono": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Eko Heru Sarwono"
+      ],
+      "Rekan Kerja 1": [
+        "Muhammad Rafi"
+      ],
+      "Rekan Kerja 2": [
+        "Andra Busra"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Triyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sarah Amelia"
+      ]
+    },
+    "Elzi Sirkan Muhammad": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Samuel Niko Yonas"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Edwin Kastono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Amran"
+      ]
+    },
+    "Evan Ihsan Fauzi": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Evan Ihsan Fauzi"
+      ],
+      "Rekan Kerja 1": [
+        "Irfandila Alfian Pujo Hastarto"
+      ],
+      "Rekan Kerja 2": [
+        "Levya Annisa Chaniago"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dadah Suratno Gatot"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Bambang Suharyanto"
+      ]
+    },
+    "Rizaldi Anhar": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Rizaldi Anhar"
+      ],
+      "Rekan Kerja 1": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 2": [
+        "Sulardi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Tatang Hidayat"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Usep Gusmawan"
+      ]
+    },
+    "Gunawan": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Gunawan"
+      ],
+      "Rekan Kerja 1": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 2": [
+        "Sumarno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ahmad Isa"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Suryanto Suripto"
+      ]
+    },
+    "Hendra Wijaya": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Hendra Wijaya"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Edwin Kastono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Pardi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Suparto"
+      ]
+    },
+    "Herdiawan Sutikno": {
+      "Atasan Langsung": [
+        "Selly Irfandy"
+      ],
+      "Diri Sendiri": [
+        "Herdiawan Sutikno"
+      ],
+      "Rekan Kerja 1": [
+        "Suanata Gema"
+      ],
+      "Rekan Kerja 2": [
+        "Wahyu Laksono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Jaka Fernando"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Edwin Kastono"
+      ]
+    },
+    "Herlangga Bagus Pribadi (OS)": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Herlangga Bagus Pribadi (OS)"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Samuel Niko Yonas"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Suparto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Pardi"
+      ]
+    },
+    "Heru Prakoso": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Heru Prakoso"
+      ],
+      "Rekan Kerja 1": [
+        "Dewi Humaira"
+      ],
+      "Rekan Kerja 2": [
+        "Selly Irfandy"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Leonard Abdul Aziz"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ghozi Azmy Rakhman"
+      ]
+    },
+    "Heru Siswanto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Heru Siswanto"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Darwanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Muhammad Muhadi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Yupono"
+      ]
+    },
+    "Idris": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Idris"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Murdiyanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Nur Hidayat"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Irfandila Alfian Pujo Hastarto": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Irfandila Alfian Pujo Hastarto"
+      ],
+      "Rekan Kerja 1": [
+        "Levya Annisa Chaniago"
+      ],
+      "Rekan Kerja 2": [
+        "Yogi Lasril"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dadah Suratno Gatot"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Bambang Suharyanto"
+      ]
+    },
+    "Jaka Fernando": {
+      "Atasan Langsung": [
+        "Selly Irfandy"
+      ],
+      "Diri Sendiri": [
+        "Jaka Fernando"
+      ],
+      "Rekan Kerja 1": [
+        "Suanata Gema"
+      ],
+      "Rekan Kerja 2": [
+        "Herdiawan Sutikno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Wahyu Laksono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Joko Supriyatno": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Joko Supriyatno"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Rahmat"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sularno"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tomi Sugiarto"
+      ]
+    },
+    "Leonard Abdul Aziz": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Leonard Abdul Aziz"
+      ],
+      "Rekan Kerja 1": [
+        "Heru Prakoso"
+      ],
+      "Rekan Kerja 2": [
+        "Selly Irfandy"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dewi Humaira"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Nurlaela Rosdiyana"
+      ]
+    },
+    "Levya Annisa Chaniago": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Levya Annisa Chaniago"
+      ],
+      "Rekan Kerja 1": [
+        "Yogi Lasril"
+      ],
+      "Rekan Kerja 2": [
+        "Evan Ihsan Fauzi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ade Ruswandi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Bambang Suharyanto"
+      ]
+    },
+    "M Yen Andika": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "M Yen Andika"
+      ],
+      "Rekan Kerja 1": [
+        "Dahlan Yusuf"
+      ],
+      "Rekan Kerja 2": [
+        "Joko Supriyatno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Tomi Sugiarto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tri Handono"
+      ]
+    },
+    "Mufqi Ryan Rasyidi": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Mufqi Ryan Rasyidi"
+      ],
+      "Rekan Kerja 1": [
+        "Dewi Humaira"
+      ],
+      "Rekan Kerja 2": [
+        "Leonard Abdul Aziz"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Herdiawan Sutikno"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Rachmat Cahyono"
+      ]
+    },
+    "Muhammad Muhadi": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Muhammad Muhadi"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Heru Siswanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Yupono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Darwanto"
+      ]
+    },
+    "Muhammad Rafi": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Muhammad Rafi"
+      ],
+      "Rekan Kerja 1": [
+        "Andra Busra"
+      ],
+      "Rekan Kerja 2": [
+        "Dewi Humaira"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sarah Amelia"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Wikanta"
+      ]
+    },
+    "Murdiyanto": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Murdiyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Nur Hidayat"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Nurrano"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Nur Hidayat": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Nur Hidayat"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Nurrano"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Rusmanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sulardi": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Sulardi"
+      ],
+      "Rekan Kerja 1": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 2": [
+        "Tatang Hidayat"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Usep Gusmawan"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Achmad Syaifulloh"
+      ]
+    },
+    "Nurrano": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Nurrano"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Rusmanto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Slamet Chotim"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Pardi": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Pardi"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Rachmat Cahyono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Suparto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Hendra Wijaya"
+      ]
+    },
+    "Tatang Hidayat": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Tatang Hidayat"
+      ],
+      "Rekan Kerja 1": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Rekan Kerja 2": [
+        "Usep Gusmawan"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Achmad Syaifulloh"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Agustinus Dwi Cahyanto"
+      ]
+    },
+    "Rachmat Cahyono": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 1": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 2": [
+        "Edwin Kastono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tutut Subagyo"
+      ]
+    },
+    "Rahmat": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Rahmat"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Sularno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dahlan Yusuf"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tri Handono"
+      ]
+    },
+    "Usep Gusmawan": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Usep Gusmawan"
+      ],
+      "Rekan Kerja 1": [
+        "Santy Marianty"
+      ],
+      "Rekan Kerja 2": [
+        "Achmad Syaifulloh"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Agustinus Dwi Cahyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Rizaldi Anhar"
+      ]
+    },
+    "Roymansyah": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Roymansyah"
+      ],
+      "Rekan Kerja 1": [
+        "Amran"
+      ],
+      "Rekan Kerja 2": [
+        "Azmal Arif"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Edwin Kastono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Herdiawan Sutikno"
+      ]
+    },
+    "Rusmanto": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Rusmanto"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Slamet Chotim"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sri Subekti"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Samuel Niko Yonas": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Rachmat Cahyono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Amran"
+      ]
+    },
+    "Ghozi Azmy Rakhman": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 1": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 2": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Santy Marianty"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tatang Hidayat"
+      ]
+    },
+    "Sarah Amelia": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Sarah Amelia"
+      ],
+      "Rekan Kerja 1": [
+        "Sutarmi"
+      ],
+      "Rekan Kerja 2": [
+        "Muhammad Rafi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Selly Irfandy"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Dewi Humaira"
+      ]
+    },
+    "Selly Irfandy": {
+      "Atasan Langsung": [
+        "-"
+      ],
+      "Diri Sendiri": [
+        "Selly Irfandy"
+      ],
+      "Rekan Kerja 1": [
+        "Suanata Gema"
+      ],
+      "Rekan Kerja 2": [
+        "Jaka Fernando"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Wahyu Laksono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Herdiawan Sutikno"
+      ]
+    },
+    "Slamet Chotim": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Slamet Chotim"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Sri Subekti"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sumardi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sri Subekti": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sri Subekti"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Sumardi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sunar"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sriyanto": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Sriyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Muhammad Rafi"
+      ],
+      "Rekan Kerja 2": [
+        "Wikanta"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Andra Busra"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Eko Heru Sarwono"
+      ]
+    },
+    "Suanata Gema": {
+      "Atasan Langsung": [
+        "Selly Irfandy"
+      ],
+      "Diri Sendiri": [
+        "Suanata Gema"
+      ],
+      "Rekan Kerja 1": [
+        "Herdiawan Sutikno"
+      ],
+      "Rekan Kerja 2": [
+        "Wahyu Laksono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Jaka Fernando"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Dewi Humaira"
+      ]
+    },
+    "Nurlaela Rosdiyana": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 1": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 2": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Santy Marianty"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Rizaldi Anhar"
+      ]
+    },
+    "Sularno": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Sularno"
+      ],
+      "Rekan Kerja 1": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 2": [
+        "Dahlan Yusuf"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Joko Supriyatno"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tomi Sugiarto"
+      ]
+    },
+    "Sumardi": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sumardi"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Sunar"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sunarko"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sumarno": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Sumarno"
+      ],
+      "Rekan Kerja 1": [
+        "Edwin Kastono"
+      ],
+      "Rekan Kerja 2": [
+        "Azmal Arif"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Tutut Subagyo"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Heru Siswanto"
+      ]
+    },
+    "Sunar": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sunar"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Sunarko"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sunaryo"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sunarko": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sunarko"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Sunaryo"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Syamsul Bahri"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Sunaryo": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sunaryo"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Syamsul Bahri"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Wage Hartono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Suparto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Suparto"
+      ],
+      "Rekan Kerja 1": [
+        "Rachmat Cahyono"
+      ],
+      "Rekan Kerja 2": [
+        "Samuel Niko Yonas"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Hendra Wijaya"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Pardi"
+      ]
+    },
+    "Suryanto Suripto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Suryanto Suripto"
+      ],
+      "Rekan Kerja 1": [
+        "Gunawan"
+      ],
+      "Rekan Kerja 2": [
+        "Taryamah"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ari Hidayat"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Arif Triady"
+      ]
+    },
+    "Sutarmi": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Sutarmi"
+      ],
+      "Rekan Kerja 1": [
+        "Triyanto"
+      ],
+      "Rekan Kerja 2": [
+        "Wikanta"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dewi Humaira"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sarah Amelia"
+      ]
+    },
+    "Syamsul Bahri": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Syamsul Bahri"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Wage Hartono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Wisnu Sanjaya"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Taryamah": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Taryamah"
+      ],
+      "Rekan Kerja 1": [
+        "Gunawan"
+      ],
+      "Rekan Kerja 2": [
+        "Ari Hidayat"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Arif Triady"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Dede Sunandar"
+      ]
+    },
+    "Paulus Sarli Anthoni": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Rekan Kerja 1": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 2": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sulardi"
+      ]
+    },
+    "Tomi Sugiarto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Tomi Sugiarto"
+      ],
+      "Rekan Kerja 1": [
+        "Joko Supriyatno"
+      ],
+      "Rekan Kerja 2": [
+        "Rahmat"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Tri Handono"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "M Yen Andika"
+      ]
+    },
+    "Tri Handono": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Tri Handono"
+      ],
+      "Rekan Kerja 1": [
+        "Rahmat"
+      ],
+      "Rekan Kerja 2": [
+        "Sularno"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "M Yen Andika"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Tomi Sugiarto"
+      ]
+    },
+    "Triyanto": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Triyanto"
+      ],
+      "Rekan Kerja 1": [
+        "Sutarmi"
+      ],
+      "Rekan Kerja 2": [
+        "Sarah Amelia"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dewi Humaira"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Eko Heru Sarwono"
+      ]
+    },
+    "Tutut Subagyo": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Tutut Subagyo"
+      ],
+      "Rekan Kerja 1": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 2": [
+        "Pardi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sumarno"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Joko Supriyatno"
+      ]
+    },
+    "Santy Marianty": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Santy Marianty"
+      ],
+      "Rekan Kerja 1": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 2": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Usep Gusmawan"
+      ]
+    },
+    "Wage Hartono": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Wage Hartono"
+      ],
+      "Rekan Kerja 1": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 2": [
+        "Abdul Hadi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Abdul Hadi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Wahyu Laksono": {
+      "Atasan Langsung": [
+        "Selly Irfandy"
+      ],
+      "Diri Sendiri": [
+        "Wahyu Laksono"
+      ],
+      "Rekan Kerja 1": [
+        "Herdiawan Sutikno"
+      ],
+      "Rekan Kerja 2": [
+        "Suanata Gema"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Jaka Fernando"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Nurlaela Rosdiyana"
+      ]
+    },
+    "Wikanta": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Wikanta"
+      ],
+      "Rekan Kerja 1": [
+        "Sarah Amelia"
+      ],
+      "Rekan Kerja 2": [
+        "Sutarmi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Muhammad Rafi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Andra Busra"
+      ]
+    },
+    "Wisnu Sanjaya": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Wisnu Sanjaya"
+      ],
+      "Rekan Kerja 1": [
+        "Sunarko"
+      ],
+      "Rekan Kerja 2": [
+        "Abdul Hadi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Agus Riyanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Levya Annisa Chaniago"
+      ]
+    },
+    "Yogi Lasril": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Yogi Lasril"
+      ],
+      "Rekan Kerja 1": [
+        "Evan Ihsan Fauzi"
+      ],
+      "Rekan Kerja 2": [
+        "Irfandila Alfian Pujo Hastarto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Dadah Suratno Gatot"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ade Ruswandi"
+      ]
+    },
+    "Yupono": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Yupono"
+      ],
+      "Rekan Kerja 1": [
+        "Samuel Niko Yonas"
+      ],
+      "Rekan Kerja 2": [
+        "Muhammad Muhadi"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Darwanto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Heru Siswanto"
+      ]
+    },
+    "Atharenjani Eskavara": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Atharenjani Eskavara"
+      ],
+      "Rekan Kerja 1": [
+        "Muhammad Rafi"
+      ],
+      "Rekan Kerja 2": [
+        "Eko Heru Sarwono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Diana Tanoto"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Ryan Prasetyo"
+      ]
+    },
+    "Diana Tanoto": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Diana Tanoto"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Edwin Kastono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Fathur Ariansha"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Hadad Audi"
+      ]
+    },
+    "Hadad Audi": {
+      "Atasan Langsung": [
+        "Herdiawan Sutikno"
+      ],
+      "Diri Sendiri": [
+        "Hadad Audi"
+      ],
+      "Rekan Kerja 1": [
+        "Elzi Sirkan Muhammad"
+      ],
+      "Rekan Kerja 2": [
+        "Rachmat Cahyono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Kevin Ryadi Saragih"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Diana Tanoto"
+      ]
+    },
+    "Kevin Ryadi Saragih": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Kevin Ryadi Saragih"
+      ],
+      "Rekan Kerja 1": [
+        "Nurlaela Rosdiyana"
+      ],
+      "Rekan Kerja 2": [
+        "Paulus Sarli Anthoni"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Reyner Alexander Lyman"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Yasmin Hanani Reza"
+      ]
+    },
+    "Reyner Alexander Lyman": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Reyner Alexander Lyman"
+      ],
+      "Rekan Kerja 1": [
+        "Muhammad Rafi"
+      ],
+      "Rekan Kerja 2": [
+        "Dewi Humaira"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Ryan Prasetyo"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Atharenjani Eskavara"
+      ]
+    },
+    "Ryan Prasetyo": {
+      "Atasan Langsung": [
+        "Suanata Gema"
+      ],
+      "Diri Sendiri": [
+        "Ryan Prasetyo"
+      ],
+      "Rekan Kerja 1": [
+        "Dewi Humaira"
+      ],
+      "Rekan Kerja 2": [
+        "Eko Heru Sarwono"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Sri Mandala Pranata"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Reyner Alexander Lyman"
+      ]
+    },
+    "Yasmin Hanani Reza": {
+      "Atasan Langsung": [
+        "Wahyu Laksono"
+      ],
+      "Diri Sendiri": [
+        "Yasmin Hanani Reza"
+      ],
+      "Rekan Kerja 1": [
+        "Ghozi Azmy Rakhman"
+      ],
+      "Rekan Kerja 2": [
+        "Santy Marianty"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Atharenjani Eskavara"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Kevin Ryadi Saragih"
+      ]
+    },
+    "Fathur Ariansha": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Fathur Ariansha"
+      ],
+      "Rekan Kerja 1": [
+        "Levya Annisa Chaniago"
+      ],
+      "Rekan Kerja 2": [
+        "Irfandila Alfian Pujo Hastarto"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Hadad Audi"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Sri Mandala Pranata"
+      ]
+    },
+    "Sri Mandala Pranata": {
+      "Atasan Langsung": [
+        "Jaka Fernando"
+      ],
+      "Diri Sendiri": [
+        "Sri Mandala Pranata"
+      ],
+      "Rekan Kerja 1": [
+        "Yogi Lasril"
+      ],
+      "Rekan Kerja 2": [
+        "Levya Annisa Chaniago"
+      ],
+      "Bawahan Langsung 1 / Rekan Kerja 3": [
+        "Yasmin Hanani Reza"
+      ],
+      "Bawahan Langsung 2 / Rekan Kerja 4": [
+        "Fathur Ariansha"
+      ]
+    }
+  },
+  "reverse_mapping": {
+    "Jaka Fernando": [
+      [
+        "Abdul Hadi",
+        "Atasan Langsung"
+      ],
+      [
+        "Ade Ruswandi",
+        "Atasan Langsung"
+      ],
+      [
+        "Agus Riyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Bambang Suharyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Atasan Langsung"
+      ],
+      [
+        "Denis Sukmana",
+        "Atasan Langsung"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Atasan Langsung"
+      ],
+      [
+        "Herdiawan Sutikno",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Idris",
+        "Atasan Langsung"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Atasan Langsung"
+      ],
+      [
+        "Jaka Fernando",
+        "Diri Sendiri"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Atasan Langsung"
+      ],
+      [
+        "Murdiyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Nur Hidayat",
+        "Atasan Langsung"
+      ],
+      [
+        "Nurrano",
+        "Atasan Langsung"
+      ],
+      [
+        "Rusmanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Selly Irfandy",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Slamet Chotim",
+        "Atasan Langsung"
+      ],
+      [
+        "Sri Subekti",
+        "Atasan Langsung"
+      ],
+      [
+        "Suanata Gema",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sumardi",
+        "Atasan Langsung"
+      ],
+      [
+        "Sunar",
+        "Atasan Langsung"
+      ],
+      [
+        "Sunarko",
+        "Atasan Langsung"
+      ],
+      [
+        "Sunaryo",
+        "Atasan Langsung"
+      ],
+      [
+        "Syamsul Bahri",
+        "Atasan Langsung"
+      ],
+      [
+        "Wage Hartono",
+        "Atasan Langsung"
+      ],
+      [
+        "Wahyu Laksono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Atasan Langsung"
+      ],
+      [
+        "Yogi Lasril",
+        "Atasan Langsung"
+      ],
+      [
+        "Fathur Ariansha",
+        "Atasan Langsung"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Atasan Langsung"
+      ]
+    ],
+    "Abdul Hadi": [
+      [
+        "Abdul Hadi",
+        "Diri Sendiri"
+      ],
+      [
+        "Wage Hartono",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wage Hartono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Wisnu Sanjaya": [
+      [
+        "Abdul Hadi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Agus Riyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Denis Sukmana",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Idris",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Murdiyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Nur Hidayat",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Nurrano",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Rusmanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Slamet Chotim",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sri Subekti",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sumardi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sunar",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sunarko",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sunaryo",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Syamsul Bahri",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Syamsul Bahri",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Wage Hartono",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Diri Sendiri"
+      ]
+    ],
+    "Agus Riyanto": [
+      [
+        "Abdul Hadi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Agus Riyanto",
+        "Diri Sendiri"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Denis Sukmana": [
+      [
+        "Abdul Hadi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Agus Riyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Denis Sukmana",
+        "Diri Sendiri"
+      ]
+    ],
+    "Levya Annisa Chaniago": [
+      [
+        "Abdul Hadi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Ade Ruswandi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Agus Riyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Denis Sukmana",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Idris",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Jaka Fernando",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Diri Sendiri"
+      ],
+      [
+        "Murdiyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Nur Hidayat",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Nurrano",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Rusmanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Slamet Chotim",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sri Subekti",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sumardi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sunar",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sunarko",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sunaryo",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Syamsul Bahri",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Wage Hartono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Fathur Ariansha",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Wahyu Laksono": [
+      [
+        "Achmad Syaifulloh",
+        "Atasan Langsung"
+      ],
+      [
+        "Agustinus Dwi Cahyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Rizaldi Anhar",
+        "Atasan Langsung"
+      ],
+      [
+        "Herdiawan Sutikno",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Jaka Fernando",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sulardi",
+        "Atasan Langsung"
+      ],
+      [
+        "Tatang Hidayat",
+        "Atasan Langsung"
+      ],
+      [
+        "Usep Gusmawan",
+        "Atasan Langsung"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Atasan Langsung"
+      ],
+      [
+        "Selly Irfandy",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Suanata Gema",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Atasan Langsung"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Atasan Langsung"
+      ],
+      [
+        "Santy Marianty",
+        "Atasan Langsung"
+      ],
+      [
+        "Wahyu Laksono",
+        "Diri Sendiri"
+      ],
+      [
+        "Kevin Ryadi Saragih",
+        "Atasan Langsung"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Atasan Langsung"
+      ]
+    ],
+    "Achmad Syaifulloh": [
+      [
+        "Achmad Syaifulloh",
+        "Diri Sendiri"
+      ],
+      [
+        "Sulardi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Tatang Hidayat",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Usep Gusmawan",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Ghozi Azmy Rakhman": [
+      [
+        "Achmad Syaifulloh",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Heru Prakoso",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Diri Sendiri"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Santy Marianty",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Agustinus Dwi Cahyanto": [
+      [
+        "Achmad Syaifulloh",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Agustinus Dwi Cahyanto",
+        "Diri Sendiri"
+      ],
+      [
+        "Tatang Hidayat",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Usep Gusmawan",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Rizaldi Anhar": [
+      [
+        "Achmad Syaifulloh",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Agustinus Dwi Cahyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rizaldi Anhar",
+        "Diri Sendiri"
+      ],
+      [
+        "Usep Gusmawan",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Sulardi": [
+      [
+        "Achmad Syaifulloh",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Agustinus Dwi Cahyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Rizaldi Anhar",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sulardi",
+        "Diri Sendiri"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Ade Ruswandi": [
+      [
+        "Ade Ruswandi",
+        "Diri Sendiri"
+      ],
+      [
+        "Bambang Suharyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Yogi Lasril",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Evan Ihsan Fauzi": [
+      [
+        "Ade Ruswandi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Diri Sendiri"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Yogi Lasril",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Bambang Suharyanto": [
+      [
+        "Ade Ruswandi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Bambang Suharyanto",
+        "Diri Sendiri"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Dadah Suratno Gatot": [
+      [
+        "Ade Ruswandi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Bambang Suharyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Diri Sendiri"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Yogi Lasril",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Idris": [
+      [
+        "Agus Riyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Denis Sukmana",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Idris",
+        "Diri Sendiri"
+      ]
+    ],
+    "Nurlaela Rosdiyana": [
+      [
+        "Agustinus Dwi Cahyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Rizaldi Anhar",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sulardi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Diri Sendiri"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Santy Marianty",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wahyu Laksono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Kevin Ryadi Saragih",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Tatang Hidayat": [
+      [
+        "Agustinus Dwi Cahyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Rizaldi Anhar",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sulardi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Tatang Hidayat",
+        "Diri Sendiri"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Herdiawan Sutikno": [
+      [
+        "Ahmad Isa",
+        "Atasan Langsung"
+      ],
+      [
+        "Amran",
+        "Atasan Langsung"
+      ],
+      [
+        "Ari Hidayat",
+        "Atasan Langsung"
+      ],
+      [
+        "Arif Triady",
+        "Atasan Langsung"
+      ],
+      [
+        "Azmal Arif",
+        "Atasan Langsung"
+      ],
+      [
+        "Dahlan Yusuf",
+        "Atasan Langsung"
+      ],
+      [
+        "Darwanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Dede Sunandar",
+        "Atasan Langsung"
+      ],
+      [
+        "Edwin Kastono",
+        "Atasan Langsung"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Atasan Langsung"
+      ],
+      [
+        "Gunawan",
+        "Atasan Langsung"
+      ],
+      [
+        "Hendra Wijaya",
+        "Atasan Langsung"
+      ],
+      [
+        "Herdiawan Sutikno",
+        "Diri Sendiri"
+      ],
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Atasan Langsung"
+      ],
+      [
+        "Heru Siswanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Jaka Fernando",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Joko Supriyatno",
+        "Atasan Langsung"
+      ],
+      [
+        "M Yen Andika",
+        "Atasan Langsung"
+      ],
+      [
+        "Mufqi Ryan Rasyidi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Atasan Langsung"
+      ],
+      [
+        "Pardi",
+        "Atasan Langsung"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Atasan Langsung"
+      ],
+      [
+        "Rahmat",
+        "Atasan Langsung"
+      ],
+      [
+        "Roymansyah",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Atasan Langsung"
+      ],
+      [
+        "Selly Irfandy",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Suanata Gema",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sularno",
+        "Atasan Langsung"
+      ],
+      [
+        "Sumarno",
+        "Atasan Langsung"
+      ],
+      [
+        "Suparto",
+        "Atasan Langsung"
+      ],
+      [
+        "Suryanto Suripto",
+        "Atasan Langsung"
+      ],
+      [
+        "Taryamah",
+        "Atasan Langsung"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Atasan Langsung"
+      ],
+      [
+        "Tri Handono",
+        "Atasan Langsung"
+      ],
+      [
+        "Tutut Subagyo",
+        "Atasan Langsung"
+      ],
+      [
+        "Wahyu Laksono",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Yupono",
+        "Atasan Langsung"
+      ],
+      [
+        "Diana Tanoto",
+        "Atasan Langsung"
+      ],
+      [
+        "Hadad Audi",
+        "Atasan Langsung"
+      ]
+    ],
+    "Ahmad Isa": [
+      [
+        "Ahmad Isa",
+        "Diri Sendiri"
+      ],
+      [
+        "Ari Hidayat",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Arif Triady",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Dede Sunandar",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Edwin Kastono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Gunawan",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Edwin Kastono": [
+      [
+        "Ahmad Isa",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Dahlan Yusuf",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Darwanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Edwin Kastono",
+        "Diri Sendiri"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Hendra Wijaya",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Hendra Wijaya",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Herdiawan Sutikno",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Roymansyah",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sumarno",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Diana Tanoto",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Amran": [
+      [
+        "Ahmad Isa",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Amran",
+        "Diri Sendiri"
+      ],
+      [
+        "Azmal Arif",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Roymansyah",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Gunawan": [
+      [
+        "Ahmad Isa",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Azmal Arif",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Gunawan",
+        "Diri Sendiri"
+      ],
+      [
+        "Suryanto Suripto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Taryamah",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Dede Sunandar": [
+      [
+        "Ahmad Isa",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Ari Hidayat",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Arif Triady",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Dede Sunandar",
+        "Diri Sendiri"
+      ],
+      [
+        "Taryamah",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Elzi Sirkan Muhammad": [
+      [
+        "Amran",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Edwin Kastono",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Diri Sendiri"
+      ],
+      [
+        "Heru Siswanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Joko Supriyatno",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Pardi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Diana Tanoto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Hadad Audi",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Tutut Subagyo": [
+      [
+        "Amran",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sumarno",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Tutut Subagyo",
+        "Diri Sendiri"
+      ]
+    ],
+    "Azmal Arif": [
+      [
+        "Amran",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Azmal Arif",
+        "Diri Sendiri"
+      ],
+      [
+        "Roymansyah",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sumarno",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Muhammad Muhadi": [
+      [
+        "Amran",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Darwanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Heru Siswanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Diri Sendiri"
+      ],
+      [
+        "Yupono",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Suanata Gema": [
+      [
+        "Andra Busra",
+        "Atasan Langsung"
+      ],
+      [
+        "Dewi Humaira",
+        "Atasan Langsung"
+      ],
+      [
+        "Eko Heru Sarwono",
+        "Atasan Langsung"
+      ],
+      [
+        "Herdiawan Sutikno",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Heru Prakoso",
+        "Atasan Langsung"
+      ],
+      [
+        "Jaka Fernando",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Atasan Langsung"
+      ],
+      [
+        "Mufqi Ryan Rasyidi",
+        "Atasan Langsung"
+      ],
+      [
+        "Muhammad Rafi",
+        "Atasan Langsung"
+      ],
+      [
+        "Roymansyah",
+        "Atasan Langsung"
+      ],
+      [
+        "Sarah Amelia",
+        "Atasan Langsung"
+      ],
+      [
+        "Selly Irfandy",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sriyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Suanata Gema",
+        "Diri Sendiri"
+      ],
+      [
+        "Sutarmi",
+        "Atasan Langsung"
+      ],
+      [
+        "Triyanto",
+        "Atasan Langsung"
+      ],
+      [
+        "Wahyu Laksono",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wikanta",
+        "Atasan Langsung"
+      ],
+      [
+        "Atharenjani Eskavara",
+        "Atasan Langsung"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Atasan Langsung"
+      ],
+      [
+        "Ryan Prasetyo",
+        "Atasan Langsung"
+      ]
+    ],
+    "Andra Busra": [
+      [
+        "Andra Busra",
+        "Diri Sendiri"
+      ],
+      [
+        "Eko Heru Sarwono",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Muhammad Rafi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sriyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Wikanta",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Dewi Humaira": [
+      [
+        "Andra Busra",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Dewi Humaira",
+        "Diri Sendiri"
+      ],
+      [
+        "Heru Prakoso",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Mufqi Ryan Rasyidi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Muhammad Rafi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sarah Amelia",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Suanata Gema",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sutarmi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Triyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Ryan Prasetyo",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Eko Heru Sarwono": [
+      [
+        "Andra Busra",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Dewi Humaira",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Eko Heru Sarwono",
+        "Diri Sendiri"
+      ],
+      [
+        "Sriyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Triyanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Atharenjani Eskavara",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Ryan Prasetyo",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Wikanta": [
+      [
+        "Andra Busra",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Muhammad Rafi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sriyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sutarmi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wikanta",
+        "Diri Sendiri"
+      ]
+    ],
+    "Triyanto": [
+      [
+        "Andra Busra",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Dewi Humaira",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Eko Heru Sarwono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sutarmi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Triyanto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Ari Hidayat": [
+      [
+        "Ari Hidayat",
+        "Diri Sendiri"
+      ],
+      [
+        "Dede Sunandar",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Suryanto Suripto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Taryamah",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Arif Triady": [
+      [
+        "Ari Hidayat",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Arif Triady",
+        "Diri Sendiri"
+      ],
+      [
+        "Suryanto Suripto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Taryamah",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Suryanto Suripto": [
+      [
+        "Ari Hidayat",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Arif Triady",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Dede Sunandar",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Gunawan",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Suryanto Suripto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Taryamah": [
+      [
+        "Arif Triady",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Dede Sunandar",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Suryanto Suripto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Taryamah",
+        "Diri Sendiri"
+      ]
+    ],
+    "Rachmat Cahyono": [
+      [
+        "Azmal Arif",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Edwin Kastono",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Mufqi Ryan Rasyidi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Pardi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Diri Sendiri"
+      ],
+      [
+        "Rahmat",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Suparto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Hadad Audi",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Darwanto": [
+      [
+        "Azmal Arif",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Darwanto",
+        "Diri Sendiri"
+      ],
+      [
+        "Heru Siswanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Yupono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Irfandila Alfian Pujo Hastarto": [
+      [
+        "Bambang Suharyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Evan Ihsan Fauzi",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Diri Sendiri"
+      ],
+      [
+        "Yogi Lasril",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Fathur Ariansha",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Yogi Lasril": [
+      [
+        "Bambang Suharyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Dadah Suratno Gatot",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Irfandila Alfian Pujo Hastarto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Levya Annisa Chaniago",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Yogi Lasril",
+        "Diri Sendiri"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Dahlan Yusuf": [
+      [
+        "Dahlan Yusuf",
+        "Diri Sendiri"
+      ],
+      [
+        "M Yen Andika",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Rahmat",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sularno",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Joko Supriyatno": [
+      [
+        "Dahlan Yusuf",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Joko Supriyatno",
+        "Diri Sendiri"
+      ],
+      [
+        "M Yen Andika",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sularno",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Tutut Subagyo",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Rahmat": [
+      [
+        "Dahlan Yusuf",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Joko Supriyatno",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rahmat",
+        "Diri Sendiri"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Tri Handono",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "M Yen Andika": [
+      [
+        "Dahlan Yusuf",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "M Yen Andika",
+        "Diri Sendiri"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Tri Handono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Yupono": [
+      [
+        "Darwanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Heru Siswanto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Yupono",
+        "Diri Sendiri"
+      ]
+    ],
+    "Heru Siswanto": [
+      [
+        "Darwanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Heru Siswanto",
+        "Diri Sendiri"
+      ],
+      [
+        "Muhammad Muhadi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sumarno",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Yupono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Murdiyanto": [
+      [
+        "Denis Sukmana",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Idris",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Murdiyanto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Muhammad Rafi": [
+      [
+        "Dewi Humaira",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Eko Heru Sarwono",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Muhammad Rafi",
+        "Diri Sendiri"
+      ],
+      [
+        "Sarah Amelia",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sriyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Wikanta",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Atharenjani Eskavara",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Sutarmi": [
+      [
+        "Dewi Humaira",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sarah Amelia",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Sutarmi",
+        "Diri Sendiri"
+      ],
+      [
+        "Triyanto",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Wikanta",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Samuel Niko Yonas": [
+      [
+        "Edwin Kastono",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Elzi Sirkan Muhammad",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Gunawan",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rachmat Cahyono",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Samuel Niko Yonas",
+        "Diri Sendiri"
+      ],
+      [
+        "Sularno",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Suparto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Tutut Subagyo",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Yupono",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Sarah Amelia": [
+      [
+        "Eko Heru Sarwono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Muhammad Rafi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sarah Amelia",
+        "Diri Sendiri"
+      ],
+      [
+        "Sutarmi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Triyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wikanta",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Usep Gusmawan": [
+      [
+        "Rizaldi Anhar",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sulardi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Tatang Hidayat",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Usep Gusmawan",
+        "Diri Sendiri"
+      ],
+      [
+        "Santy Marianty",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Sumarno": [
+      [
+        "Gunawan",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sumarno",
+        "Diri Sendiri"
+      ],
+      [
+        "Tutut Subagyo",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Hendra Wijaya": [
+      [
+        "Hendra Wijaya",
+        "Diri Sendiri"
+      ],
+      [
+        "Pardi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Suparto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Pardi": [
+      [
+        "Hendra Wijaya",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Pardi",
+        "Diri Sendiri"
+      ],
+      [
+        "Suparto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Tutut Subagyo",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Suparto": [
+      [
+        "Hendra Wijaya",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Pardi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Suparto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Selly Irfandy": [
+      [
+        "Herdiawan Sutikno",
+        "Atasan Langsung"
+      ],
+      [
+        "Heru Prakoso",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Jaka Fernando",
+        "Atasan Langsung"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sarah Amelia",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Selly Irfandy",
+        "Diri Sendiri"
+      ],
+      [
+        "Suanata Gema",
+        "Atasan Langsung"
+      ],
+      [
+        "Wahyu Laksono",
+        "Atasan Langsung"
+      ]
+    ],
+    "Herlangga Bagus Pribadi (OS)": [
+      [
+        "Herlangga Bagus Pribadi (OS)",
+        "Diri Sendiri"
+      ]
+    ],
+    "Heru Prakoso": [
+      [
+        "Heru Prakoso",
+        "Diri Sendiri"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Leonard Abdul Aziz": [
+      [
+        "Heru Prakoso",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Leonard Abdul Aziz",
+        "Diri Sendiri"
+      ],
+      [
+        "Mufqi Ryan Rasyidi",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Nur Hidayat": [
+      [
+        "Idris",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Murdiyanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Nur Hidayat",
+        "Diri Sendiri"
+      ]
+    ],
+    "Sularno": [
+      [
+        "Joko Supriyatno",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Rahmat",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sularno",
+        "Diri Sendiri"
+      ],
+      [
+        "Tri Handono",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Tomi Sugiarto": [
+      [
+        "Joko Supriyatno",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "M Yen Andika",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sularno",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Diri Sendiri"
+      ],
+      [
+        "Tri Handono",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Tri Handono": [
+      [
+        "M Yen Andika",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Rahmat",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Tomi Sugiarto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Tri Handono",
+        "Diri Sendiri"
+      ]
+    ],
+    "Mufqi Ryan Rasyidi": [
+      [
+        "Mufqi Ryan Rasyidi",
+        "Diri Sendiri"
+      ]
+    ],
+    "Nurrano": [
+      [
+        "Murdiyanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Nur Hidayat",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Nurrano",
+        "Diri Sendiri"
+      ]
+    ],
+    "Rusmanto": [
+      [
+        "Nur Hidayat",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Nurrano",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Rusmanto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Slamet Chotim": [
+      [
+        "Nurrano",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Rusmanto",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Slamet Chotim",
+        "Diri Sendiri"
+      ]
+    ],
+    "Paulus Sarli Anthoni": [
+      [
+        "Tatang Hidayat",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Paulus Sarli Anthoni",
+        "Diri Sendiri"
+      ],
+      [
+        "Santy Marianty",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Kevin Ryadi Saragih",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Santy Marianty": [
+      [
+        "Usep Gusmawan",
+        "Rekan Kerja 1"
+      ],
+      [
+        "Ghozi Azmy Rakhman",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Nurlaela Rosdiyana",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Santy Marianty",
+        "Diri Sendiri"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Rekan Kerja 2"
+      ]
+    ],
+    "Roymansyah": [
+      [
+        "Roymansyah",
+        "Diri Sendiri"
+      ]
+    ],
+    "Sri Subekti": [
+      [
+        "Rusmanto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Slamet Chotim",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sri Subekti",
+        "Diri Sendiri"
+      ]
+    ],
+    "-": [
+      [
+        "Selly Irfandy",
+        "Atasan Langsung"
+      ]
+    ],
+    "Sumardi": [
+      [
+        "Slamet Chotim",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sri Subekti",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sumardi",
+        "Diri Sendiri"
+      ]
+    ],
+    "Sunar": [
+      [
+        "Sri Subekti",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sumardi",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sunar",
+        "Diri Sendiri"
+      ]
+    ],
+    "Sriyanto": [
+      [
+        "Sriyanto",
+        "Diri Sendiri"
+      ]
+    ],
+    "Sunarko": [
+      [
+        "Sumardi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sunar",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sunarko",
+        "Diri Sendiri"
+      ],
+      [
+        "Wisnu Sanjaya",
+        "Rekan Kerja 1"
+      ]
+    ],
+    "Sunaryo": [
+      [
+        "Sunar",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sunarko",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Sunaryo",
+        "Diri Sendiri"
+      ]
+    ],
+    "Syamsul Bahri": [
+      [
+        "Sunarko",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Sunaryo",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Syamsul Bahri",
+        "Diri Sendiri"
+      ]
+    ],
+    "Wage Hartono": [
+      [
+        "Sunaryo",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Syamsul Bahri",
+        "Rekan Kerja 2"
+      ],
+      [
+        "Wage Hartono",
+        "Diri Sendiri"
+      ]
+    ],
+    "Atharenjani Eskavara": [
+      [
+        "Atharenjani Eskavara",
+        "Diri Sendiri"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Diana Tanoto": [
+      [
+        "Atharenjani Eskavara",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Diana Tanoto",
+        "Diri Sendiri"
+      ],
+      [
+        "Hadad Audi",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Ryan Prasetyo": [
+      [
+        "Atharenjani Eskavara",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Ryan Prasetyo",
+        "Diri Sendiri"
+      ]
+    ],
+    "Fathur Ariansha": [
+      [
+        "Diana Tanoto",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Fathur Ariansha",
+        "Diri Sendiri"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Hadad Audi": [
+      [
+        "Diana Tanoto",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Hadad Audi",
+        "Diri Sendiri"
+      ],
+      [
+        "Fathur Ariansha",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Kevin Ryadi Saragih": [
+      [
+        "Hadad Audi",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Kevin Ryadi Saragih",
+        "Diri Sendiri"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Reyner Alexander Lyman": [
+      [
+        "Kevin Ryadi Saragih",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Reyner Alexander Lyman",
+        "Diri Sendiri"
+      ],
+      [
+        "Ryan Prasetyo",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ]
+    ],
+    "Yasmin Hanani Reza": [
+      [
+        "Kevin Ryadi Saragih",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Yasmin Hanani Reza",
+        "Diri Sendiri"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ]
+    ],
+    "Sri Mandala Pranata": [
+      [
+        "Ryan Prasetyo",
+        "Bawahan Langsung 1 / Rekan Kerja 3"
+      ],
+      [
+        "Fathur Ariansha",
+        "Bawahan Langsung 2 / Rekan Kerja 4"
+      ],
+      [
+        "Sri Mandala Pranata",
+        "Diri Sendiri"
+      ]
+    ]
+  }
+}

@@ -13,18 +13,16 @@ class Peserta extends Model
     
     protected $fillable = [
         'name',
-        'email',
-        'jabatan',
-        'departemen'
+        'email'
     ];
     
-    public function formOtherAstras()
+    public function reviewedAssessments()
     {
-        return $this->hasMany(FormOtherAstra::class, 'name_id');
+        return $this->hasMany(FormOtherAstra::class, 'reviewee_id');
     }
     
-    public function ratedBy()
+    public function reviewerAssessments()
     {
-        return $this->hasMany(FormOtherAstra::class, 'rater_for_id');
+        return $this->hasMany(FormOtherAstra::class, 'reviewer_id');
     }
 }

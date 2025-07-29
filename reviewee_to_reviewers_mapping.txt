@@ -1,0 +1,1186 @@
+REVIEWEE -> REVIEWERS MAPPING
+==================================================
+
+REVIEWEE: Abdul Hadi
+  ID: 1
+  Email: abdul.hadi1@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Abdul Hadi (ID: 1, Email: abdul.hadi1@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Agus Riyanto (ID: 4, Email: agus.riyanto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Denis Sukmana (ID: 17, Email: denis.sukmana@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Achmad Syaifulloh
+  ID: 2
+  Email: achmad.syaifulloh@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Achmad Syaifulloh (ID: 2, Email: achmad.syaifulloh@ai.astra.co.id)
+    - Rekan Kerja 1: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 2: Agustinus Dwi Cahyanto (ID: 5, Email: agustinus.dwi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Rizaldi Anhar (ID: 23, Email: rizaldi.anhar@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sulardi (ID: 42, Email: sulardi@ai.astra.co.id)
+
+REVIEWEE: Ade Ruswandi
+  ID: 3
+  Email: ade.ruswandi@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Ade Ruswandi (ID: 3, Email: ade.ruswandi@ai.astra.co.id)
+    - Rekan Kerja 1: Evan Ihsan Fauzi (ID: 22, Email: evan.ihsanfauzi@ai.astra.co.id)
+    - Rekan Kerja 2: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+
+REVIEWEE: Agus Riyanto
+  ID: 4
+  Email: agus.riyanto@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Agus Riyanto (ID: 4, Email: agus.riyanto@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Denis Sukmana (ID: 17, Email: denis.sukmana@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Idris (ID: 30, Email: idris@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Agustinus Dwi Cahyanto
+  ID: 5
+  Email: agustinus.dwi@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Agustinus Dwi Cahyanto (ID: 5, Email: agustinus.dwi@ai.astra.co.id)
+    - Rekan Kerja 1: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 2: Rizaldi Anhar (ID: 23, Email: rizaldi.anhar@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sulardi (ID: 42, Email: sulardi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tatang Hidayat (ID: 45, Email: tatang.hidayat@ai.astra.co.id)
+
+REVIEWEE: Ahmad Isa
+  ID: 6
+  Email: ahmad.isa@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Amran (ID: 7, Email: amran@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Gunawan (ID: 24, Email: gunawan@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Dede Sunandar (ID: 16, Email: dede.sunandar@ai.astra.co.id)
+
+REVIEWEE: Amran
+  ID: 7
+  Email: amran@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Amran (ID: 7, Email: amran@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Tutut Subagyo (ID: 75, Email: tutut.subagyo@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Azmal Arif (ID: 11, Email: azmal.arip@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Muhammad Muhadi (ID: 38, Email: muhammad.muhadi@ai.astra.co.id)
+
+REVIEWEE: Andra Busra
+  ID: 8
+  Email: andra.busra@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Andra Busra (ID: 8, Email: andra.busra@ai.astra.co.id)
+    - Rekan Kerja 1: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Rekan Kerja 2: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Wikanta (ID: 79, Email: wikanta@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Triyanto (ID: 74, Email: triyanto1@ai.astra.co.id)
+
+REVIEWEE: Ari Hidayat
+  ID: 9
+  Email: ari.hidayat@ai.astra.co.id
+  Jabatan: ANGGOTA PROTOKOL
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Ari Hidayat (ID: 9, Email: ari.hidayat@ai.astra.co.id)
+    - Rekan Kerja 1: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+    - Rekan Kerja 2: Arif Triady (ID: 10, Email: arif.triady@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dede Sunandar (ID: 16, Email: dede.sunandar@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Suryanto Suripto (ID: 67, Email: suryanto.suripto@ai.astra.co.id)
+
+REVIEWEE: Arif Triady
+  ID: 10
+  Email: arif.triady@ai.astra.co.id
+  Jabatan: ANGGOTA PROTOKOL
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Arif Triady (ID: 10, Email: arif.triady@ai.astra.co.id)
+    - Rekan Kerja 1: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+    - Rekan Kerja 2: Dede Sunandar (ID: 16, Email: dede.sunandar@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Suryanto Suripto (ID: 67, Email: suryanto.suripto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Taryamah (ID: 70, Email: taryamah@ai.astra.co.id)
+
+REVIEWEE: Azmal Arif
+  ID: 11
+  Email: azmal.arip@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Azmal Arif (ID: 11, Email: azmal.arip@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Gunawan (ID: 24, Email: gunawan@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Amran (ID: 7, Email: amran@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Darwanto (ID: 15, Email: darwanto@ai.astra.co.id)
+
+REVIEWEE: Bambang Suharyanto
+  ID: 12
+  Email: bambang.suharyanto@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+    - Rekan Kerja 1: Irfandila Alfian Pujo Hastarto (ID: 31, Email: irfandila.alfian@ai.astra.co.id)
+    - Rekan Kerja 2: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ade Ruswandi (ID: 3, Email: ade.ruswandi@ai.astra.co.id)
+
+REVIEWEE: Dadah Suratno Gatot
+  ID: 13
+  Email: dadah.suratno@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+    - Rekan Kerja 1: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Rekan Kerja 2: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ade Ruswandi (ID: 3, Email: ade.ruswandi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+
+REVIEWEE: Dahlan Yusuf
+  ID: 14
+  Email: dahlan.yusuf@ai.astra.co.id
+  Jabatan: DANRU SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Dahlan Yusuf (ID: 14, Email: dahlan.yusuf@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Rahmat (ID: 47, Email: rahmat@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: M Yen Andika (ID: 36, Email: mohamad.yen@ai.astra.co.id)
+
+REVIEWEE: Darwanto
+  ID: 15
+  Email: darwanto@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Darwanto (ID: 15, Email: darwanto@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Yupono (ID: 82, Email: yupono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Heru Siswanto (ID: 29, Email: heru.siswanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Muhammad Muhadi (ID: 38, Email: muhammad.muhadi@ai.astra.co.id)
+
+REVIEWEE: Dede Sunandar
+  ID: 16
+  Email: dede.sunandar@ai.astra.co.id
+  Jabatan: ANGGOTA PROTOKOL
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Dede Sunandar (ID: 16, Email: dede.sunandar@ai.astra.co.id)
+    - Rekan Kerja 1: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+    - Rekan Kerja 2: Suryanto Suripto (ID: 67, Email: suryanto.suripto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Taryamah (ID: 70, Email: taryamah@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ari Hidayat (ID: 9, Email: ari.hidayat@ai.astra.co.id)
+
+REVIEWEE: Denis Sukmana
+  ID: 17
+  Email: denis.sukmana@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Denis Sukmana (ID: 17, Email: denis.sukmana@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Idris (ID: 30, Email: idris@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Murdiyanto (ID: 40, Email: murdiyanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Dewi Humaira
+  ID: 18
+  Email: dewi.humaira@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Rekan Kerja 1: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+    - Rekan Kerja 2: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Triyanto (ID: 74, Email: triyanto1@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sutarmi (ID: 68, Email: sutarmi@ai.astra.co.id)
+
+REVIEWEE: Edwin Kastono
+  ID: 19
+  Email: edwin.kastono@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+
+REVIEWEE: Eko Heru Sarwono
+  ID: 20
+  Email: eko.heru@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+    - Rekan Kerja 1: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Rekan Kerja 2: Andra Busra (ID: 8, Email: andra.busra@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Triyanto (ID: 74, Email: triyanto1@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+
+REVIEWEE: Elzi Sirkan Muhammad
+  ID: 21
+  Email: elzi.sirkanmuhammad@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Amran (ID: 7, Email: amran@ai.astra.co.id)
+
+REVIEWEE: Evan Ihsan Fauzi
+  ID: 22
+  Email: evan.ihsanfauzi@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Evan Ihsan Fauzi (ID: 22, Email: evan.ihsanfauzi@ai.astra.co.id)
+    - Rekan Kerja 1: Irfandila Alfian Pujo Hastarto (ID: 31, Email: irfandila.alfian@ai.astra.co.id)
+    - Rekan Kerja 2: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+
+REVIEWEE: Rizaldi Anhar
+  ID: 23
+  Email: rizaldi.anhar@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Rizaldi Anhar (ID: 23, Email: rizaldi.anhar@ai.astra.co.id)
+    - Rekan Kerja 1: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 2: Sulardi (ID: 42, Email: sulardi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Tatang Hidayat (ID: 45, Email: tatang.hidayat@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Usep Gusmawan (ID: 48, Email: usep.gusmawan@ai.astra.co.id)
+
+REVIEWEE: Gunawan
+  ID: 24
+  Email: gunawan@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Gunawan (ID: 24, Email: gunawan@ai.astra.co.id)
+    - Rekan Kerja 1: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 2: Sumarno (ID: 62, Email: sumarno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ahmad Isa (ID: 6, Email: ahmad.isa@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Suryanto Suripto (ID: 67, Email: suryanto.suripto@ai.astra.co.id)
+
+REVIEWEE: Hendra Wijaya
+  ID: 25
+  Email: hendra.wijaya@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Hendra Wijaya (ID: 25, Email: hendra.wijaya@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Pardi (ID: 44, Email: pardi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Suparto (ID: 66, Email: suparto@ai.astra.co.id)
+
+REVIEWEE: Herdiawan Sutikno
+  ID: 26
+  Email: herdiawan.sutikno@ai.astra.co.id
+  Jabatan: DEPT. HEAD
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Diri Sendiri: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Rekan Kerja 1: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Rekan Kerja 2: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+
+REVIEWEE: Herlangga Bagus Pribadi (OS)
+  ID: 27
+  Email: herlangga.bagus@ai.astra.co.id
+  Jabatan: OUTSOURCE
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Herlangga Bagus Pribadi (OS) (ID: 27, Email: herlangga.bagus@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Suparto (ID: 66, Email: suparto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Pardi (ID: 44, Email: pardi@ai.astra.co.id)
+
+REVIEWEE: Heru Prakoso
+  ID: 28
+  Email: heru.prakoso@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Heru Prakoso (ID: 28, Email: heru.prakoso@ai.astra.co.id)
+    - Rekan Kerja 1: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Rekan Kerja 2: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Leonard Abdul Aziz (ID: 34, Email: leonard.abdul@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+
+REVIEWEE: Heru Siswanto
+  ID: 29
+  Email: heru.siswanto@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Heru Siswanto (ID: 29, Email: heru.siswanto@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Darwanto (ID: 15, Email: darwanto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Muhammad Muhadi (ID: 38, Email: muhammad.muhadi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Yupono (ID: 82, Email: yupono@ai.astra.co.id)
+
+REVIEWEE: Idris
+  ID: 30
+  Email: idris@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Idris (ID: 30, Email: idris@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Murdiyanto (ID: 40, Email: murdiyanto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Nur Hidayat (ID: 41, Email: nur.hidajat@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Irfandila Alfian Pujo Hastarto
+  ID: 31
+  Email: irfandila.alfian@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Irfandila Alfian Pujo Hastarto (ID: 31, Email: irfandila.alfian@ai.astra.co.id)
+    - Rekan Kerja 1: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Rekan Kerja 2: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+
+REVIEWEE: Jaka Fernando
+  ID: 32
+  Email: jaka.fernandoarisandi@ai.astra.co.id
+  Jabatan: DEPT. HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Diri Sendiri: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Rekan Kerja 1: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Rekan Kerja 2: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Joko Supriyatno
+  ID: 33
+  Email: joko.supriyatno@ai.astra.co.id
+  Jabatan: DANRU SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Rahmat (ID: 47, Email: rahmat@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sularno (ID: 60, Email: sularno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tomi Sugiarto (ID: 72, Email: tomi.sugiarto@ai.astra.co.id)
+
+REVIEWEE: Leonard Abdul Aziz
+  ID: 34
+  Email: leonard.abdul@ai.astra.co.id
+  Jabatan: DEPT. HEAD / ASSIGNMENT
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Leonard Abdul Aziz (ID: 34, Email: leonard.abdul@ai.astra.co.id)
+    - Rekan Kerja 1: Heru Prakoso (ID: 28, Email: heru.prakoso@ai.astra.co.id)
+    - Rekan Kerja 2: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+
+REVIEWEE: Levya Annisa Chaniago
+  ID: 35
+  Email: levya.annisa@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Rekan Kerja 1: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Rekan Kerja 2: Evan Ihsan Fauzi (ID: 22, Email: evan.ihsanfauzi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ade Ruswandi (ID: 3, Email: ade.ruswandi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Bambang Suharyanto (ID: 12, Email: bambang.suharyanto@ai.astra.co.id)
+
+REVIEWEE: M Yen Andika
+  ID: 36
+  Email: mohamad.yen@ai.astra.co.id
+  Jabatan: ANGGOTA SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: M Yen Andika (ID: 36, Email: mohamad.yen@ai.astra.co.id)
+    - Rekan Kerja 1: Dahlan Yusuf (ID: 14, Email: dahlan.yusuf@ai.astra.co.id)
+    - Rekan Kerja 2: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Tomi Sugiarto (ID: 72, Email: tomi.sugiarto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tri Handono (ID: 73, Email: tri.handono@ai.astra.co.id)
+
+REVIEWEE: Mufqi Ryan Rasyidi
+  ID: 37
+  Email: mufqi.ryanrasyidi@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Mufqi Ryan Rasyidi (ID: 37, Email: mufqi.ryanrasyidi@ai.astra.co.id)
+    - Rekan Kerja 1: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Rekan Kerja 2: Leonard Abdul Aziz (ID: 34, Email: leonard.abdul@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+
+REVIEWEE: Muhammad Muhadi
+  ID: 38
+  Email: muhammad.muhadi@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Muhammad Muhadi (ID: 38, Email: muhammad.muhadi@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Heru Siswanto (ID: 29, Email: heru.siswanto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Yupono (ID: 82, Email: yupono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Darwanto (ID: 15, Email: darwanto@ai.astra.co.id)
+
+REVIEWEE: Muhammad Rafi
+  ID: 39
+  Email: muhammad.rafi@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Rekan Kerja 1: Andra Busra (ID: 8, Email: andra.busra@ai.astra.co.id)
+    - Rekan Kerja 2: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Wikanta (ID: 79, Email: wikanta@ai.astra.co.id)
+
+REVIEWEE: Murdiyanto
+  ID: 40
+  Email: murdiyanto@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Murdiyanto (ID: 40, Email: murdiyanto@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Nur Hidayat (ID: 41, Email: nur.hidajat@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Nurrano (ID: 43, Email: nurrano@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Nur Hidayat
+  ID: 41
+  Email: nur.hidajat@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Nur Hidayat (ID: 41, Email: nur.hidajat@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Nurrano (ID: 43, Email: nurrano@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Rusmanto (ID: 50, Email: rusmanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sulardi
+  ID: 42
+  Email: sulardi@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Sulardi (ID: 42, Email: sulardi@ai.astra.co.id)
+    - Rekan Kerja 1: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 2: Tatang Hidayat (ID: 45, Email: tatang.hidayat@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Usep Gusmawan (ID: 48, Email: usep.gusmawan@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Achmad Syaifulloh (ID: 2, Email: achmad.syaifulloh@ai.astra.co.id)
+
+REVIEWEE: Nurrano
+  ID: 43
+  Email: nurrano@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Nurrano (ID: 43, Email: nurrano@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Rusmanto (ID: 50, Email: rusmanto@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Slamet Chotim (ID: 55, Email: slamet.chotim@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Pardi
+  ID: 44
+  Email: pardi@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Pardi (ID: 44, Email: pardi@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Suparto (ID: 66, Email: suparto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Hendra Wijaya (ID: 25, Email: hendra.wijaya@ai.astra.co.id)
+
+REVIEWEE: Tatang Hidayat
+  ID: 45
+  Email: tatang.hidayat@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Tatang Hidayat (ID: 45, Email: tatang.hidayat@ai.astra.co.id)
+    - Rekan Kerja 1: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Rekan Kerja 2: Usep Gusmawan (ID: 48, Email: usep.gusmawan@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Achmad Syaifulloh (ID: 2, Email: achmad.syaifulloh@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Agustinus Dwi Cahyanto (ID: 5, Email: agustinus.dwi@ai.astra.co.id)
+
+REVIEWEE: Rachmat Cahyono
+  ID: 46
+  Email: rachmat.cahyono@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 1: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 2: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tutut Subagyo (ID: 75, Email: tutut.subagyo@ai.astra.co.id)
+
+REVIEWEE: Rahmat
+  ID: 47
+  Email: rahmat@ai.astra.co.id
+  Jabatan: DANRU SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Rahmat (ID: 47, Email: rahmat@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Sularno (ID: 60, Email: sularno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dahlan Yusuf (ID: 14, Email: dahlan.yusuf@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tri Handono (ID: 73, Email: tri.handono@ai.astra.co.id)
+
+REVIEWEE: Usep Gusmawan
+  ID: 48
+  Email: usep.gusmawan@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Usep Gusmawan (ID: 48, Email: usep.gusmawan@ai.astra.co.id)
+    - Rekan Kerja 1: Santy Marianty (ID: 76, Email: santy.marianty@ai.astra.co.id)
+    - Rekan Kerja 2: Achmad Syaifulloh (ID: 2, Email: achmad.syaifulloh@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Agustinus Dwi Cahyanto (ID: 5, Email: agustinus.dwi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Rizaldi Anhar (ID: 23, Email: rizaldi.anhar@ai.astra.co.id)
+
+REVIEWEE: Roymansyah
+  ID: 49
+  Email: roy.mansyah@ai.astra.co.id
+  Jabatan: ADMIN / ASSIGNMENT
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Roymansyah (ID: 49, Email: roy.mansyah@ai.astra.co.id)
+    - Rekan Kerja 1: Amran (ID: 7, Email: amran@ai.astra.co.id)
+    - Rekan Kerja 2: Azmal Arif (ID: 11, Email: azmal.arip@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+
+REVIEWEE: Rusmanto
+  ID: 50
+  Email: rusmanto@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Rusmanto (ID: 50, Email: rusmanto@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Slamet Chotim (ID: 55, Email: slamet.chotim@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sri Subekti (ID: 56, Email: sri.subekti@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Samuel Niko Yonas
+  ID: 51
+  Email: samuel.nikoyonas@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Amran (ID: 7, Email: amran@ai.astra.co.id)
+
+REVIEWEE: Ghozi Azmy Rakhman
+  ID: 52
+  Email: ghozi.azmy@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 1: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 2: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Santy Marianty (ID: 76, Email: santy.marianty@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tatang Hidayat (ID: 45, Email: tatang.hidayat@ai.astra.co.id)
+
+REVIEWEE: Sarah Amelia
+  ID: 53
+  Email: sarah.amelia@ai.astra.co.id
+  Jabatan: ADMIN / SEKRETARIS
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+    - Rekan Kerja 1: Sutarmi (ID: 68, Email: sutarmi@ai.astra.co.id)
+    - Rekan Kerja 2: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+
+REVIEWEE: Selly Irfandy
+  ID: 54
+  Email: selly.irfandy@ai.astra.co.id
+  Jabatan: DIV. HEAD
+  Departemen: CORP SECURITY
+  REVIEWERS:
+    - Atasan Langsung: - (ID: Unknown, Email: Unknown)
+    - Diri Sendiri: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Rekan Kerja 1: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Rekan Kerja 2: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+
+REVIEWEE: Slamet Chotim
+  ID: 55
+  Email: slamet.chotim@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Slamet Chotim (ID: 55, Email: slamet.chotim@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Sri Subekti (ID: 56, Email: sri.subekti@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sumardi (ID: 61, Email: sumardi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sri Subekti
+  ID: 56
+  Email: sri.subekti@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sri Subekti (ID: 56, Email: sri.subekti@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Sumardi (ID: 61, Email: sumardi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sunar (ID: 63, Email: sunar@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sriyanto
+  ID: 57
+  Email: sriyanto@ai.astra.co.id
+  Jabatan: ADMIN / ASSIGNMENT
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Sriyanto (ID: 57, Email: sriyanto@ai.astra.co.id)
+    - Rekan Kerja 1: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Rekan Kerja 2: Wikanta (ID: 79, Email: wikanta@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Andra Busra (ID: 8, Email: andra.busra@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+
+REVIEWEE: Suanata Gema
+  ID: 58
+  Email: suanata.gema@ai.astra.co.id
+  Jabatan: DEPT. HEAD
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Diri Sendiri: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Rekan Kerja 1: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Rekan Kerja 2: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+
+REVIEWEE: Nurlaela Rosdiyana
+  ID: 59
+  Email: nurlaela.rosdiyana@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 1: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 2: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Santy Marianty (ID: 76, Email: santy.marianty@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Rizaldi Anhar (ID: 23, Email: rizaldi.anhar@ai.astra.co.id)
+
+REVIEWEE: Sularno
+  ID: 60
+  Email: sularno@ai.astra.co.id
+  Jabatan: DANRU SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Sularno (ID: 60, Email: sularno@ai.astra.co.id)
+    - Rekan Kerja 1: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 2: Dahlan Yusuf (ID: 14, Email: dahlan.yusuf@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tomi Sugiarto (ID: 72, Email: tomi.sugiarto@ai.astra.co.id)
+
+REVIEWEE: Sumardi
+  ID: 61
+  Email: sumardi@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sumardi (ID: 61, Email: sumardi@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Sunar (ID: 63, Email: sunar@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sunarko (ID: 64, Email: sunarko@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sumarno
+  ID: 62
+  Email: sumarno@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Sumarno (ID: 62, Email: sumarno@ai.astra.co.id)
+    - Rekan Kerja 1: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Rekan Kerja 2: Azmal Arif (ID: 11, Email: azmal.arip@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Tutut Subagyo (ID: 75, Email: tutut.subagyo@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Heru Siswanto (ID: 29, Email: heru.siswanto@ai.astra.co.id)
+
+REVIEWEE: Sunar
+  ID: 63
+  Email: sunar@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sunar (ID: 63, Email: sunar@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Sunarko (ID: 64, Email: sunarko@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sunaryo (ID: 65, Email: sunaryo@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sunarko
+  ID: 64
+  Email: sunarko@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sunarko (ID: 64, Email: sunarko@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Sunaryo (ID: 65, Email: sunaryo@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Syamsul Bahri (ID: 69, Email: syamsul.bahri@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Sunaryo
+  ID: 65
+  Email: sunaryo@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sunaryo (ID: 65, Email: sunaryo@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Syamsul Bahri (ID: 69, Email: syamsul.bahri@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Wage Hartono (ID: 77, Email: wage.hartono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Suparto
+  ID: 66
+  Email: suparto@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Suparto (ID: 66, Email: suparto@ai.astra.co.id)
+    - Rekan Kerja 1: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Rekan Kerja 2: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Hendra Wijaya (ID: 25, Email: hendra.wijaya@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Pardi (ID: 44, Email: pardi@ai.astra.co.id)
+
+REVIEWEE: Suryanto Suripto
+  ID: 67
+  Email: suryanto.suripto@ai.astra.co.id
+  Jabatan: ANGGOTA PROTOKOL
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Suryanto Suripto (ID: 67, Email: suryanto.suripto@ai.astra.co.id)
+    - Rekan Kerja 1: Gunawan (ID: 24, Email: gunawan@ai.astra.co.id)
+    - Rekan Kerja 2: Taryamah (ID: 70, Email: taryamah@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ari Hidayat (ID: 9, Email: ari.hidayat@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Arif Triady (ID: 10, Email: arif.triady@ai.astra.co.id)
+
+REVIEWEE: Sutarmi
+  ID: 68
+  Email: sutarmi@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Sutarmi (ID: 68, Email: sutarmi@ai.astra.co.id)
+    - Rekan Kerja 1: Triyanto (ID: 74, Email: triyanto1@ai.astra.co.id)
+    - Rekan Kerja 2: Wikanta (ID: 79, Email: wikanta@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+
+REVIEWEE: Syamsul Bahri
+  ID: 69
+  Email: syamsul.bahri@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Syamsul Bahri (ID: 69, Email: syamsul.bahri@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Wage Hartono (ID: 77, Email: wage.hartono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Taryamah
+  ID: 70
+  Email: taryamah@ai.astra.co.id
+  Jabatan: ANGGOTA PROTOKOL
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Taryamah (ID: 70, Email: taryamah@ai.astra.co.id)
+    - Rekan Kerja 1: Gunawan (ID: 24, Email: gunawan@ai.astra.co.id)
+    - Rekan Kerja 2: Ari Hidayat (ID: 9, Email: ari.hidayat@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Arif Triady (ID: 10, Email: arif.triady@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Dede Sunandar (ID: 16, Email: dede.sunandar@ai.astra.co.id)
+
+REVIEWEE: Paulus Sarli Anthoni
+  ID: 71
+  Email: paulus.anthoni@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Rekan Kerja 1: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 2: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sulardi (ID: 42, Email: sulardi@ai.astra.co.id)
+
+REVIEWEE: Tomi Sugiarto
+  ID: 72
+  Email: tomi.sugiarto@ai.astra.co.id
+  Jabatan: ANGGOTA SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Tomi Sugiarto (ID: 72, Email: tomi.sugiarto@ai.astra.co.id)
+    - Rekan Kerja 1: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+    - Rekan Kerja 2: Rahmat (ID: 47, Email: rahmat@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Tri Handono (ID: 73, Email: tri.handono@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: M Yen Andika (ID: 36, Email: mohamad.yen@ai.astra.co.id)
+
+REVIEWEE: Tri Handono
+  ID: 73
+  Email: tri.handono@ai.astra.co.id
+  Jabatan: ANGGOTA SAR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Tri Handono (ID: 73, Email: tri.handono@ai.astra.co.id)
+    - Rekan Kerja 1: Rahmat (ID: 47, Email: rahmat@ai.astra.co.id)
+    - Rekan Kerja 2: Sularno (ID: 60, Email: sularno@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: M Yen Andika (ID: 36, Email: mohamad.yen@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Tomi Sugiarto (ID: 72, Email: tomi.sugiarto@ai.astra.co.id)
+
+REVIEWEE: Triyanto
+  ID: 74
+  Email: triyanto1@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Triyanto (ID: 74, Email: triyanto1@ai.astra.co.id)
+    - Rekan Kerja 1: Sutarmi (ID: 68, Email: sutarmi@ai.astra.co.id)
+    - Rekan Kerja 2: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+
+REVIEWEE: Tutut Subagyo
+  ID: 75
+  Email: tutut.subagyo@ai.astra.co.id
+  Jabatan: KOORDINATOR
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Tutut Subagyo (ID: 75, Email: tutut.subagyo@ai.astra.co.id)
+    - Rekan Kerja 1: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 2: Pardi (ID: 44, Email: pardi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sumarno (ID: 62, Email: sumarno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Joko Supriyatno (ID: 33, Email: joko.supriyatno@ai.astra.co.id)
+
+REVIEWEE: Santy Marianty
+  ID: 76
+  Email: santy.marianty@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Santy Marianty (ID: 76, Email: santy.marianty@ai.astra.co.id)
+    - Rekan Kerja 1: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 2: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Usep Gusmawan (ID: 48, Email: usep.gusmawan@ai.astra.co.id)
+
+REVIEWEE: Wage Hartono
+  ID: 77
+  Email: wage.hartono@ai.astra.co.id
+  Jabatan: SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Wage Hartono (ID: 77, Email: wage.hartono@ai.astra.co.id)
+    - Rekan Kerja 1: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 2: Abdul Hadi (ID: 1, Email: abdul.hadi1@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Abdul Hadi (ID: 1, Email: abdul.hadi1@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Wahyu Laksono
+  ID: 78
+  Email: wahyu.laksono@ai.astra.co.id
+  Jabatan: DEPT. HEAD
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Selly Irfandy (ID: 54, Email: selly.irfandy@ai.astra.co.id)
+    - Diri Sendiri: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Rekan Kerja 1: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Rekan Kerja 2: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+
+REVIEWEE: Wikanta
+  ID: 79
+  Email: wikanta@ai.astra.co.id
+  Jabatan: ADMIN
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Wikanta (ID: 79, Email: wikanta@ai.astra.co.id)
+    - Rekan Kerja 1: Sarah Amelia (ID: 53, Email: sarah.amelia@ai.astra.co.id)
+    - Rekan Kerja 2: Sutarmi (ID: 68, Email: sutarmi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Andra Busra (ID: 8, Email: andra.busra@ai.astra.co.id)
+
+REVIEWEE: Wisnu Sanjaya
+  ID: 80
+  Email: wisnu.sanjaya@ai.astra.co.id
+  Jabatan: KETUA REGIONAL SECTOR HEAD
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Wisnu Sanjaya (ID: 80, Email: wisnu.sanjaya@ai.astra.co.id)
+    - Rekan Kerja 1: Sunarko (ID: 64, Email: sunarko@ai.astra.co.id)
+    - Rekan Kerja 2: Abdul Hadi (ID: 1, Email: abdul.hadi1@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Agus Riyanto (ID: 4, Email: agus.riyanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+
+REVIEWEE: Yogi Lasril
+  ID: 81
+  Email: yogi.lasril@ai.astra.co.id
+  Jabatan: ANALIS
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Rekan Kerja 1: Evan Ihsan Fauzi (ID: 22, Email: evan.ihsanfauzi@ai.astra.co.id)
+    - Rekan Kerja 2: Irfandila Alfian Pujo Hastarto (ID: 31, Email: irfandila.alfian@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Dadah Suratno Gatot (ID: 13, Email: dadah.suratno@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ade Ruswandi (ID: 3, Email: ade.ruswandi@ai.astra.co.id)
+
+REVIEWEE: Yupono
+  ID: 82
+  Email: yupono@ai.astra.co.id
+  Jabatan: GUGUS
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Yupono (ID: 82, Email: yupono@ai.astra.co.id)
+    - Rekan Kerja 1: Samuel Niko Yonas (ID: 51, Email: samuel.nikoyonas@ai.astra.co.id)
+    - Rekan Kerja 2: Muhammad Muhadi (ID: 38, Email: muhammad.muhadi@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Darwanto (ID: 15, Email: darwanto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Heru Siswanto (ID: 29, Email: heru.siswanto@ai.astra.co.id)
+
+REVIEWEE: Atharenjani Eskavara
+  ID: 83
+  Email: atharenjani.eskavara@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Atharenjani Eskavara (ID: 83, Email: atharenjani.eskavara@ai.astra.co.id)
+    - Rekan Kerja 1: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Rekan Kerja 2: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Diana Tanoto (ID: 84, Email: diana.tanoto@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Ryan Prasetyo (ID: 88, Email: ryan.prasetyo@ai.astra.co.id)
+
+REVIEWEE: Diana Tanoto
+  ID: 84
+  Email: diana.tanoto@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Diana Tanoto (ID: 84, Email: diana.tanoto@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Edwin Kastono (ID: 19, Email: edwin.kastono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Fathur Ariansha (ID: 90, Email: fathur.ariansha@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Hadad Audi (ID: 85, Email: hadad.audi@ai.astra.co.id)
+
+REVIEWEE: Hadad Audi
+  ID: 85
+  Email: hadad.audi@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: OPS
+  REVIEWERS:
+    - Atasan Langsung: Herdiawan Sutikno (ID: 26, Email: herdiawan.sutikno@ai.astra.co.id)
+    - Diri Sendiri: Hadad Audi (ID: 85, Email: hadad.audi@ai.astra.co.id)
+    - Rekan Kerja 1: Elzi Sirkan Muhammad (ID: 21, Email: elzi.sirkanmuhammad@ai.astra.co.id)
+    - Rekan Kerja 2: Rachmat Cahyono (ID: 46, Email: rachmat.cahyono@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Kevin Ryadi Saragih (ID: 86, Email: kevin.ryadisaragih@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Diana Tanoto (ID: 84, Email: diana.tanoto@ai.astra.co.id)
+
+REVIEWEE: Kevin Ryadi Saragih
+  ID: 86
+  Email: kevin.ryadisaragih@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Kevin Ryadi Saragih (ID: 86, Email: kevin.ryadisaragih@ai.astra.co.id)
+    - Rekan Kerja 1: Nurlaela Rosdiyana (ID: 59, Email: nurlaela.rosdiyana@ai.astra.co.id)
+    - Rekan Kerja 2: Paulus Sarli Anthoni (ID: 71, Email: paulus.anthoni@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Reyner Alexander Lyman (ID: 87, Email: reyner.alexanderlyman@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Yasmin Hanani Reza (ID: 89, Email: yasmin.hananireza@ai.astra.co.id)
+
+REVIEWEE: Reyner Alexander Lyman
+  ID: 87
+  Email: reyner.alexanderlyman@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Reyner Alexander Lyman (ID: 87, Email: reyner.alexanderlyman@ai.astra.co.id)
+    - Rekan Kerja 1: Muhammad Rafi (ID: 39, Email: muhammad.rafi@ai.astra.co.id)
+    - Rekan Kerja 2: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Ryan Prasetyo (ID: 88, Email: ryan.prasetyo@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Atharenjani Eskavara (ID: 83, Email: atharenjani.eskavara@ai.astra.co.id)
+
+REVIEWEE: Ryan Prasetyo
+  ID: 88
+  Email: ryan.prasetyo@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: RND
+  REVIEWERS:
+    - Atasan Langsung: Suanata Gema (ID: 58, Email: suanata.gema@ai.astra.co.id)
+    - Diri Sendiri: Ryan Prasetyo (ID: 88, Email: ryan.prasetyo@ai.astra.co.id)
+    - Rekan Kerja 1: Dewi Humaira (ID: 18, Email: dewi.humaira@ai.astra.co.id)
+    - Rekan Kerja 2: Eko Heru Sarwono (ID: 20, Email: eko.heru@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Sri Mandala Pranata (ID: 91, Email: sri.mandalapranata@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Reyner Alexander Lyman (ID: 87, Email: reyner.alexanderlyman@ai.astra.co.id)
+
+REVIEWEE: Yasmin Hanani Reza
+  ID: 89
+  Email: yasmin.hananireza@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: SGB
+  REVIEWERS:
+    - Atasan Langsung: Wahyu Laksono (ID: 78, Email: wahyu.laksono@ai.astra.co.id)
+    - Diri Sendiri: Yasmin Hanani Reza (ID: 89, Email: yasmin.hananireza@ai.astra.co.id)
+    - Rekan Kerja 1: Ghozi Azmy Rakhman (ID: 52, Email: ghozi.azmy@ai.astra.co.id)
+    - Rekan Kerja 2: Santy Marianty (ID: 76, Email: santy.marianty@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Atharenjani Eskavara (ID: 83, Email: atharenjani.eskavara@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Kevin Ryadi Saragih (ID: 86, Email: kevin.ryadisaragih@ai.astra.co.id)
+
+REVIEWEE: Fathur Ariansha
+  ID: 90
+  Email: fathur.ariansha@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Fathur Ariansha (ID: 90, Email: fathur.ariansha@ai.astra.co.id)
+    - Rekan Kerja 1: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Rekan Kerja 2: Irfandila Alfian Pujo Hastarto (ID: 31, Email: irfandila.alfian@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Hadad Audi (ID: 85, Email: hadad.audi@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Sri Mandala Pranata (ID: 91, Email: sri.mandalapranata@ai.astra.co.id)
+
+REVIEWEE: Sri Mandala Pranata
+  ID: 91
+  Email: sri.mandalapranata@ai.astra.co.id
+  Jabatan: ASA ACADEMY
+  Departemen: BIZTEL
+  REVIEWERS:
+    - Atasan Langsung: Jaka Fernando (ID: 32, Email: jaka.fernandoarisandi@ai.astra.co.id)
+    - Diri Sendiri: Sri Mandala Pranata (ID: 91, Email: sri.mandalapranata@ai.astra.co.id)
+    - Rekan Kerja 1: Yogi Lasril (ID: 81, Email: yogi.lasril@ai.astra.co.id)
+    - Rekan Kerja 2: Levya Annisa Chaniago (ID: 35, Email: levya.annisa@ai.astra.co.id)
+    - Bawahan Langsung 1 / Rekan Kerja 3: Yasmin Hanani Reza (ID: 89, Email: yasmin.hananireza@ai.astra.co.id)
+    - Bawahan Langsung 2 / Rekan Kerja 4: Fathur Ariansha (ID: 90, Email: fathur.ariansha@ai.astra.co.id)
+

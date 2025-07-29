@@ -36,7 +36,7 @@
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-muted mb-0">Astra Departments</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\Peserta::distinct('departemen')->count() }}</span>
+                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::distinct('departemen')->whereNotNull('departemen')->count() }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-orange text-white rounded-circle shadow">
@@ -78,7 +78,7 @@
                   <div class="row">
                     <div class="col">
                       <h5 class="card-title text-uppercase text-muted mb-0">Astra Raters</h5>
-                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::distinct('name_id')->count() }}</span>
+                      <span class="h2 font-weight-bold mb-0">{{ \App\Models\FormOtherAstra::distinct('reviewer_id')->count() }}</span>
                     </div>
                     <div class="col-auto">
                       <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow">
@@ -115,11 +115,6 @@
                     <i class="ni ni-single-02 mr-2"></i>Peserta Astra
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link mb-sm-3 mb-md-0" id="tabs-reports-tab" data-toggle="tab" href="#tabs-reports" role="tab" aria-controls="tabs-reports" aria-selected="false">
-                    <i class="ni ni-books mr-2"></i>Reports
-                  </a>
-                </li>
               </ul>
             </div>
             <div class="card-body">
@@ -147,7 +142,10 @@
                             </thead>
                             <tbody>
                               @php
-                                $departemen = \App\Models\Peserta::selectRaw('departemen, count(*) as total')
+                                // Get department data from form_other_astras since peserta table no longer has departemen column
+                                $departemen = \App\Models\FormOtherAstra::selectRaw('departemen, count(distinct reviewee_id) as total')
+                                    ->whereNotNull('departemen')
+                                    ->where('departemen', '!=', '')
                                     ->groupBy('departemen')
                                     ->orderBy('total', 'desc')
                                     ->get();
@@ -200,6 +198,21 @@
                             <div class="list-group-item px-0">
                               <div class="row align-items-center">
                                 <div class="col-auto">
+                                  <div class="icon icon-shape bg-gradient-success text-white rounded-circle shadow">
+                                    <i class="ni ni-chart-pie-35"></i>
+                                  </div>
+                                </div>
+                                <div class="col ml--2">
+                                  <h4 class="mb-0">
+                                    <a href="{{ url('/astra/reviewer-assignments') }}">Reviewer Assignments</a>
+                                  </h4>
+                                  <small>Matrix reviewer dan reviewee</small>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="list-group-item px-0">
+                              <div class="row align-items-center">
+                                <div class="col-auto">
                                   <div class="icon icon-shape bg-gradient-warning text-white rounded-circle shadow">
                                     <i class="ni ni-books"></i>
                                   </div>
@@ -232,8 +245,7 @@
                             <th scope="col">No.</th>
                             <th scope="col">Nama</th>
                             <th scope="col">Email</th>
-                            <th scope="col">Jabatan</th>
-                            <th scope="col">Departemen</th>
+                            <th scope="col">Status</th>
                             <th scope="col">Action</th>
                           </tr>
                         </thead>
@@ -244,8 +256,7 @@
                             <td>{{ $index + 1 }}</td>
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->email }}</td>
-                            <td>{{ $item->jabatan }}</td>
-                            <td>{{ $item->departemen }}</td>
+                            <td><span class="badge badge-success">Active</span></td>
                             <td class="text-right">
                               <div class="dropdown">
                                 <a class="btn btn-sm btn-icon-only text-light" href="#" role="button" data-toggle="dropdown">
@@ -260,55 +271,6 @@
                           @endforeach
                         </tbody>
                       </table>
-                    </div>
-                  </div>
-                </div>
-                
-                <!-- Reports Tab -->
-                <div class="tab-pane fade" id="tabs-reports" role="tabpanel" aria-labelledby="tabs-reports-tab">
-                  <div class="card">
-                    <div class="card-header border-0">
-                      <h3 class="mb-0">Laporan Assessment Astra</h3>
-                    </div>
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-md-4">
-                          <div class="card">
-                            <div class="card-body text-center">
-                              <div class="icon icon-shape bg-gradient-primary text-white rounded-circle shadow mx-auto mb-3">
-                                <i class="ni ni-single-02"></i>
-                              </div>
-                              <h5 class="card-title">Laporan Individual</h5>
-                              <p class="card-text">Download laporan assessment per individu</p>
-                              <a href="{{ url('/download-report') }}" class="btn btn-primary">Download</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card">
-                            <div class="card-body text-center">
-                              <div class="icon icon-shape bg-gradient-success text-white rounded-circle shadow mx-auto mb-3">
-                                <i class="ni ni-building"></i>
-                              </div>
-                              <h5 class="card-title">Laporan Departemen</h5>
-                              <p class="card-text">Analisis per departemen Astra</p>
-                              <a href="#" class="btn btn-success">Generate</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-4">
-                          <div class="card">
-                            <div class="card-body text-center">
-                              <div class="icon icon-shape bg-gradient-info text-white rounded-circle shadow mx-auto mb-3">
-                                <i class="ni ni-chart-bar-32"></i>
-                              </div>
-                              <h5 class="card-title">Summary Report</h5>
-                              <p class="card-text">Laporan keseluruhan assessment</p>
-                              <a href="#" class="btn btn-info">Generate</a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>

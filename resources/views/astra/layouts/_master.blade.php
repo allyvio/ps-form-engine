@@ -4,16 +4,14 @@
 @include('astra.layouts._header')
 
 <body>
-  <!-- Sidenav -->
-  @include('astra.layouts._sidebar')
-  <!-- Main content -->
-  <div class="main-content" id="panel">
+  <!-- Main content without sidebar -->
+  <div class="main-content">
     <!-- Button trigger modal -->
 
     <!-- Modal -->
     @yield('modal')
     <!-- Topnav -->
-    @include('astra.layouts._topbar')
+    @include('dashboard.layouts._topbar')
     @yield('content')
   </div>
   
