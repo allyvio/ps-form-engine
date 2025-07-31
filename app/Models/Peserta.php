@@ -13,7 +13,9 @@ class Peserta extends Model
     
     protected $fillable = [
         'name',
-        'email'
+        'email',
+        'gap_status',
+        'gap_percentage'
     ];
     
     public function reviewedAssessments()

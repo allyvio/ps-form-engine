@@ -14,4 +14,6 @@
   <!-- Page plugins -->
   <!-- Argon CSS -->
   <link rel="stylesheet" href="{{asset('dashboard/css/argon.css?v=1.1.0')}}" type="text/css">
+  <!-- Page-specific styles -->
+  @stack('styles')
 </head>

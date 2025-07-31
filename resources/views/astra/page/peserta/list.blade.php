@@ -135,7 +135,32 @@
                     <span class="text-muted">{{$item->email}}</span>
                     </td>
                     <td>
-                    <span class="badge badge-success">Active</span>
+                    @php
+                        $statusText = $item->gap_status ?? 'Belum Dinilai';
+                        $percentage = $item->gap_percentage ?? 0;
+                        
+                        // Determine badge class based on status
+                        switch ($statusText) {
+                            case 'Memenuhi Kriteria':
+                                $badgeClass = 'badge-success';
+                                break;
+                            case 'Cukup Memenuhi':
+                                $badgeClass = 'badge-info';
+                                break;
+                            case 'Kurang Memenuhi':
+                                $badgeClass = 'badge-warning';
+                                break;
+                            case 'Belum Memenuhi':
+                                $badgeClass = 'badge-danger';
+                                break;
+                            default:
+                                $badgeClass = 'badge-secondary';
+                                break;
+                        }
+                    @endphp
+                    <span class="badge {{ $badgeClass }}" title="{{ $percentage }}% kompeten">
+                        {{ $statusText }}
+                    </span>
                     </td>
                     <td class="text-right">
                       <a href="{{ url('astra/peserta/' . $item->id) }}" class="btn btn-sm btn-primary" title="Lihat Gap Analysis">

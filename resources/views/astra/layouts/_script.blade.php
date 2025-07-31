@@ -10,3 +10,5 @@
 <script src="{{asset('dashboard/js/argon.js?v=1.1.0')}}"></script>
 <!-- Demo JS - remove this in your project -->
 <script src="{{asset('dashboard/js/demo.min.js')}}"></script>
+<!-- Page-specific scripts -->
+@stack('scripts')

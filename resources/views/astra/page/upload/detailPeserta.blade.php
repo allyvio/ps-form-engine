@@ -1,5 +1,15 @@
 @extends('astra.layouts._master')
 
+@push('styles')
+<!-- ApexCharts CSS - hanya untuk halaman ini -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@latest/dist/apexcharts.css">
+@endpush
+
+@push('scripts')
+<!-- ApexCharts JS - hanya untuk halaman ini -->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts@latest/dist/apexcharts.min.js"></script>
+@endpush
+
 @section('content')
 <!-- Header -->
 <div class="header bg-primary pb-6">
@@ -304,7 +314,7 @@
                             <p class="text-muted mb-0">Performance gaps across all competencies</p>
                         </div>
                         <div class="card-body">
-                            <canvas id="gapDistributionChart" height="200"></canvas>
+                            <div id="gapDistributionChart" style="height: 400px;"></div>
                         </div>
                     </div>
                 </div>
@@ -1098,10 +1108,17 @@
     @include('dashboard.layouts._footer')
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    @if(isset($gapAnalysis) && isset($competencies))
+    console.log('=== GAP DISTRIBUTION CHART DEBUG ===');
+    console.log('gapAnalysis exists:', {{ isset($gapAnalysis) ? 'true' : 'false' }});
+    console.log('gapAnalysis value:', {!! json_encode($gapAnalysis) !!});
+    console.log('competencies exists:', {{ isset($competencies) ? 'true' : 'false' }});
+    console.log('competencies value:', {!! json_encode($competencies) !!});
+    console.log('competencies count:', {{ is_array($competencies) ? count($competencies) : 0 }});
+    
+    @if(isset($gapAnalysis) && isset($competencies) && count($competencies) > 0)
+    console.log('✅ CONDITIONS MET: Proceeding with chart rendering...');
     // Gap Analysis Chart Data
     const competencyNames = [];
     const actualValues = [];
@@ -1110,15 +1127,29 @@ document.addEventListener('DOMContentLoaded', function() {
     
     @foreach($competencies as $name => $data)
         @if($data['actual'] !== null && $data['expected'] !== null)
-            competencyNames.push('{{ Str::limit($name, 15) }}');
-            actualValues.push({{ $data['actual'] }});
-            expectedValues.push({{ $data['expected'] }});
+            // Create shorter, more readable competency names
+            var shortName = '{{ $name }}';
+            if (shortName.length > 20) {
+                // Smart truncation - keep important words
+                shortName = shortName.replace('Management', 'Mgmt')
+                                   .replace('Intelligence', 'Intel')
+                                   .replace('Technology', 'Tech')
+                                   .replace('Awareness', 'Aware')
+                                   .replace('Investigation', 'Invest')
+                                   .replace('Continuity', 'Cont');
+                if (shortName.length > 18) {
+                    shortName = shortName.substring(0, 15) + '...';
+                }
+            }
+            competencyNames.push(shortName);
+            actualValues.push({{ floatval($data['actual']) }});
+            expectedValues.push({{ floatval($data['expected']) }});
             // Calculate true gap: Actual - Expected (positive = surplus, negative = deficit)
-            gapValues.push({{ $data['actual'] - $data['expected'] }});
+            gapValues.push({{ floatval($data['actual']) - floatval($data['expected']) }});
         @endif
     @endforeach
     
-    // Gap Analysis Bar Chart
+    // Gap Analysis Bar Chart (Original - Actual vs Expected)
     const gapCtx = document.getElementById('gapChart').getContext('2d');
     new Chart(gapCtx, {
         type: 'bar',
@@ -1169,6 +1200,190 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
+    // Gap Distribution Chart using ApexCharts - Modern & Beautiful
+    console.log('🚀 Creating ApexCharts Gap Distribution...');
+    console.log('Gap values:', gapValues);
+    console.log('Competency names:', competencyNames);
+    
+    // Clear any existing chart instance
+    if (window.gapDistributionChartInstance) {
+        window.gapDistributionChartInstance.destroy();
+    }
+    
+    // Create colors array based on gap values (red for negative, blue for positive)
+    const gapColors = gapValues.map(gap => {
+        if (gap > 0) return '#36A2EB'; // Blue for positive
+        else if (gap < 0) return '#FF6384'; // Red for negative  
+        else return '#4BC0C0'; // Teal for zero
+    });
+    
+    // Prepare data for ApexCharts
+    const gapSeriesData = gapValues.map((value, index) => ({
+        x: competencyNames[index],
+        y: value,
+        fillColor: gapColors[index]
+    }));
+    
+    const gapDistOptions = {
+        series: [{
+            name: 'Gap Score',
+            data: gapSeriesData
+        }],
+        chart: {
+            type: 'bar',
+            height: 380,
+            toolbar: {
+                show: true,
+                tools: {
+                    download: true,
+                    selection: false,
+                    zoom: false,
+                    zoomin: false,
+                    zoomout: false,
+                    pan: false,
+                    reset: false
+                }
+            }
+        },
+        title: {
+            text: 'Gap Distribution - Performance vs Requirements',
+            align: 'left',
+            style: {
+                fontSize: '16px',
+                fontWeight: 'bold'
+            }
+        },
+        plotOptions: {
+            bar: {
+                distributed: true,
+                horizontal: false,
+                columnWidth: '60%',
+                borderRadius: 2
+            }
+        },
+        colors: gapColors,
+        dataLabels: {
+            enabled: false
+        },
+        legend: {
+            show: false
+        },
+        xaxis: {
+            type: 'category',
+            title: {
+                text: 'Competencies',
+                style: {
+                    fontSize: '12px',
+                    fontWeight: 600
+                }
+            },
+            labels: {
+                rotate: -45,
+                style: {
+                    fontSize: '10px'
+                },
+                formatter: function(value) {
+                    return value.length > 15 ? value.substring(0, 12) + '...' : value;
+                }
+            }
+        },
+        yaxis: {
+            title: {
+                text: 'Gap Score (+ Above Required, - Below Required)',
+                style: {
+                    fontSize: '12px',
+                    fontWeight: 600
+                }
+            },
+            labels: {
+                formatter: function(value) {
+                    return value > 0 ? '+' + value.toFixed(1) : value.toFixed(1);
+                }
+            }
+        },
+        grid: {
+            borderColor: '#e7e7e7',
+            row: {
+                colors: ['#f3f3f3', 'transparent'],
+                opacity: 0.1
+            },
+            xaxis: {
+                lines: {
+                    show: true
+                }
+            },
+            yaxis: {
+                lines: {
+                    show: true
+                }
+            }
+        },
+        annotations: {
+            yaxis: [{
+                y: 0,
+                borderColor: '#000000',
+                borderWidth: 3,
+                strokeDashArray: 0,
+                label: {
+                    text: 'Required Level',
+                    style: {
+                        color: '#fff',
+                        background: '#000000',
+                        fontSize: '10px'
+                    }
+                }
+            }]
+        },
+        tooltip: {
+            shared: false,
+            intersect: true,
+            custom: function({series, seriesIndex, dataPointIndex, w}) {
+                const value = series[seriesIndex][dataPointIndex];
+                const competency = w.globals.labels[dataPointIndex];
+                const status = value > 0 ? 'Above Required' : value < 0 ? 'Below Required' : 'Meets Required';
+                const displayValue = value > 0 ? '+' + value.toFixed(1) : value.toFixed(1);
+                const color = value > 0 ? '#36A2EB' : value < 0 ? '#FF6384' : '#4BC0C0';
+                
+                return `
+                    <div style="padding: 10px; background: white; border: 1px solid #e7e7e7; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+                        <div style="font-weight: bold; margin-bottom: 5px; color: #333;">${competency}</div>
+                        <div style="color: ${color}; font-weight: 600;">${status}: ${displayValue}</div>
+                    </div>
+                `;
+            }
+        },
+        responsive: [{
+            breakpoint: 768,
+            options: {
+                plotOptions: {
+                    bar: {
+                        columnWidth: '80%'
+                    }
+                },
+                xaxis: {
+                    labels: {
+                        rotate: -90
+                    }
+                }
+            }
+        }]
+    };
+    
+    // Create the ApexChart
+    window.gapDistributionChartInstance = new ApexCharts(
+        document.querySelector("#gapDistributionChart"), 
+        gapDistOptions
+    );
+    
+    window.gapDistributionChartInstance.render().then(() => {
+        console.log('✅ ApexCharts Gap Distribution created successfully!');
+    }).catch(error => {
+        console.error('❌ ApexCharts Error:', error);
+    });
+    
+    @else
+    console.log('❌ CHART RENDERING SKIPPED: No data available');
+    console.log('Condition failed - gapAnalysis:', {{ isset($gapAnalysis) ? 'true' : 'false' }}, 'competencies count:', {{ is_array($competencies) ? count($competencies) : 0 }});
     @endif
     
     @if(isset($roleBreakdown))
@@ -1213,66 +1428,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     
-    // Gap Distribution Horizontal Bar Chart
-    const gapDistCtx = document.getElementById('gapDistributionChart').getContext('2d');
-    new Chart(gapDistCtx, {
-        type: 'bar',
-        data: {
-            labels: competencyNames,
-            datasets: [{
-                label: 'Gap (Actual - Expected)',
-                data: gapValues,
-                backgroundColor: gapValues.map(gap => {
-                    if (gap > 0) return 'rgba(75, 192, 192, 0.8)'; // Green for above expectation (surplus)
-                    if (gap < 0) return 'rgba(255, 99, 132, 0.8)'; // Red for below expectation (deficit)
-                    return 'rgba(75, 192, 192, 0.8)'; // Green for meeting expectation
-                }),
-                borderColor: gapValues.map(gap => {
-                    if (gap > 0) return 'rgba(75, 192, 192, 1)';
-                    if (gap < 0) return 'rgba(255, 99, 132, 1)';
-                    return 'rgba(75, 192, 192, 1)';
-                }),
-                borderWidth: 1
-            }]
-        },
-        options: {
-            indexAxis: 'y', // Horizontal bar chart
-            responsive: true,
-            maintainAspectRatio: false,
-            scales: {
-                x: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'Gap Score (Positive = Above Required, Negative = Below Required)'
-                    }
-                }
-            },
-            plugins: {
-                title: {
-                    display: true,
-                    text: 'Competency Gap Analysis'
-                },
-                legend: {
-                    display: false
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            const gap = context.parsed.x;
-                            if (gap > 0) {
-                                return `Gap: +${gap.toFixed(2)} (${gap.toFixed(2)} points above required level)`;
-                            } else if (gap < 0) {
-                                return `Gap: ${gap.toFixed(2)} (${Math.abs(gap).toFixed(2)} points below required level)`;
-                            } else {
-                                return 'Gap: 0.00 (Meets required level)';
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    });
+    
     @endif
 });
 </script>

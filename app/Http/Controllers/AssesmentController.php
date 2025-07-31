@@ -16,14 +16,8 @@ class AssesmentController extends Controller
         $breadcrumb2 = null;
         $button = false;
         
-        // Get peserta with their department and function from form_other_astras
-        $data = Peserta::leftJoin('form_other_astras', 'peserta.id', '=', 'form_other_astras.reviewee_id')
-            ->select('peserta.*', 
-                DB::raw('MAX(form_other_astras.departemen) as departemen'),
-                DB::raw('MAX(form_other_astras.fungsi) as fungsi'))
-            ->groupBy('peserta.id', 'peserta.name', 'peserta.email', 'peserta.created_at', 'peserta.updated_at')
-            ->orderBy('id')
-            ->get();
+        // Get peserta with gap status directly from peserta table
+        $data = Peserta::orderBy('id')->get();
 
         // Calculate statistics
         $totalPeserta = Peserta::count();
@@ -392,6 +386,9 @@ class AssesmentController extends Controller
         $recommendation = $recommendationService->calculateRecommendation($gapAnalysis);
         $competencyBreakdown = $recommendationService->getCompetencyBreakdown($gapAnalysis);
         $recommendationColor = $recommendationService->getRecommendationColor($recommendation['percentage']);
+        
+        // Update peserta gap status in database
+        $this->updatePesertaGapStatus($id, $recommendation['percentage']);
         
         // Calculate top 3 and bottom 3 competencies by gap
         $competencyRankings = $this->calculateCompetencyRankings($competencyBreakdown);
@@ -1166,5 +1163,34 @@ class AssesmentController extends Controller
         }
 
         return 'N/A';
+    }
+    
+    /**
+     * Get status text from percentage
+     */
+    private function getStatusFromPercentage($percentage)
+    {
+        if ($percentage == 100) {
+            return 'Memenuhi Kriteria';
+        } elseif ($percentage >= 75) {
+            return 'Cukup Memenuhi';
+        } elseif ($percentage >= 37.5) {
+            return 'Kurang Memenuhi';
+        } else {
+            return 'Belum Memenuhi';
+        }
+    }
+    
+    /**
+     * Update peserta gap status in database
+     */
+    private function updatePesertaGapStatus($pesertaId, $percentage)
+    {
+        $status = $this->getStatusFromPercentage($percentage);
+        
+        Peserta::where('id', $pesertaId)->update([
+            'gap_status' => $status,
+            'gap_percentage' => $percentage
+        ]);
     }
 }
