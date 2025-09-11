@@ -1091,8 +1091,13 @@ class AssesmentController extends Controller
                 ->toArray();
 
             // Bottom 3: Lowest gaps (worst performance below requirement)
+            // Exclude competencies that are already in TOP 3 to prevent overlap
+            $top3Names = collect($top3)->pluck('name')->toArray();
             $bottom3 = $validCompetencies
                 ->sortBy('gap')
+                ->reject(function($competency) use ($top3Names) {
+                    return in_array($competency['name'], $top3Names);
+                })
                 ->take(3)
                 ->values()
                 ->toArray();
