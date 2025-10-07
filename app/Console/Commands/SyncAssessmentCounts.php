@@ -86,7 +86,6 @@ class SyncAssessmentCounts extends Command
             ->first();
         
         $completionRate = round(($stats->completed / $stats->total) * 100, 2);
-        
         $this->table(
             ['Metric', 'Value'],
             [
