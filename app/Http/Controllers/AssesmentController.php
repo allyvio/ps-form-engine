@@ -806,10 +806,19 @@ class AssesmentController extends Controller
                     ? number_format($mergedRoleBreakdown['bawahan']['assessments']->avg($competencyMapping[$competencyName] . '_rating'), 1) 
                     : 'No Data';
                 
+                // Calculate "Semua kecuali Diri" = (Atasan + Rekan Kerja + Bawahan) / 3
+                // "No Data" is treated as 0
+                $atasanValue = $atasanRating !== 'No Data' ? (float) $atasanRating : 0;
+                $rekanKerjaValue = $rekanKerjaRating !== 'No Data' ? (float) $rekanKerjaRating : 0;
+                $bawahanValue = $bawahanRating !== 'No Data' ? (float) $bawahanRating : 0;
+                
+                $semuaKecualiDiri = number_format(($atasanValue + $rekanKerjaValue + $bawahanValue) / 3, 1);
+                
                 $templateProcessor->setValue("atasan#$rowIndex", $atasanRating);
                 $templateProcessor->setValue("self#$rowIndex", $selfRating);
                 $templateProcessor->setValue("rekan_kerja#$rowIndex", $rekanKerjaRating);
                 $templateProcessor->setValue("bawahan#$rowIndex", $bawahanRating);
+                $templateProcessor->setValue("semua_kecuali_diri#$rowIndex", $semuaKecualiDiri);
                 $templateProcessor->setValue("actual_level#$rowIndex", 
                     $competencyData['actual'] !== null ? number_format($competencyData['actual'], 2) : 'N/A');
                 $templateProcessor->setValue("required_level#$rowIndex", 
@@ -856,6 +865,14 @@ class AssesmentController extends Controller
                     ? number_format($mergedRoleBreakdown['bawahan']['assessments']->avg($fieldName . '_rating'), 1) 
                     : 'No Data';
                 
+                // Calculate "Semua kecuali Diri" = (Atasan + Rekan Kerja + Bawahan) / 3
+                // "No Data" is treated as 0
+                $atasanValue = $atasanRating !== 'No Data' ? (float) $atasanRating : 0;
+                $rekanKerjaValue = $rekanKerjaRating !== 'No Data' ? (float) $rekanKerjaRating : 0;
+                $bawahanValue = $bawahanRating !== 'No Data' ? (float) $bawahanRating : 0;
+                
+                $semuaKecualiDiri = number_format(($atasanValue + $rekanKerjaValue + $bawahanValue) / 3, 1);
+                
                 // Calculate gap display
                 if ($competencyData['gap'] !== null && $competencyData['actual'] !== null && $competencyData['expected'] !== null) {
                     $trueGap = $competencyData['actual'] - $competencyData['expected'];
@@ -875,6 +892,7 @@ class AssesmentController extends Controller
                 $templateProcessor->setValue($fieldName . '_self', $selfRating);
                 $templateProcessor->setValue($fieldName . '_rekan_kerja', $rekanKerjaRating);
                 $templateProcessor->setValue($fieldName . '_bawahan', $bawahanRating);
+                $templateProcessor->setValue($fieldName . '_semua_kecuali_diri', $semuaKecualiDiri);
                 $templateProcessor->setValue($fieldName . '_actual', 
                     $competencyData['actual'] !== null ? number_format($competencyData['actual'], 2) : 'N/A');
                 $templateProcessor->setValue($fieldName . '_required', 

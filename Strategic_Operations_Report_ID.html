@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Laporan Analisis Strategic Operations</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px; }
+        h3 { color: #7f8c8d; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+        .critical { background-color: #ffebee; }
+        .high { background-color: #fff3e0; }
+        .success { background-color: #e8f5e8; }
+        .summary-box { background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .metric { font-size: 24px; font-weight: bold; color: #e74c3c; }
+        ul { padding-left: 20px; }
+        li { margin: 5px 0; }
+        
+        /* Chart Styles - CSS based charts for PDF compatibility */
+        .chart-container { margin: 20px 0; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .bar-chart { display: inline-block; margin: 10px; }
+        .bar { display: inline-block; width: 30px; margin: 2px; text-align: center; vertical-align: bottom; }
+        .bar-label { font-size: 12px; margin-top: 5px; }
+        .bar-value { font-size: 11px; font-weight: bold; color: white; padding: 2px; }
+        .pie-chart { display: inline-block; margin: 20px; position: relative; }
+        .legend { display: inline-block; vertical-align: top; margin-left: 20px; }
+        .legend-item { display: block; margin: 5px 0; }
+        .legend-color { display: inline-block; width: 15px; height: 15px; margin-right: 5px; vertical-align: middle; }
+        .chart-title { font-weight: bold; margin-bottom: 10px; color: #2c3e50; }
+        
+        /* Progress bar styles for PDF-compatible charts */
+        .progress-container { width: 100%; background-color: #f0f0f0; border-radius: 4px; margin: 5px 0; height: 25px; position: relative; }
+        .progress-bar { height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; color: white; }
+        .progress-label { position: absolute; right: 5px; top: 50%; transform: translateY(-50%); font-size: 11px; font-weight: bold; color: #333; }
+    </style>
+</head>
+<body>
+
+<h1>DEPARTEMEN STRATEGIC OPERATIONS</h1>
+<h2>Laporan Analisis Penilaian Kompetensi</h2>
+
+<div class="summary-box">
+    <h3>RINGKASAN EKSEKUTIF</h3>
+    <p><strong>Departemen:</strong> Strategic Operations<br>
+    <strong>Total Personel:</strong> 33 orang<br>
+    <strong>Periode Penilaian:</strong> 2025<br>
+    <strong>Kinerja Keseluruhan:</strong> <span class="metric"> Hanya 15.2% memenuhi kriteria</span></p>
+    
+    <div class="critical" style="margin-top: 15px; padding: 15px; border-radius: 5px;">
+        <h4>TEMUAN KRITIS: Masalah Data Survei yang Hilang</h4>
+        <p><strong>Tingkat Penyelesaian Survei: Hanya 53.5%</strong> (106 dari 198 penilaian yang mungkin)</p>
+        <p><strong>Rata-rata Perusahaan: 57.2%</strong> - Strategic Operations <strong>3.7% DI BAWAH</strong> standar perusahaan</p>
+        <p><strong>Akar Masalah:</strong> Krisis partisipasi survei khusus departemen, bukan masalah perusahaan secara keseluruhan</p>
+    </div>
+
+</div>
+
+<div style="page-break-before: always;"></div>
+
+<div class="chart-container">
+    <div class="chart-title">Tinjauan Distribusi Kinerja</div>
+        
+        <div style="margin: 40px 0; max-width: 500px; margin-left: auto; margin-right: auto;">
+            
+            <div style="margin: 15px 0; text-align: left;">
+                <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">Memenuhi Kriteria</div>
+                <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                    <div style="width: 6.1%; height: 30px; background-color: #27ae60; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+                </div>
+                <div style="font-size: 12px; margin-top: 5px; color: #333;">2 orang (6.1%)</div>
+            </div>
+            
+            <div style="margin: 15px 0; text-align: left;">
+                <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">Cukup Memenuhi</div>
+                <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                    <div style="width: 9.1%; height: 30px; background-color: #f39c12; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+                </div>
+                <div style="font-size: 12px; margin-top: 5px; color: #333;">3 orang (9.1%)</div>
+            </div>
+            
+            <div style="margin: 15px 0; text-align: left;">
+                <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">Kurang Memenuhi</div>
+                <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                    <div style="width: 39.4%; height: 30px; background-color: #e67e22; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+                </div>
+                <div style="font-size: 12px; margin-top: 5px; color: #333;">13 orang (39.4%)</div>
+            </div>
+            
+            <div style="margin: 15px 0; text-align: left;">
+                <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">Belum Memenuhi</div>
+                <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                    <div style="width: 45.5%; height: 30px; background-color: #e74c3c; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+                </div>
+                <div style="font-size: 12px; margin-top: 5px; color: #333;">15 orang (45.5%)</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<h2>1. ANALISIS KINERJA TINGGI</h2>
+
+<h3>Mengapa Hanya 2 Orang yang Memenuhi Kriteria?</h3>
+
+<div class="success">
+<h4>Arif Triady (Protocol) - Telah Memenuhi Kriteria Kompetensi Jabatan Saat Ini</h4>
+<ul>
+    
+    <li><strong>Kekuatan Utama:</strong>
+        <ul>
+            <li>Manajemen Personel (2.8/1) - Luar biasa</li>
+            <li>Keamanan Fisik (2.8/2) - Memenuhi persyaratan</li>
+            <li>Kepatuhan Hukum (2.7/1) - Kuat</li>
+            <li>Kesadaran Teknologi Global (2.0/1) - Baik</li>
+        </ul>
+    </li>
+    <li><strong>Profil:</strong> Kuat dalam manajemen orang dan protokol keamanan</li>
+</ul>
+</div>
+
+<div class="success">
+<h4>Hendra Wijaya (Officer) - Telah Memenuhi Kriteria Kompetensi Jabatan Saat Ini</h4>
+<ul>
+    
+    <li><strong>Kekuatan Utama:</strong>
+        <ul>
+            <li>Keamanan Praktis (2.7/1) - Luar biasa</li>
+            <li>Manajemen Personel (2.6/1) - Kuat</li>
+            <li>Intelijen Bisnis (2.6/1) - Kuat</li>
+            <li>Keamanan Fisik (2.6/2) - Di atas persyaratan</li>
+        </ul>
+    </li>
+    <li><strong>Profil:</strong> Performa menyeluruh, terkuat dalam operasi keamanan</li>
+</ul>
+</div>
+
+<h3>Faktor Kesuksesan:</h3>
+<ol>
+    <li><strong>Fondasi Keamanan yang Kuat</strong> - Keduanya unggul dalam Keamanan Fisik & Praktis</li>
+    <li><strong>Keterampilan Kepemimpinan</strong> - Skor Manajemen Personel tinggi</li>
+    <li><strong>Penilaian Komprehensif</strong> - Input dari beberapa penilai memvalidasi kinerja</li>
+    <li><strong>Kesesuaian Peran</strong> - Kinerja sesuai dengan persyaratan pekerjaan</li>
+</ol>
+
+
+
+<h2>2. ANALISIS DATA HILANG - TEMUAN KRITIS</h2>
+
+<div style="background-color: #fff; padding: 20px; border-radius: 8px; margin: 20px 0; border: 1px solid #ddd;">
+<h3>Krisis Partisipasi Survei - Masalah Khusus Departemen</h3>
+<p><strong>Masalah sebenarnya bukan kesenjangan kompetensi, tetapi data survei yang hilang!</strong></p>
+
+<table style="margin: 20px 0;">
+    <tr><th>Metrik Penyelesaian</th><th>Strategic Operations</th><th>Rata-rata Perusahaan</th><th>Status</th></tr>
+    <tr class="critical"><td><strong>Tingkat Penyelesaian Survei</strong></td><td>53.5%</td><td>57.2%</td><td>-3.7% BURUK</td></tr>
+    <tr><td><strong>Penilaian Hilang</strong></td><td>92 dari 198</td><td>231 dari 540</td><td>SANGAT BURUK</td></tr>
+    <tr><td><strong>Data Lengkap (6/6)</strong></td><td>3 orang (9.1%)</td><td>~12% rata-rata</td><td>BURUK</td></tr>
+    <tr><td><strong>Sangat Tidak Lengkap (<2/6)</strong></td><td>15 orang (45.5%)</td><td>~35% rata-rata</td><td>SANGAT BURUK</td></tr>
+</table>
+
+<div class="high" style="margin: 15px 0; padding: 10px; border-radius: 5px;">
+<h4>Wawasan Peringkat Departemen:</h4>
+<p><strong>Strategic Operations berada di antara departemen dengan kinerja TERENDAH</strong> dalam penyelesaian survei di seluruh perusahaan. Ini bukan masalah perusahaan secara keseluruhan - ini adalah <strong>krisis khusus departemen</strong>.</p>
+</div>
+
+<div class="chart-container">
+    <div class="chart-title">Tingkat Penyelesaian Penilaian</div>
+    
+    <div style="margin: 40px 0; max-width: 500px; margin-left: auto; margin-right: auto;">
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">6/6 Lengkap</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 9.1%; height: 30px; background-color: #27ae60; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">3 orang (9.1%)</div>
+        </div>
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">5/6 Hampir</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 9.1%; height: 30px; background-color: #2ecc71; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">3 orang (9.1%)</div>
+        </div>
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">4/6 Sedang</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 24.2%; height: 30px; background-color: #f39c12; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">8 orang (24.2%)</div>
+        </div>
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">3/6 Terbatas</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 18.2%; height: 30px; background-color: #e67e22; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">6 orang (18.2%)</div>
+        </div>
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">2/6 Buruk</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 30.3%; height: 30px; background-color: #e74c3c; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">10 orang (30.3%)</div>
+        </div>
+        
+        <div style="margin: 15px 0; text-align: left;">
+            <div style="font-size: 14px; font-weight: bold; margin-bottom: 8px; color: #333;">1/6 Kritis</div>
+            <div style="width: 100%; height: 30px; background-color: #ddd; border-radius: 15px; position: relative;">
+                <div style="width: 9.1%; height: 30px; background-color: #c0392b; border-radius: 15px; position: absolute; top: 0; left: 0;"></div>
+            </div>
+            <div style="font-size: 12px; margin-top: 5px; color: #333;">3 orang (9.1%)</div>
+        </div>
+        
+    </div>
+</div>
+
+<h4>Korelasi Kritis: Data Hilang = Kinerja Rendah</h4>
+<p><strong>15 orang dengan data hilang tinggi (50%) SEMUA memiliki kinerja rendah (<75%)</strong></p>
+
+<table style="margin: 20px 0;">
+    <tr><th>Nama</th><th>Penilaian</th><th>Hilang</th><th>Kinerja</th><th>Kemungkinan Penyebab</th></tr>
+    <tr class="critical"><td>Tomi Sugiarto</td><td>1/6</td><td>83.3%</td><td>0%</td><td>Data Tidak Cukup</td></tr>
+    <tr class="critical"><td>Tri Handono</td><td>1/6</td><td>83.3%</td><td>0%</td><td>Data Tidak Cukup</td></tr>
+    <tr class="critical"><td>Ari Hidayat</td><td>2/6</td><td>66.7%</td><td>0%</td><td>Data Tidak Cukup</td></tr>
+    <tr class="critical"><td>Dahlan Yusuf</td><td>2/6</td><td>66.7%</td><td>0%</td><td>Data Tidak Cukup</td></tr>
+    <tr><td colspan="5"><em>... dan 11 lainnya dengan pola serupa</em></td></tr>
+</table>
+
+<h4>Peran Penilai yang Paling Sering Hilang:</h4>
+<ul>
+    <li><strong>Atasan Langsung</strong> - Hilang untuk mayoritas staf</li>
+    <li><strong>Diri Sendiri</strong> - Penilaian diri sering tidak diselesaikan</li>
+    <li><strong>Bawahan Langsung 1 & 2</strong> - Ulasan bawahan sering hilang</li>
+    <li><strong>Rekan Kerja 1 & 2</strong> - Ulasan rekan tidak lengkap</li>
+</ul>
+</div>
+
+<h2>3. High Performance Analysis</h2>
+
+<h3>Top 3 Kompetensi Kritis (Perlu Perhatian Segera)</h3>
+<table>
+    <tr><th>Ranking</th><th>Kompetensi</th><th>Frekuensi Gap</th><th>Level Dampak</th></tr>
+    <tr class="critical"><td><strong>1</strong></td><td><strong>Physical Security</strong></td><td>27/31 (87.1%)</td><td>SANGAT TINGGI</td></tr>
+    <tr class="critical"><td><strong>2</strong></td><td><strong>Risk Management</strong></td><td>24/31 (77.4%)</td><td>SANGAT TINGGI</td></tr>
+    <tr class="critical"><td><strong>3</strong></td><td><strong>Personnel Management</strong></td><td>23/31 (74.2%)</td><td>TINGGI</td></tr>
+</table>
+
+<h3>Top 3 Kompetensi Terbaik (Sudah Berkinerja Baik)</h3>
+<table>
+    <tr><th>Ranking</th><th>Kompetensi</th><th>Frekuensi Gap</th><th>Level Dampak</th></tr>
+    <tr class="success"><td><strong>1</strong></td><td><strong>Investigation & Case Management</strong></td><td>12/31 (38.7%)</td><td>RENDAH</td></tr>
+    <tr class="success"><td><strong>2</strong></td><td><strong>Basic Intelligence</strong></td><td>14/31 (45.2%)</td><td>RENDAH</td></tr>
+    <tr class="success"><td><strong>3</strong></td><td><strong>Legal & Compliance</strong></td><td>15/31 (48.4%)</td><td>SEDANG</td></tr>
+</table>
+
+
+
+<h3>Analisis Akar Masalah</h3>
+<h4>Mengapa 84.8% Tidak Memenuhi Kriteria: MASALAH DATA, BUKAN MASALAH KOMPETENSI</h4>
+
+<div class="critical">
+<p><strong> AKAR PENYEBAB UTAMA: Krisis Data Penilaian Khusus Departemen (90.9% terdampak)</strong></p>
+<ul>
+    <li><strong>90.9% memiliki data tidak lengkap</strong> (hanya 3/33 orang yang memiliki 6/6 penilaian)</li>
+    <li><strong>39.4% sangat tidak lengkap</strong> (≤2/6 penilaian) = skor tidak dapat diandalkan</li>
+    <li><strong>False negative:</strong> Skor rendah karena input penilai tidak cukup</li>
+</ul>
+</div>
+
+<div class="critical">
+<p><strong>2. Kegagalan Partisipasi Survei Strategic Operations (53.5% vs 57.2% rata-rata perusahaan)</strong></p>
+<ul>
+    <li><strong>Peringkat:</strong> Di antara departemen dengan kinerja terendah di seluruh perusahaan</li>
+    <li><strong>Hilang Atasan Langsung:</strong> Umpan balik supervisor kritis tidak ada</li>
+    <li><strong>Hilang Penilaian Diri:</strong> Perspektif karyawan tidak tertangkap</li>
+    <li><strong>Hilang ulasan Bawahan:</strong> Input bawahan tidak tersedia</li>
+    <li><strong>Masalah khusus departemen:</strong> Departemen lain berkinerja lebih baik</li>
+</ul>
+</div>
+
+
+
+
+<h2>4. ANALISIS KINERJA BURUK</h2>
+
+<div class="critical">
+<h4>Ari Hidayat (Protocol) - Tidak Memenuhi</h4>
+<p><strong>Gap Kritis:</strong></p>
+<ul>
+    <li>Keamanan Fisik: 0.4/2.0 (Gap: -1.6)</li>
+    <li>Keamanan Praktis: 0.4/2.0 (Gap: -1.6)</li>
+    <li>Manajemen Risiko: 0.3/1.0 (Gap: -0.7)</li>
+</ul>
+<p><strong>Akar Penyebab:</strong> Defisit pengetahuan keamanan fundamental</p>
+</div>
+
+<div class="critical">
+<h4>Dahlan Yusuf (Dantim SAR) - Tidak Memenuhi</h4>
+<p><strong>Gap Kritis:</strong></p>
+<ul>
+    <li>Manajemen Bencana: 0.3/2.0 (Gap: -1.7)</li>
+    <li>Operasi SAR: 0.3/2.0 (Gap: -1.7)</li>
+    <li>Manajemen Risiko: 0.2/1.0 (Gap: -0.8)</li>
+</ul>
+<p><strong>Akar Penyebab:</strong> Kompetensi inti SAR sangat kurang</p>
+</div>
+
+<h2>5. KESIMPULAN DAN REKOMENDASI</h2>
+
+<div class="summary-box">
+<h3>KESIMPULAN UTAMA</h3>
+
+<div class="critical" style="margin: 15px 0; padding: 15px; border-radius: 5px;">
+<h4>TEMUAN KRITIS: Masalah Data, Bukan Masalah Kompetensi</h4>
+<p><strong>Strategic Operations tidak mengalami "krisis kompetensi" tetapi "krisis pengumpulan data"</strong></p>
+</div>
+
+<h4>Temuan Utama:</h4>
+<ol>
+    <li><strong>Masalah Partisipasi Survei</strong>
+        <ul>
+            <li>Tingkat penyelesaian 53.5% vs rata-rata perusahaan 57.2% (-3.7%)</li>
+            <li>90.9% staf memiliki data tidak lengkap (hanya 3/33 dengan 6/6 penilaian)</li>
+            <li>Strategic Operations berperingkat terendah di seluruh perusahaan</li>
+        </ul>
+    </li>
+    
+    <li><strong>Kesalahan Indikator Kinerja</strong>
+        <ul>
+            <li>15 orang dengan data hilang tinggi (50%) menunjukkan kinerja 0%</li>
+            <li>Data tidak cukup menyebabkan hasil false negative</li>
+            <li>Skor penilaian tidak mencerminkan kemampuan sebenarnya</li>
+        </ul>
+    </li>
+</ol>
+
+
+
+
+<h3>HASIL YANG DIHARAPKAN</h3>
+
+<table style="margin: 20px 0;">
+    <tr><th>Metrik</th><th>Saat Ini</th><th>Target (Pasca Pengumpulan Data)</th><th>Perbaikan</th></tr>
+    <tr><td><strong>Penyelesaian Survei</strong></td><td>53.5%</td><td>90%+</td><td>+36.5%</td></tr>
+    <tr><td><strong>Data Lengkap (6/6)</strong></td><td>9.1% (3 orang)</td><td>80%+ (26+ orang)</td><td>+800%</td></tr>
+    <tr class="success"><td><strong>Memenuhi/Cukup Kriteria</strong></td><td>15.2% (5 orang)</td><td>45-60% (15-20 orang)</td><td>+300-400%</td></tr>
+</table>
+
+
+</div>
+
+
+
+<hr>
+<p><strong>Laporan Dihasilkan:</strong> Oktober 2025<br>
+<strong>Analis:</strong> Assessment Engine<br>
+<strong>Klasifikasi:</strong> Penggunaan Internal Saja</p>
+
+<p><em>Analisis ini berdasarkan data penilaian 360 derajat komprehensif dari 33 personel Strategic Operations di 15 kompetensi inti. Rekomendasi diprioritaskan berdasarkan dampak bisnis dan kelayakan implementasi.</em></p>
+
+</body>
+</html>

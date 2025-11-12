@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AssesmentController;
 use App\Http\Controllers\Auth\LoginController;
+use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -139,3 +140,7 @@ Route::middleware('auth')->group(function () {
         ]);
     });
 });
+
+ Route::post('/proprius-ai',function(Request $request){
+
+ });

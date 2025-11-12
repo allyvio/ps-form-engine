@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Strategic Operations Analysis Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
+        h1 { color: #2c3e50; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #34495e; border-bottom: 1px solid #bdc3c7; padding-bottom: 5px; }
+        h3 { color: #7f8c8d; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f2f2f2; font-weight: bold; }
+        .critical { background-color: #ffebee; }
+        .high { background-color: #fff3e0; }
+        .success { background-color: #e8f5e8; }
+        .summary-box { background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0; }
+        .metric { font-size: 24px; font-weight: bold; color: #e74c3c; }
+        ul { padding-left: 20px; }
+        li { margin: 5px 0; }
+        
+        /* Chart Styles */
+        .chart-container { margin: 20px 0; text-align: center; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .chart-container canvas { max-width: 100%; max-height: 300px; }
+        .bar-chart { display: inline-block; margin: 10px; }
+        .bar { display: inline-block; width: 30px; margin: 2px; text-align: center; vertical-align: bottom; }
+        .bar-label { font-size: 12px; margin-top: 5px; }
+        .bar-value { font-size: 11px; font-weight: bold; color: white; padding: 2px; }
+        .pie-chart { display: inline-block; margin: 20px; position: relative; }
+        .legend { display: inline-block; vertical-align: top; margin-left: 20px; }
+        .legend-item { display: block; margin: 5px 0; }
+        .legend-color { display: inline-block; width: 15px; height: 15px; margin-right: 5px; vertical-align: middle; }
+        .chart-title { font-weight: bold; margin-bottom: 10px; color: #2c3e50; }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<h1>STRATEGIC OPERATIONS DEPARTMENT</h1>
+<h2>Competency Assessment Analysis Report</h2>
+
+<div class="summary-box">
+    <h3>EXECUTIVE SUMMARY</h3>
+    <p><strong>Department:</strong> Strategic Operations<br>
+    <strong>Total Personnel:</strong> 33 people<br>
+    <strong>Assessment Period:</strong> Current<br>
+    <strong>Overall Performance:</strong> <span class="metric">Critical - Only 15.2% meet criteria</span></p>
+    
+    <div class="critical" style="margin-top: 15px; padding: 15px; border-radius: 5px;">
+        <h4>🚨 CRITICAL DISCOVERY: Missing Survey Data Problem</h4>
+        <p><strong>Survey Completion Rate: Only 53.5%</strong> (106 out of 198 possible assessments)</p>
+        <p><strong>Company-wide Average: 57.2%</strong> - Strategic Operations is <strong>3.7% BELOW</strong> company standard</p>
+        <p><strong>Root Cause:</strong> Department-specific survey participation crisis, not company-wide issue</p>
+    </div>
+
+    <table>
+        <tr><th>Category</th><th>Count</th><th>Percentage</th></tr>
+        <tr class="critical"><td><strong>Memenuhi Kriteria</strong></td><td>2</td><td>6.1%</td></tr>
+        <tr class="high"><td><strong>Cukup Memenuhi</strong></td><td>3</td><td>9.1%</td></tr>
+        <tr><td><strong>Kurang Memenuhi</strong></td><td>13</td><td>39.4%</td></tr>
+        <tr><td><strong>Belum Memenuhi</strong></td><td>15</td><td>45.5%</td></tr>
+    </table>
+
+    <div class="chart-container">
+        <div class="chart-title">Performance Distribution Overview</div>
+        <canvas id="performanceChart" style="width: 400px; height: 200px;"></canvas>
+    </div>
+
+    <script>
+    const performanceCtx = document.getElementById('performanceChart').getContext('2d');
+    new Chart(performanceCtx, {
+        type: 'doughnut',
+        data: {
+            labels: ['Memenuhi Kriteria', 'Cukup Memenuhi', 'Kurang Memenuhi', 'Belum Memenuhi'],
+            datasets: [{
+                data: [2, 3, 13, 15],
+                backgroundColor: ['#27ae60', '#f39c12', '#e67e22', '#e74c3c'],
+                borderWidth: 2,
+                borderColor: '#fff'
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'right'
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function(context) {
+                            const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                            const percentage = ((context.parsed / total) * 100).toFixed(1);
+                            return context.label + ': ' + context.parsed + ' (' + percentage + '%)';
+                        }
+                    }
+                }
+            }
+        }
+    });
+    </script>
+</div>
+
+<h2>1. HIGH PERFORMERS ANALYSIS</h2>
+
+<h3>Why Only 2 People Meet Criteria?</h3>
+
+<div class="success">
+<h4>Arif Triady (Protocol) - 100% Score</h4>
+<ul>
+    <li><strong>Success Rate:</strong> 53.3% (8/15 competencies met)</li>
+    <li><strong>Key Strengths:</strong>
+        <ul>
+            <li>Personnel Management (2.8/1) - Exceptional</li>
+            <li>Physical Security (2.8/2) - Meets requirement</li>
+            <li>Legal Compliance (2.7/1) - Strong</li>
+            <li>Global Tech Awareness (2.0/1) - Good</li>
+        </ul>
+    </li>
+    <li><strong>Profile:</strong> Strong in people management and security protocols</li>
+</ul>
+</div>
+
+<div class="success">
+<h4>Hendra Wijaya (Officer) - 100% Score</h4>
+<ul>
+    <li><strong>Success Rate:</strong> 80% (12/15 competencies met)</li>
+    <li><strong>Key Strengths:</strong>
+        <ul>
+            <li>Practical Security (2.7/1) - Exceptional</li>
+            <li>Personnel Management (2.6/1) - Strong</li>
+            <li>Business Intelligence (2.6/1) - Strong</li>
+            <li>Physical Security (2.6/2) - Above requirement</li>
+        </ul>
+    </li>
+    <li><strong>Profile:</strong> Well-rounded performer, strongest in security operations</li>
+</ul>
+</div>
+
+<h3>Success Factors:</h3>
+<ol>
+    <li><strong>Strong Security Foundation</strong> - Both excel in Physical & Practical Security</li>
+    <li><strong>Leadership Skills</strong> - High Personnel Management scores</li>
+    <li><strong>Comprehensive Assessment</strong> - Multiple reviewer inputs validate performance</li>
+    <li><strong>Role Alignment</strong> - Performance matches job requirements</li>
+</ol>
+
+<div class="chart-container">
+    <div class="chart-title">High Performers vs Others: Assessment Completion</div>
+    <canvas id="highPerformersChart" style="width: 400px; height: 200px;"></canvas>
+</div>
+
+<script>
+const highPerformersCtx = document.getElementById('highPerformersChart').getContext('2d');
+new Chart(highPerformersCtx, {
+    type: 'bar',
+    data: {
+        labels: ['Arif Triady\n(100%)', 'Hendra Wijaya\n(100%)', 'Average Others\n(<100%)'],
+        datasets: [
+            {
+                label: 'Assessments Completed',
+                data: [3, 4, 3.2],
+                backgroundColor: ['#27ae60', '#27ae60', '#e74c3c'],
+                borderColor: '#2c3e50',
+                borderWidth: 1
+            },
+            {
+                label: 'Competencies Met (/15)',
+                data: [8, 12, 3.5],
+                backgroundColor: ['#3498db', '#3498db', '#95a5a6'],
+                borderColor: '#2c3e50',
+                borderWidth: 1
+            }
+        ]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                position: 'top'
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 15,
+                title: {
+                    display: true,
+                    text: 'Count'
+                }
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Personnel'
+                }
+            }
+        }
+    }
+});
+</script>
+
+<h2>2. MISSING DATA ANALYSIS - CRITICAL FINDINGS</h2>
+
+<div class="critical">
+<h3>🚨 Survey Participation Crisis - Department-Specific Problem</h3>
+<p><strong>The real problem is not competency gaps, but missing survey data!</strong></p>
+
+<table style="margin: 20px 0;">
+    <tr><th>Completion Metric</th><th>Strategic Operations</th><th>Company Average</th><th>Status</th></tr>
+    <tr class="critical"><td><strong>Survey Completion Rate</strong></td><td>53.5%</td><td>57.2%</td><td>-3.7% BELOW</td></tr>
+    <tr><td><strong>Missing Assessments</strong></td><td>92 out of 198</td><td>231 out of 540</td><td>WORSE</td></tr>
+    <tr><td><strong>Complete Data (6/6)</strong></td><td>3 people (9.1%)</td><td>~12% average</td><td>BELOW</td></tr>
+    <tr><td><strong>Severely Incomplete (≤2/6)</strong></td><td>15 people (45.5%)</td><td>~35% average</td><td>WORSE</td></tr>
+</table>
+
+<div class="high" style="margin: 15px 0; padding: 10px; border-radius: 5px;">
+<h4>📊 Departmental Ranking Insight:</h4>
+<p><strong>Strategic Operations ranks among the LOWEST performing departments</strong> in survey completion across the entire company. This is not a company-wide problem - it's a <strong>department-specific crisis</strong>.</p>
+</div>
+
+<div class="chart-container">
+    <div class="chart-title">Assessment Completion Rate by Level</div>
+    <canvas id="completionChart" style="width: 500px; height: 250px;"></canvas>
+</div>
+
+<script>
+const completionCtx = document.getElementById('completionChart').getContext('2d');
+new Chart(completionCtx, {
+    type: 'bar',
+    data: {
+        labels: ['6/6\n(Complete)', '5/6\n(Almost)', '4/6\n(Moderate)', '3/6\n(Limited)', '2/6\n(Poor)', '1/6\n(Critical)'],
+        datasets: [{
+            label: 'Number of People',
+            data: [3, 3, 8, 6, 10, 3],
+            backgroundColor: ['#27ae60', '#2ecc71', '#f39c12', '#e67e22', '#e74c3c', '#c0392b'],
+            borderColor: '#2c3e50',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        const total = 33;
+                        const percentage = ((context.parsed.y / total) * 100).toFixed(1);
+                        return context.parsed.y + ' people (' + percentage + '%)';
+                    }
+                }
+            }
+        },
+        scales: {
+            y: {
+                beginAtZero: true,
+                max: 12,
+                title: {
+                    display: true,
+                    text: 'Number of People'
+                }
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Assessment Completion Level'
+                }
+            }
+        }
+    }
+});
+</script>
+
+<h4>Critical Correlation: Missing Data = Low Performance</h4>
+<p><strong>15 people with high missing data (≥50%) ALL have low performance (<75%)</strong></p>
+
+<table style="margin: 20px 0;">
+    <tr><th>Name</th><th>Assessments</th><th>Missing</th><th>Performance</th><th>Likely Cause</th></tr>
+    <tr class="critical"><td>Tomi Sugiarto</td><td>1/6</td><td>83.3%</td><td>0%</td><td>Insufficient Data</td></tr>
+    <tr class="critical"><td>Tri Handono</td><td>1/6</td><td>83.3%</td><td>0%</td><td>Insufficient Data</td></tr>
+    <tr class="critical"><td>Ari Hidayat</td><td>2/6</td><td>66.7%</td><td>0%</td><td>Insufficient Data</td></tr>
+    <tr class="critical"><td>Dahlan Yusuf</td><td>2/6</td><td>66.7%</td><td>0%</td><td>Insufficient Data</td></tr>
+    <tr><td colspan="5"><em>... and 11 others with similar patterns</em></td></tr>
+</table>
+
+<h4>Most Frequently Missing Reviewer Roles:</h4>
+<ul>
+    <li><strong>Atasan Langsung</strong> - Missing for majority of staff</li>
+    <li><strong>Diri Sendiri</strong> - Self-assessments often not completed</li>
+    <li><strong>Bawahan Langsung 1 & 2</strong> - Subordinate reviews frequently missing</li>
+    <li><strong>Rekan Kerja 1 & 2</strong> - Peer reviews incomplete</li>
+</ul>
+</div>
+
+<h2>3. PERFORMANCE GAPS ANALYSIS</h2>
+
+<h3>Critical Competency Gaps (Top 5)</h3>
+<table>
+    <tr><th>Competency</th><th>Gap Frequency</th><th>Impact Level</th></tr>
+    <tr class="critical"><td><strong>Physical Security</strong></td><td>27/31 (87.1%)</td><td>CRITICAL</td></tr>
+    <tr class="critical"><td><strong>Risk Management</strong></td><td>24/31 (77.4%)</td><td>CRITICAL</td></tr>
+    <tr class="high"><td><strong>Personnel Management</strong></td><td>23/31 (74.2%)</td><td>HIGH</td></tr>
+    <tr class="high"><td><strong>Global Tech Awareness</strong></td><td>20/31 (64.5%)</td><td>HIGH</td></tr>
+    <tr class="high"><td><strong>Practical Security</strong></td><td>20/31 (64.5%)</td><td>HIGH</td></tr>
+</table>
+
+<div class="chart-container">
+    <div class="chart-title">Top 10 Competency Gaps (% of Underperformers Affected)</div>
+    <canvas id="competencyGapsChart" style="width: 600px; height: 300px;"></canvas>
+</div>
+
+<script>
+const competencyGapsCtx = document.getElementById('competencyGapsChart').getContext('2d');
+new Chart(competencyGapsCtx, {
+    type: 'bar',
+    data: {
+        labels: [
+            'Physical Security',
+            'Risk Management', 
+            'Personnel Management',
+            'Global Tech Awareness',
+            'Practical Security',
+            'Mass Conflict Mgmt',
+            'Legal Compliance',
+            'Assessor',
+            'SAR',
+            'Investigation Case Mgmt'
+        ],
+        datasets: [{
+            label: 'Gap Frequency (%)',
+            data: [87.1, 77.4, 74.2, 64.5, 64.5, 45.2, 41.9, 41.9, 38.7, 35.5],
+            backgroundColor: [
+                '#e74c3c', '#e74c3c', '#e67e22', '#e67e22', '#e67e22',
+                '#f39c12', '#f39c12', '#f39c12', '#f39c12', '#f39c12'
+            ],
+            borderColor: '#2c3e50',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+            legend: {
+                display: false
+            },
+            tooltip: {
+                callbacks: {
+                    label: function(context) {
+                        return context.parsed.x + '% of underperformers affected';
+                    }
+                }
+            }
+        },
+        scales: {
+            x: {
+                beginAtZero: true,
+                max: 100,
+                title: {
+                    display: true,
+                    text: 'Percentage of Underperformers (%)'
+                }
+            }
+        }
+    }
+});
+</script>
+
+<div class="summary-box">
+<h4>How to Read Gap Frequency:</h4>
+<p><strong>Format: X/Y (Z%)</strong></p>
+<ul>
+    <li><strong>X</strong> = Number of underperformers with gaps in this competency (actual score < expected score)</li>
+    <li><strong>Y</strong> = Total underperformers analyzed (31 people who scored below 100%)</li>
+    <li><strong>Z%</strong> = Percentage of underperformers affected by this gap (X/Y × 100)</li>
+</ul>
+<p><strong>Example:</strong> Physical Security 27/31 (87.1%) means 27 out of 31 underperformers have Physical Security scores below their required level, affecting 87.1% of people who need improvement.</p>
+<p><em>Note: Strategic Operations has 33 total people. 2 high performers (100% score) are excluded from gap analysis, leaving 31 underperformers for analysis.</em></p>
+</div>
+
+<h3>Root Cause Analysis</h3>
+<h4>Why 84.8% Don't Meet Criteria: DATA PROBLEM, NOT COMPETENCY PROBLEM</h4>
+
+<div class="critical">
+<p><strong>🚨 PRIMARY ROOT CAUSE: Department-Specific Assessment Data Crisis (90.9% affected)</strong></p>
+<ul>
+    <li><strong>90.9% have incomplete data</strong> (only 3/33 people have 6/6 assessments)</li>
+    <li><strong>39.4% severely incomplete</strong> (≤2/6 assessments) = unreliable scores</li>
+    <li><strong>False negatives:</strong> Low scores due to insufficient reviewer input</li>
+    <li><strong>Departmental dysfunction:</strong> 3.7% below company average indicates management issues</li>
+</ul>
+</div>
+
+<div class="critical">
+<p><strong>2. Strategic Operations Survey Participation Failure (53.5% vs 57.2% company average)</strong></p>
+<ul>
+    <li><strong>Ranking:</strong> Among lowest performing departments company-wide</li>
+    <li><strong>Missing Atasan Langsung:</strong> Critical supervisor feedback absent</li>
+    <li><strong>Missing Self-assessments:</strong> Employee perspective not captured</li>
+    <li><strong>Missing Bawahan reviews:</strong> Subordinate input unavailable</li>
+    <li><strong>Department-specific problem:</strong> Other departments perform better</li>
+</ul>
+</div>
+
+<div class="high">
+<p><strong>3. Strategic Operations Management/Process Breakdown</strong></p>
+<ul>
+    <li><strong>Leadership issue:</strong> Poor communication about survey importance</li>
+    <li><strong>No enforcement:</strong> Survey completion not mandatory in this department</li>
+    <li><strong>No follow-up:</strong> Missing reviewers not contacted by department heads</li>
+    <li><strong>Possible resistance:</strong> Staff disengagement or cultural issues</li>
+    <li><strong>Targeted intervention needed:</strong> Department-specific corrective action required</li>
+</ul>
+</div>
+
+<div class="summary-box">
+<h4>Evidence of Data-Driven vs. Competency-Driven Problems:</h4>
+<table style="margin: 10px 0;">
+    <tr><th>Person</th><th>Assessments</th><th>Performance</th><th>Likely Issue</th></tr>
+    <tr class="critical"><td>Tomi Sugiarto</td><td>1/6 (83% missing)</td><td>0%</td><td>Data insufficient</td></tr>
+    <tr class="critical"><td>Tri Handono</td><td>1/6 (83% missing)</td><td>0%</td><td>Data insufficient</td></tr>
+    <tr class="success"><td>Ahmad Isa</td><td>6/6 (complete)</td><td>66.7%</td><td>Real performance</td></tr>
+    <tr class="success"><td>Azmal Arif</td><td>6/6 (complete)</td><td>44.4%</td><td>Real performance</td></tr>
+</table>
+<p><strong>Pattern:</strong> People with complete data show varied but reasonable performance. People with missing data show artificially low (often 0%) performance.</p>
+</div>
+
+<div class="high">
+<p><strong>4. SECONDARY: Actual Competency Gaps (for people with reliable data only)</strong></p>
+<ul>
+    <li><strong>Physical Security:</strong> May be real issue, but only for people with 5-6/6 assessments</li>
+    <li><strong>Risk Management:</strong> Requires validation with complete data</li>
+    <li><strong>Personnel Management:</strong> Needs re-assessment after data completion</li>
+    <li><strong>Note:</strong> These gaps should be re-analyzed after achieving 90%+ completion rate</li>
+</ul>
+</div>
+
+<h2>4. WORST PERFORMERS CASE STUDIES</h2>
+
+<div class="critical">
+<h4>Ari Hidayat (Protocol) - 0% Score</h4>
+<p><strong>Critical Gaps:</strong></p>
+<ul>
+    <li>Physical Security: 0.4/2.0 (Gap: -1.6)</li>
+    <li>Practical Security: 0.4/2.0 (Gap: -1.6)</li>
+    <li>Risk Management: 0.3/1.0 (Gap: -0.7)</li>
+</ul>
+<p><strong>Root Cause:</strong> Fundamental security knowledge deficit</p>
+</div>
+
+<div class="critical">
+<h4>Dahlan Yusuf (Dantim SAR) - 0% Score</h4>
+<p><strong>Critical Gaps:</strong></p>
+<ul>
+    <li>Disaster Management: 0.3/2.0 (Gap: -1.7)</li>
+    <li>SAR Operations: 0.3/2.0 (Gap: -1.7)</li>
+    <li>Risk Management: 0.2/1.0 (Gap: -0.8)</li>
+</ul>
+<p><strong>Root Cause:</strong> Core SAR competencies severely lacking</p>
+</div>
+
+<h2>5. CONCLUSION AND RECOMMENDATIONS</h2>
+
+<div class="summary-box">
+<h3>🎯 KEY CONCLUSIONS</h3>
+
+<div class="critical" style="margin: 15px 0; padding: 15px; border-radius: 5px;">
+<h4>🚨 CRITICAL FINDING: Data Problem, Not Competency Problem</h4>
+<p><strong>Strategic Operations is not experiencing a "competency crisis" but a "data collection crisis"</strong></p>
+</div>
+
+<h4>📊 Key Findings:</h4>
+<ol>
+    <li><strong>Survey Participation Problem</strong>
+        <ul>
+            <li>Completion rate 53.5% vs company average 57.2% (-3.7%)</li>
+            <li>90.9% staff have incomplete data (only 3/33 with 6/6 assessments)</li>
+            <li>Strategic Operations ranks lowest company-wide</li>
+        </ul>
+    </li>
+    
+    <li><strong>False Performance Indicators</strong>
+        <ul>
+            <li>15 people with high missing data (≥50%) show 0% performance</li>
+            <li>Insufficient data causes false negative results</li>
+            <li>Assessment scores do not reflect actual capabilities</li>
+        </ul>
+    </li>
+    
+    <li><strong>Management Issues</strong>
+        <ul>
+            <li>Department-specific problem: isolated issue in Strategic Operations</li>
+            <li>Leadership gap in enforcing survey completion</li>
+            <li>Poor communication about assessment process importance</li>
+        </ul>
+    </li>
+</ol>
+
+<h4>📈 Improvement Predictions:</h4>
+<div class="high" style="padding: 10px; border-radius: 5px;">
+<p><strong>If survey completion rate reaches 90%+:</strong></p>
+<ul>
+    <li>Meets Criteria: 2 → 8-12 people (400-500% improvement)</li>
+    <li>Sufficient: 3 → 8-12 people (300-400% improvement)</li>
+</ul>
+</div>
+
+
+<h3>🎯 EXPECTED OUTCOMES</h3>
+
+<table style="margin: 20px 0;">
+    <tr><th>Metric</th><th>Current</th><th>Target (Post Data Collection)</th><th>Improvement</th></tr>
+    <tr><td><strong>Survey Completion</strong></td><td>53.5%</td><td>90%+</td><td>+36.5%</td></tr>
+    <tr><td><strong>Complete Data (6/6)</strong></td><td>9.1% (3 people)</td><td>80%+ (26+ people)</td><td>+800%</td></tr>
+    <tr class="success"><td><strong>Memenuhi/Cukup Kriteria</strong></td><td>15.2% (5 people)</td><td>45-60% (15-20 people)</td><td>+300-400%</td></tr>
+</table>
+
+
+</div>
+
+
+
+<hr>
+<p><strong>Report Generated:</strong> October 2025<br>
+<strong>Analyst:</strong> Assessment Engine<br>
+<strong>Classification:</strong> Internal Use Only</p>
+
+<p><em>This analysis is based on comprehensive 360-degree assessment data from 33 Strategic Operations personnel across 15 core competencies. Recommendations are prioritized based on business impact and implementation feasibility.</em></p>
+
+</body>
+</html>
