@@ -786,30 +786,38 @@ class AssesmentController extends Controller
         $rekanKerjaWeight = sprintf('%d', $rekanKerjaWeight);
         $bawahanWeight = sprintf('%d', $bawahanWeight);
         
-        // DUMMY DATA TEST: Force rekan kerja to 1% to test non-zero rendering
-        $rekanKerjaWeight = '1'; // Testing non-zero value
+        // TESTING COMPLETE: Remove dummy data, now use real calculated values
+        // The issue was confirmed - PhpWord ignores string "0" values
         
         // Debug: Force set to ensure visibility in template
         // PhpWord sometimes doesn't display numeric 0, so use string '0'
         
-        // LOG DEBUG: Check exact values being set
-        \Illuminate\Support\Facades\Log::info('Template Weight Values', [
-            'atasan_weight' => $atasanWeight,
-            'diri_weight' => $diriWeight,
-            'rekan_kerja_weight' => $rekanKerjaWeight,
-            'bawahan_weight' => $bawahanWeight
-        ]);
         
-        $templateProcessor->setValue('atasan_weight', $atasanWeight);
-        $templateProcessor->setValue('diri_weight', $diriWeight);
-        $templateProcessor->setValue('rekan_kerja_weight', $rekanKerjaWeight);
-        $templateProcessor->setValue('bawahan_weight', $bawahanWeight);
+        // FIX: Use Word-safe alternatives for zero values (avoid HTML entities that corrupt Word docs)
         
-        // TESTING: Alternative variable formats to test template rendering
-        $templateProcessor->setValue('atasan_weight_with_percent', $atasanWeight . '%');
-        $templateProcessor->setValue('diri_weight_with_percent', $diriWeight . '%');
-        $templateProcessor->setValue('rekan_kerja_weight_with_percent', $rekanKerjaWeight . '%');
-        $templateProcessor->setValue('bawahan_weight_with_percent', $bawahanWeight . '%');
+        // Method 1: Use space + zero (simple and safe)
+        $atasanWeightFixed = ($atasanWeight == 0 || $atasanWeight === '0') ? ' 0' : $atasanWeight;
+        $diriWeightFixed = ($diriWeight == 0 || $diriWeight === '0') ? ' 0' : $diriWeight;
+        $rekanKerjaWeightFixed = ($rekanKerjaWeight == 0 || $rekanKerjaWeight === '0') ? ' 0' : $rekanKerjaWeight;
+        $bawahanWeightFixed = ($bawahanWeight == 0 || $bawahanWeight === '0') ? ' 0' : $bawahanWeight;
+        
+        // Method 2: Use "0.0" format for zero
+        $atasanWeightDecimal = ($atasanWeight == 0 || $atasanWeight === '0') ? '0.0' : $atasanWeight;
+        $diriWeightDecimal = ($diriWeight == 0 || $diriWeight === '0') ? '0.0' : $diriWeight;
+        $rekanKerjaWeightDecimal = ($rekanKerjaWeight == 0 || $rekanKerjaWeight === '0') ? '0.0' : $rekanKerjaWeight;
+        $bawahanWeightDecimal = ($bawahanWeight == 0 || $bawahanWeight === '0') ? '0.0' : $bawahanWeight;
+        
+        // Set multiple options for template to use
+        $templateProcessor->setValue('atasan_weight', $atasanWeightDecimal);
+        $templateProcessor->setValue('diri_weight', $diriWeightDecimal);
+        $templateProcessor->setValue('rekan_kerja_weight', $rekanKerjaWeightDecimal);
+        $templateProcessor->setValue('bawahan_weight', $bawahanWeightDecimal);
+        
+        // Alternative with space prefix
+        $templateProcessor->setValue('atasan_weight_spaced', $atasanWeightFixed);
+        $templateProcessor->setValue('diri_weight_spaced', $diriWeightFixed);
+        $templateProcessor->setValue('rekan_kerja_weight_spaced', $rekanKerjaWeightFixed);
+        $templateProcessor->setValue('bawahan_weight_spaced', $bawahanWeightFixed);
 
         // Try dynamic table approach first, fallback to individual variables
         try {
