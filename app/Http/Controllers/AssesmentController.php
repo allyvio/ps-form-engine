@@ -786,13 +786,30 @@ class AssesmentController extends Controller
         $rekanKerjaWeight = sprintf('%d', $rekanKerjaWeight);
         $bawahanWeight = sprintf('%d', $bawahanWeight);
         
+        // DUMMY DATA TEST: Force rekan kerja to 1% to test non-zero rendering
+        $rekanKerjaWeight = '1'; // Testing non-zero value
+        
         // Debug: Force set to ensure visibility in template
         // PhpWord sometimes doesn't display numeric 0, so use string '0'
+        
+        // LOG DEBUG: Check exact values being set
+        \Illuminate\Support\Facades\Log::info('Template Weight Values', [
+            'atasan_weight' => $atasanWeight,
+            'diri_weight' => $diriWeight,
+            'rekan_kerja_weight' => $rekanKerjaWeight,
+            'bawahan_weight' => $bawahanWeight
+        ]);
         
         $templateProcessor->setValue('atasan_weight', $atasanWeight);
         $templateProcessor->setValue('diri_weight', $diriWeight);
         $templateProcessor->setValue('rekan_kerja_weight', $rekanKerjaWeight);
         $templateProcessor->setValue('bawahan_weight', $bawahanWeight);
+        
+        // TESTING: Alternative variable formats to test template rendering
+        $templateProcessor->setValue('atasan_weight_with_percent', $atasanWeight . '%');
+        $templateProcessor->setValue('diri_weight_with_percent', $diriWeight . '%');
+        $templateProcessor->setValue('rekan_kerja_weight_with_percent', $rekanKerjaWeight . '%');
+        $templateProcessor->setValue('bawahan_weight_with_percent', $bawahanWeight . '%');
 
         // Try dynamic table approach first, fallback to individual variables
         try {
