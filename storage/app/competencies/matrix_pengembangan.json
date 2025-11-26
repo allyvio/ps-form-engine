@@ -1,4 +1,15 @@
 [
+    {
+    "id": 1,
+    "name": "Risk Management",
+    "development_methods": {
+      "training": "Pelatihan Certified Risk Management Professional (CRMP).",
+      "coaching_mentoring": "Mentoring oleh Senior Risk Analyst dengan melakukan diskusi reguler tentang studi kasus risiko nyata, meninjau hasil analisis risiko, dan memberikan saran tentang strategi mitigasi yang efektif.",
+      "special_assignment": "Memimpin atau menjadi bagian dari tim untuk mengidentifikasi risiko baru, mengevaluasi risiko yang ada, dan memperbarui risk register secara berkala.",
+      "feedback": "Meminta umpan balik konstruktif dari atasan atau mentor tentang kualitas analisis risiko, efektivitas rekomendasi mitigasi, dan cara komunikasi risiko.",
+      "self_development": "Membaca publikasi dari IIA (Institute of Internal Auditors), atau organisasi manajemen risiko lainnya."
+    }
+  },
   {
     "id": 2,
     "name": "Business Continuity",
