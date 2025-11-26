@@ -774,10 +774,10 @@ class AssesmentController extends Controller
         $templateProcessor->setValue('fungsi', $this->escapeXmlSpecialChars($gapAnalysis->fungsi));
         
         // Set dynamic weight variables for header
-        $templateProcessor->setValue('atasan_weight', $mergedRoleBreakdown['atasan']['actual_weight']);
-        $templateProcessor->setValue('diri_weight', $mergedRoleBreakdown['diri']['actual_weight']);
-        $templateProcessor->setValue('rekan_kerja_weight', $mergedRoleBreakdown['rekan_kerja']['actual_weight']);
-        $templateProcessor->setValue('bawahan_weight', $mergedRoleBreakdown['bawahan']['actual_weight']);
+        $templateProcessor->setValue('atasan_weight', (string) $mergedRoleBreakdown['atasan']['actual_weight']);
+        $templateProcessor->setValue('diri_weight', (string) $mergedRoleBreakdown['diri']['actual_weight']);
+        $templateProcessor->setValue('rekan_kerja_weight', (string) $mergedRoleBreakdown['rekan_kerja']['actual_weight']);
+        $templateProcessor->setValue('bawahan_weight', (string) $mergedRoleBreakdown['bawahan']['actual_weight']);
 
         // Try dynamic table approach first, fallback to individual variables
         try {
