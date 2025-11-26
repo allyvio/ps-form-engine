@@ -774,10 +774,25 @@ class AssesmentController extends Controller
         $templateProcessor->setValue('fungsi', $this->escapeXmlSpecialChars($gapAnalysis->fungsi));
         
         // Set dynamic weight variables for header
-        $templateProcessor->setValue('atasan_weight', (string) $mergedRoleBreakdown['atasan']['actual_weight']);
-        $templateProcessor->setValue('diri_weight', (string) $mergedRoleBreakdown['diri']['actual_weight']);
-        $templateProcessor->setValue('rekan_kerja_weight', (string) $mergedRoleBreakdown['rekan_kerja']['actual_weight']);
-        $templateProcessor->setValue('bawahan_weight', (string) $mergedRoleBreakdown['bawahan']['actual_weight']);
+        // Ensure 0 values are displayed as "0" instead of empty - use string formatting
+        $atasanWeight = $mergedRoleBreakdown['atasan']['actual_weight'] ?? 0;
+        $diriWeight = $mergedRoleBreakdown['diri']['actual_weight'] ?? 0;
+        $rekanKerjaWeight = $mergedRoleBreakdown['rekan_kerja']['actual_weight'] ?? 0;
+        $bawahanWeight = $mergedRoleBreakdown['bawahan']['actual_weight'] ?? 0;
+        
+        // Convert to string with explicit zero handling
+        $atasanWeight = sprintf('%d', $atasanWeight);
+        $diriWeight = sprintf('%d', $diriWeight);
+        $rekanKerjaWeight = sprintf('%d', $rekanKerjaWeight);
+        $bawahanWeight = sprintf('%d', $bawahanWeight);
+        
+        // Debug: Force set to ensure visibility in template
+        // PhpWord sometimes doesn't display numeric 0, so use string '0'
+        
+        $templateProcessor->setValue('atasan_weight', $atasanWeight);
+        $templateProcessor->setValue('diri_weight', $diriWeight);
+        $templateProcessor->setValue('rekan_kerja_weight', $rekanKerjaWeight);
+        $templateProcessor->setValue('bawahan_weight', $bawahanWeight);
 
         // Try dynamic table approach first, fallback to individual variables
         try {
